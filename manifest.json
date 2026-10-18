@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-10-18T22:31:05+00:00",
+ "generated": "2026-10-18T23:25:59+00:00",
  "min_app": 1,
  "packs": [
   {
@@ -41,11 +41,11 @@
   },
   {
    "id": "heot",
-   "version": "2026.10.19-2",
+   "version": "2026.10.19-3",
    "url": "packs/heot.json.gz",
-   "sha256": "3bd73c9ae5b189755c982d606532926bd1e117c67a3381ad63ab83eaae3c6760",
-   "size": 17084,
-   "raw_size": 194778,
+   "sha256": "9f5f681ed04d1b77a69e788e636dbd921910f35bef50f49dd998ab4b95506562",
+   "size": 25706,
+   "raw_size": 300274,
    "format": "json",
    "gzip": true,
    "min_app": 1,
