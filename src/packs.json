@@ -1,0 +1,7 @@
+{
+ "dadm": {"desc": "다듬은 말", "min_app": 1},
+ "heot": {"desc": "헷갈리는 말", "min_app": 1},
+ "hanja": {"desc": "한자 자료(훈음·급수·부수·획수·필순)", "min_app": 1},
+ "rad": {"desc": "부수 모양·부수 밖 획수", "min_app": 1},
+ "features": {"desc": "기능 설정", "min_app": 1}
+}

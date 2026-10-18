@@ -1,0 +1,67 @@
+{
+ "schema": 1,
+ "generated": "2026-10-18T21:17:23+00:00",
+ "min_app": 1,
+ "packs": [
+  {
+   "id": "dadm",
+   "version": "2026.10.19-1",
+   "url": "packs/dadm.json.gz",
+   "sha256": "3c52afac032379116efaeb26d84a4342b0157c31e8a51015633c5dc2c81ca70d",
+   "size": 739,
+   "raw_size": 1523,
+   "format": "json",
+   "gzip": true,
+   "min_app": 1,
+   "desc": "다듬은 말"
+  },
+  {
+   "id": "features",
+   "version": "2026.10.19-1",
+   "url": "packs/features.json.gz",
+   "sha256": "c1ffcae68505da3f43abeb25919ea94f1f46624e663ee40b55244bfc262a5153",
+   "size": 157,
+   "raw_size": 148,
+   "format": "json",
+   "gzip": true,
+   "min_app": 1,
+   "desc": "기능 설정"
+  },
+  {
+   "id": "hanja",
+   "version": "2026.10.19-1",
+   "url": "packs/hanja.json.gz",
+   "sha256": "b36c399324c65245abdf2de8c02be1ed43d01892020f545e668b11f6d4df241e",
+   "size": 2352005,
+   "raw_size": 6887969,
+   "format": "json",
+   "gzip": true,
+   "min_app": 1,
+   "desc": "한자 자료(훈음·급수·부수·획수·필순)"
+  },
+  {
+   "id": "heot",
+   "version": "2026.10.19-1",
+   "url": "packs/heot.json.gz",
+   "sha256": "b7cec5548686cb0c933ae1b9fac0d03a701b8b8f4d1f6e2240991da64bd521f2",
+   "size": 1180,
+   "raw_size": 2803,
+   "format": "json",
+   "gzip": true,
+   "min_app": 1,
+   "desc": "헷갈리는 말"
+  },
+  {
+   "id": "rad",
+   "version": "2026.10.19-1",
+   "url": "packs/rad.json.gz",
+   "sha256": "2e2e5c7d11fab079b28f2c0d013778f50240281f8822161db2d0cc2e0e9c9212",
+   "size": 20668,
+   "raw_size": 94860,
+   "format": "json",
+   "gzip": true,
+   "min_app": 1,
+   "desc": "부수 모양·부수 밖 획수"
+  }
+ ]
+}

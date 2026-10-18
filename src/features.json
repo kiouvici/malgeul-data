@@ -1,0 +1,1 @@
+{"schema": 1, "flags": {}, "note": "앱 화면이 feature('이름', 기본값)으로 읽는 기능 설정. 예: \"flags\": {\"today_card\": true}"}
