@@ -1,15 +1,15 @@
 {
  "schema": 1,
- "generated": "2026-10-18T21:17:23+00:00",
+ "generated": "2026-10-18T22:31:05+00:00",
  "min_app": 1,
  "packs": [
   {
    "id": "dadm",
-   "version": "2026.10.19-1",
+   "version": "2026.10.19-2",
    "url": "packs/dadm.json.gz",
-   "sha256": "3c52afac032379116efaeb26d84a4342b0157c31e8a51015633c5dc2c81ca70d",
-   "size": 739,
-   "raw_size": 1523,
+   "sha256": "8a323bcd042f7655b9cae929d331f70125ae75c186ec921326760fc4e3a92d31",
+   "size": 34897,
+   "raw_size": 166599,
    "format": "json",
    "gzip": true,
    "min_app": 1,
@@ -41,11 +41,11 @@
   },
   {
    "id": "heot",
-   "version": "2026.10.19-1",
+   "version": "2026.10.19-2",
    "url": "packs/heot.json.gz",
-   "sha256": "b7cec5548686cb0c933ae1b9fac0d03a701b8b8f4d1f6e2240991da64bd521f2",
-   "size": 1180,
-   "raw_size": 2803,
+   "sha256": "3bd73c9ae5b189755c982d606532926bd1e117c67a3381ad63ab83eaae3c6760",
+   "size": 17084,
+   "raw_size": 194778,
    "format": "json",
    "gzip": true,
    "min_app": 1,
@@ -53,15 +53,39 @@
   },
   {
    "id": "rad",
-   "version": "2026.10.19-1",
+   "version": "2026.10.19-2",
    "url": "packs/rad.json.gz",
-   "sha256": "2e2e5c7d11fab079b28f2c0d013778f50240281f8822161db2d0cc2e0e9c9212",
-   "size": 20668,
-   "raw_size": 94860,
+   "sha256": "b1197488a918fcb76405a3e49ce9a8dfab62a7033077f944e673b7ff0f6cac06",
+   "size": 21110,
+   "raw_size": 95768,
    "format": "json",
    "gzip": true,
    "min_app": 1,
    "desc": "부수 모양·부수 밖 획수"
+  },
+  {
+   "id": "rules",
+   "version": "2026.10.19-1",
+   "url": "packs/rules.json.gz",
+   "sha256": "bedd9be7d26ff732a0eaf374e938a8f5d9ea5802adf76640e44e134870d820b8",
+   "size": 1817,
+   "raw_size": 4332,
+   "format": "json",
+   "gzip": true,
+   "min_app": 1,
+   "desc": "공문서 표기 카드"
+  },
+  {
+   "id": "sets",
+   "version": "2026.10.19-1",
+   "url": "packs/sets.json.gz",
+   "sha256": "08ae3a1dde97f6a4fefe63fe5b7f9f5b92c5deba40a993fe9597b9a080f26c3d",
+   "size": 1456,
+   "raw_size": 4137,
+   "format": "json",
+   "gzip": true,
+   "min_app": 1,
+   "desc": "추천 단어 묶음"
   }
  ]
 }

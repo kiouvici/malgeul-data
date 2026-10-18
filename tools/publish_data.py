@@ -3,7 +3,7 @@
 
 쓰는 법
   python3 tools/publish_data.py <원본 폴더> <내보낼 폴더> [--from-app <앱 assets 폴더>]
-                                [--min-app N] [--release-base URL] [--release-over MB]
+                                [--min-app N] [--release-base URL] [--release-over MB] [--sign 비밀키 파일]
 
 원본 폴더
   <id>.json | <id>.jsonl | <id>.sqlite  묶음 하나당 파일 하나(id = 파일 이름, 영문 소문자·숫자·-·_)
@@ -14,11 +14,15 @@
 gzip은 시간 정보 없이 만들어 같은 내용이면 sha256이 같다.
 50MB(--release-over)가 넘는 묶음은 <내보낼 폴더>/release/ 에 두고, url을 --release-base 주소로 적는다
 (GitHub Release에 첨부로 올린다). --release-base가 없으면 저장소에 그대로 둔다.
+--sign  Ed25519 비밀키(seed 64자리 hex, '#' 줄은 설명)로 manifest.json 바이트 전체에 서명해 manifest.sig(base64)를 쓴다.
+        앱은 manifest.sig가 없거나 앱에 든 공개키로 확인되지 않으면 자료 목록을 받아들이지 않는다.
 """
-import argparse, datetime, gzip, hashlib, io, json, os, re, shutil, sqlite3, sys
+import argparse, base64, datetime, gzip, hashlib, io, json, os, re, shutil, sqlite3, sys
 
-APP_PACKS = {'dadm': 'bareun/dadm.json', 'heot': 'bareun/heot.json', 'hanja': 'hanja/hanja.json', 'rad': 'hanja/rad.json'}
-DESC = {'dadm': '다듬은 말', 'heot': '헷갈리는 말', 'hanja': '한자 자료(훈음·급수·부수·획수·필순)', 'rad': '부수 모양·부수 밖 획수', 'features': '기능 설정'}
+APP_PACKS = {'dadm': 'bareun/dadm.json', 'heot': 'bareun/heot.json', 'hanja': 'hanja/hanja.json', 'rad': 'hanja/rad.json',
+             'rules': 'bareun/rules.json', 'sets': 'bareun/sets.json'}
+DESC = {'dadm': '다듬은 말', 'heot': '헷갈리는 말', 'hanja': '한자 자료(훈음·급수·부수·획수·필순)', 'rad': '부수 모양·부수 밖 획수', 'features': '기능 설정',
+        'rules': '공문서 표기 카드', 'sets': '추천 단어 묶음'}
 FMT = {'.json': 'json', '.jsonl': 'jsonl', '.sqlite': 'sqlite', '.db': 'sqlite'}
 
 
@@ -49,7 +53,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('src'); ap.add_argument('out')
     ap.add_argument('--from-app'); ap.add_argument('--min-app', type=int, default=1)
-    ap.add_argument('--release-base', default=''); ap.add_argument('--release-over', type=float, default=50)
+    ap.add_argument('--release-base', default=''); ap.add_argument('--sign'); ap.add_argument('--release-over', type=float, default=50)
     a = ap.parse_args()
     os.makedirs(a.src, exist_ok=True)
     if a.from_app:
@@ -66,7 +70,7 @@ def main():
     packs = []
     for name in sorted(os.listdir(a.src)):
         base, ext = os.path.splitext(name)
-        if name == 'packs.json' or ext not in FMT: continue
+        if name in ('packs.json',) or ext not in FMT: continue
         if not re.fullmatch(r'[a-z0-9_\-]{1,40}', base): sys.exit(f'묶음 이름이 맞지 않습니다: {name}')
         fmt = FMT[ext]; path = os.path.join(a.src, name)
         try: validate(path, fmt)
@@ -103,6 +107,15 @@ def main():
     if old and [ {k: v for k, v in p.items()} for p in packs ] == list(old.values()) and os.path.exists(oldp):
         man['generated'] = json.load(open(oldp, encoding='utf-8')).get('generated', man['generated'])
     json.dump(man, open(oldp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    if a.sign:
+        from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
+        seed = bytes.fromhex(''.join(l.strip() for l in open(a.sign, encoding='utf-8') if l.strip() and not l.startswith('#')))
+        sig = Ed25519PrivateKey.from_private_bytes(seed).sign(open(oldp, 'rb').read())
+        open(os.path.join(a.out, 'manifest.sig'), 'w').write(base64.b64encode(sig).decode() + '\n')
+        print('manifest.sig: 서명함')
+    elif os.path.exists(os.path.join(a.out, 'manifest.sig')):
+        os.remove(os.path.join(a.out, 'manifest.sig'))
+        print('경고: --sign 없이 만들어 manifest.sig를 지웠습니다(앱이 받아들이지 않음)')
     print(f'manifest.json: 묶음 {len(packs)}개 → {a.out}')
 
 
