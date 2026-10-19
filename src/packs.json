@@ -1,11 +1,11 @@
 {
  "dadm": {
   "desc": "다듬은 말",
-  "min_app": 1
+  "min_app": 8
  },
  "heot": {
   "desc": "헷갈리는 말",
-  "min_app": 6
+  "min_app": 8
  },
  "hanja": {
   "desc": "한자 자료(훈음·급수·부수·획수·필순)",
