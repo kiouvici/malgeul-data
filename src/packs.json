@@ -42,5 +42,25 @@
  "reg-fin": {
   "desc": "재무·회계 규칙",
   "min_app": 9
+ },
+ "reg-subsidy": {
+  "desc": "지방보조금 관리법",
+  "min_app": 9
+ },
+ "reg-contract": {
+  "desc": "지방계약법",
+  "min_app": 9
+ },
+ "reg-guide-facility": {
+  "desc": "사회복지시설 관리안내 요점",
+  "min_app": 9
+ },
+ "reg-guide-child": {
+  "desc": "아동분야 사업안내 요점",
+  "min_app": 9
+ },
+ "reg-guide-corp": {
+  "desc": "사회복지법인 관리안내 요점",
+  "min_app": 9
  }
 }
