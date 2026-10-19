@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-10-19T11:42:05+00:00",
+ "generated": "2026-10-19T12:21:23+00:00",
  "min_app": 1,
  "packs": [
   {
@@ -29,26 +29,26 @@
   },
   {
    "id": "features",
-   "version": "2026.10.19-1",
+   "version": "2026.10.19-2",
    "url": "packs/features.json.gz",
-   "sha256": "c1ffcae68505da3f43abeb25919ea94f1f46624e663ee40b55244bfc262a5153",
-   "size": 157,
-   "raw_size": 148,
+   "sha256": "3dd5773ad5ddee76a7692926edef820860ebfaf56f3139549768833d35aca4dd",
+   "size": 883,
+   "raw_size": 1411,
    "format": "json",
    "gzip": true,
-   "min_app": 1,
+   "min_app": 11,
    "desc": "기능 설정"
   },
   {
    "id": "hanja",
-   "version": "2026.10.19-3",
+   "version": "2026.10.19-4",
    "url": "packs/hanja.json.gz",
-   "sha256": "b2ab89f90eea5eb598da30c214b1637315f29074ab080f3d411b74fdbc534cc9",
-   "size": 2447867,
-   "raw_size": 7236428,
+   "sha256": "4c763d78f606926ec593042a37418339ec66342e1deb775c5d95784314283534",
+   "size": 2802079,
+   "raw_size": 8038107,
    "format": "json",
    "gzip": true,
-   "min_app": 1,
+   "min_app": 11,
    "desc": "한자 자료(훈음·급수·부수·획수·필순)"
   },
   {
