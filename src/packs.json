@@ -70,5 +70,17 @@
  "reg-welfare-law": {
   "desc": "실무 규정: 사회복지사업법",
   "min_app": 10
+ },
+ "reg-cb-subsidy": {
+  "desc": "실무 규정: 충청북도 지방보조금 관리 조례",
+  "min_app": 12
+ },
+ "reg-wage-guide": {
+  "desc": "2026 종사자 인건비 가이드라인 요점",
+  "min_app": 12
+ },
+ "reg-inspect": {
+  "desc": "지도점검·현지조사 사례(감사 대비)",
+  "min_app": 12
  }
 }
