@@ -70,5 +70,9 @@
  "reg-welfare-law": {
   "desc": "실무 규정: 사회복지사업법",
   "min_app": 10
+ },
+ "reg-labor": {
+  "desc": "실무 규정: 근로기준법",
+  "min_app": 11
  }
 }
