@@ -70,5 +70,13 @@
  "reg-welfare-law": {
   "desc": "실무 규정: 사회복지사업법",
   "min_app": 10
+ },
+ "paths": {
+  "desc": "상황별 길잡이(이럴 때)",
+  "min_app": 12
+ },
+ "deadlines": {
+  "desc": "실무 달력(법정 기한)",
+  "min_app": 12
  }
 }
