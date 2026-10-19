@@ -21,6 +21,26 @@
  },
  "admin": {
   "desc": "행정용어(알기 쉬운 행정용어 2018)",
-  "min_app": 6
+  "min_app": 9
+ },
+ "sets": {
+  "desc": "추천 단어 묶음",
+  "min_app": 9
+ },
+ "rules": {
+  "desc": "공문서 표기 카드(옛 앱용, 새 앱은 reg-draft)",
+  "min_app": 1
+ },
+ "regs": {
+  "desc": "실무 규정 목록",
+  "min_app": 9
+ },
+ "reg-draft": {
+  "desc": "기안문 작성 규칙",
+  "min_app": 9
+ },
+ "reg-fin": {
+  "desc": "재무·회계 규칙",
+  "min_app": 9
  }
 }
