@@ -17,7 +17,7 @@
  },
  "features": {
   "desc": "기능 설정",
-  "min_app": 11
+  "min_app": 12
  },
  "admin": {
   "desc": "행정용어(알기 쉬운 행정용어 2018)",
@@ -33,7 +33,7 @@
  },
  "regs": {
   "desc": "실무 규정 목록",
-  "min_app": 10
+  "min_app": 12
  },
  "reg-draft": {
   "desc": "기안문 작성 규칙",
@@ -56,7 +56,7 @@
   "min_app": 10
  },
  "reg-guide-child": {
-  "desc": "아동분야 사업안내 요점",
+  "desc": "2026 아동분야 사업안내 요점",
   "min_app": 10
  },
  "reg-guide-corp": {
@@ -70,5 +70,53 @@
  "reg-welfare-law": {
   "desc": "실무 규정: 사회복지사업법",
   "min_app": 10
+ },
+ "reg-labor": {
+  "desc": "실무 규정: 근로기준법",
+  "min_app": 12
+ },
+ "reg-abuse": {
+  "desc": "실무 규정: 아동학대처벌법",
+  "min_app": 12
+ },
+ "reg-privacy": {
+  "desc": "실무 규정: 개인정보 보호법",
+  "min_app": 12
+ },
+ "reg-guide-selfreliance": {
+  "desc": "2026 자립지원 업무매뉴얼 요점",
+  "min_app": 12
+ },
+ "reg-jecheon-subsidy": {
+  "desc": "실무 규정: 제천시 지방보조금 관리 조례",
+  "min_app": 12
+ },
+ "paths": {
+  "desc": "상황별 길잡이(이럴 때)",
+  "min_app": 12
+ },
+ "deadlines": {
+  "desc": "실무 달력(법정 기한)",
+  "min_app": 12
+ },
+ "reg-eomun-spell": {
+  "desc": "실무 규정: 한글 맞춤법",
+  "min_app": 12
+ },
+ "reg-eomun-std": {
+  "desc": "실무 규정: 표준어 규정",
+  "min_app": 12
+ },
+ "reg-eomun-punct": {
+  "desc": "실무 규정: 문장 부호",
+  "min_app": 12
+ },
+ "reg-eomun-roman": {
+  "desc": "실무 규정: 국어의 로마자 표기법",
+  "min_app": 12
+ },
+ "reg-eomun-loan": {
+  "desc": "실무 규정: 외래어 표기법",
+  "min_app": 12
  }
 }
