@@ -52,7 +52,7 @@
   "min_app": 10
  },
  "reg-guide-facility": {
-  "desc": "사회복지시설 관리안내 요점",
+  "desc": "사회복지시설·법인 관리안내 요점",
   "min_app": 10
  },
  "reg-guide-child": {
@@ -60,7 +60,7 @@
   "min_app": 10
  },
  "reg-guide-corp": {
-  "desc": "사회복지법인 관리안내 요점",
+  "desc": "사회복지법인 관리안내 요점(옛 앱용, 새 앱은 reg-guide-facility의 법인 갈래)",
   "min_app": 10
  },
  "reg-child-law": {

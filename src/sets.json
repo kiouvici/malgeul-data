@@ -1,5 +1,5 @@
 {
- "about": "추천 단어 묶음. 표제어는 표준국어대사전 DB로 하나씩 확인했다(code). 단어 고르기는 말글사전이 정한 것이다.",
+ "about": "추천 단어 묶음. 표제어는 표준국어대사전 DB로 하나씩 확인했다(code). 단어 고르기는 말글사전이 정한 것이다. roles: 신규 직원 익히기(role 생활지도원/사무원/사회복지사, cards [{reg, art, t?}] — 규정 카드 위치만, 문안은 규정 묶음에서 읽음). 옛 앱은 roles를 읽지 않는다.",
  "schema": 1,
  "sets": [
   {
@@ -1490,5 +1490,361 @@
    ],
    "checked": "2026-10-19"
   }
- ]
+ ],
+ "roles": [
+  {
+   "id": "role-care",
+   "role": "생활지도원",
+   "name": "생활지도원(보육사) 익히기",
+   "desc": "아동 생활지도·보호에서 먼저 알아야 할 규정 카드",
+   "cards": [
+    {
+     "reg": "child-law",
+     "art": "법 제17조, 제71조"
+    },
+    {
+     "reg": "child-law",
+     "art": "법 제65조, 제71조 ②"
+    },
+    {
+     "reg": "child-law",
+     "art": "법 제57조"
+    },
+    {
+     "reg": "child-law",
+     "art": "법 제31조, 시행령 제28조·별표 6"
+    },
+    {
+     "reg": "child-law",
+     "art": "법 제16조의3, 시행령 제22조"
+    },
+    {
+     "reg": "child-law",
+     "art": "법 제39조"
+    },
+    {
+     "reg": "abuse",
+     "art": "법 제10조 ①·②"
+    },
+    {
+     "reg": "abuse",
+     "art": "법 제63조 ① 제2호, 시행령 별표 2"
+    },
+    {
+     "reg": "abuse",
+     "art": "법 제10조 ③, 제62조 ②"
+    },
+    {
+     "reg": "abuse",
+     "art": "법 제7조"
+    },
+    {
+     "reg": "abuse",
+     "art": "법 제35조 ①, 제62조 ①"
+    },
+    {
+     "reg": "abuse",
+     "art": "법 제10조의2, 제62조의2 ①"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-2-다-(2)①(아동학대처벌법 제10조)"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-2-다-(2)②(청소년성보호법 제34조)"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-2-다-(1)②(국가인권위원회법 제31조)"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-2-다-(3)"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-4-나-(4)",
+     "t": "ADHD 약물 관리"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-2-라-(1)",
+     "t": "아동 개인 금전 관리"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-2-가-(4)"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-2-나"
+    },
+    {
+     "reg": "guide-selfreliance",
+     "art": "1권",
+     "t": "시설이 할 일"
+    },
+    {
+     "reg": "guide-selfreliance",
+     "art": "1권(아동복지법 제39조)"
+    },
+    {
+     "reg": "labor",
+     "art": "법 제54조"
+    },
+    {
+     "reg": "labor",
+     "art": "법 제54조, 제50조 ③"
+    },
+    {
+     "reg": "privacy",
+     "art": "법 제59조, 제71조·제72조"
+    }
+   ]
+  },
+  {
+   "id": "role-office",
+   "role": "사무원",
+   "name": "사무원 익히기",
+   "desc": "회계·보조금·계약·문서·노무 서류에서 먼저 알아야 할 규정 카드",
+   "cards": [
+    {
+     "reg": "fin",
+     "art": "제3조"
+    },
+    {
+     "reg": "fin",
+     "art": "제5조"
+    },
+    {
+     "reg": "fin",
+     "art": "제10조 ②"
+    },
+    {
+     "reg": "fin",
+     "art": "제16조"
+    },
+    {
+     "reg": "fin",
+     "art": "제19조"
+    },
+    {
+     "reg": "fin",
+     "art": "제24조"
+    },
+    {
+     "reg": "fin",
+     "art": "제25조"
+    },
+    {
+     "reg": "fin",
+     "art": "제28조"
+    },
+    {
+     "reg": "fin",
+     "art": "제29조"
+    },
+    {
+     "reg": "fin",
+     "art": "제41조의2"
+    },
+    {
+     "reg": "fin",
+     "art": "제41조의4 ①"
+    },
+    {
+     "reg": "fin",
+     "art": "제41조의4 ②~④"
+    },
+    {
+     "reg": "fin",
+     "art": "제41조의6"
+    },
+    {
+     "reg": "fin",
+     "art": "제40조의2"
+    },
+    {
+     "reg": "subsidy",
+     "art": "법 제24조"
+    },
+    {
+     "reg": "subsidy",
+     "art": "법 제16조, 영 제7조·제8조"
+    },
+    {
+     "reg": "subsidy",
+     "art": "법 제17조 ①, 영 제9조"
+    },
+    {
+     "reg": "contract",
+     "art": "영 제25조 ① 제5호"
+    },
+    {
+     "reg": "contract",
+     "art": "영 제30조 ①·②"
+    },
+    {
+     "reg": "contract",
+     "art": "법 제14조, 영 제50조, 규칙 제48조"
+    },
+    {
+     "reg": "contract",
+     "art": "법 제17조, 영 제64조"
+    },
+    {
+     "reg": "contract",
+     "art": "영 제77조"
+    },
+    {
+     "reg": "draft",
+     "art": "영 제7조 ⑤",
+     "t": "날짜"
+    },
+    {
+     "reg": "draft",
+     "art": "규칙 제2조 ②"
+    },
+    {
+     "reg": "draft",
+     "art": "규칙 제4조 ④"
+    },
+    {
+     "reg": "draft",
+     "art": "규칙 제4조 ⑤ 제1호"
+    },
+    {
+     "reg": "labor",
+     "art": "법 제48조 ②, 영 제27조의2"
+    },
+    {
+     "reg": "labor",
+     "art": "법 제48조 ①, 영 제27조, 규칙 제16조"
+    },
+    {
+     "reg": "labor",
+     "art": "법 제41조, 영 제20조·제21조"
+    },
+    {
+     "reg": "labor",
+     "art": "법 제42조, 영 제22조"
+    }
+   ]
+  },
+  {
+   "id": "role-sw",
+   "role": "사회복지사",
+   "name": "사회복지사 익히기",
+   "desc": "보호·퇴소·자립지원·기록 관리에서 먼저 알아야 할 규정 카드",
+   "cards": [
+    {
+     "reg": "child-law",
+     "art": "법 제15조"
+    },
+    {
+     "reg": "child-law",
+     "art": "법 제38조"
+    },
+    {
+     "reg": "child-law",
+     "art": "법 제39조"
+    },
+    {
+     "reg": "child-law",
+     "art": "법 제16조의3, 시행령 제22조"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅰ-1"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-2-가-(2)"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-2-가-(6)①(아동복지법 제16조)"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-2-가-(6)②(아동복지법 제16조의3)"
+    },
+    {
+     "reg": "guide-child",
+     "art": "2권 Ⅰ-4(아동복지법 제16조의4)"
+    },
+    {
+     "reg": "guide-child",
+     "art": "1권 Ⅵ-2-가-(7)"
+    },
+    {
+     "reg": "guide-child",
+     "art": "2권 Ⅰ-6-라(아동복지법 제39조)"
+    },
+    {
+     "reg": "guide-child",
+     "art": "2권 Ⅰ-6-라"
+    },
+    {
+     "reg": "guide-child",
+     "art": "2권 Ⅰ-7-나",
+     "t": "자립정착금"
+    },
+    {
+     "reg": "guide-child",
+     "art": "2권 Ⅳ"
+    },
+    {
+     "reg": "guide-child",
+     "art": "2권 Ⅰ-7-바"
+    },
+    {
+     "reg": "guide-selfreliance",
+     "art": "1권",
+     "t": "자립지원 7단계"
+    },
+    {
+     "reg": "guide-selfreliance",
+     "art": "1권",
+     "t": "보호종료점검회의(1개월 전)"
+    },
+    {
+     "reg": "guide-selfreliance",
+     "art": "1권·2권 서식10"
+    },
+    {
+     "reg": "guide-selfreliance",
+     "art": "1권",
+     "t": "사후관리 주체·대상"
+    },
+    {
+     "reg": "guide-selfreliance",
+     "art": "1권",
+     "t": "희망이음 입력"
+    },
+    {
+     "reg": "welfare-law",
+     "art": "법 제13조 ②·③, 규칙 제5조 ③"
+    },
+    {
+     "reg": "welfare-law",
+     "art": "법 제37조, 규칙 제25조"
+    },
+    {
+     "reg": "privacy",
+     "art": "법 제23조 ①, 영 제18조"
+    },
+    {
+     "reg": "privacy",
+     "art": "법 제21조 ①·②, 영 제16조"
+    },
+    {
+     "reg": "abuse",
+     "art": "법 제10조 ①·②"
+    }
+   ]
+  }
+ ],
+ "checked": "2026-10-19"
 }
