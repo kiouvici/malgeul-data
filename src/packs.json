@@ -70,5 +70,9 @@
  "reg-welfare-law": {
   "desc": "실무 규정: 사회복지사업법",
   "min_app": 10
+ },
+ "reg-privacy": {
+  "desc": "실무 규정: 개인정보 보호법",
+  "min_app": 11
  }
 }
