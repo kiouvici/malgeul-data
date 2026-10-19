@@ -62,5 +62,13 @@
  "reg-guide-corp": {
   "desc": "사회복지법인 관리안내 요점",
   "min_app": 9
+ },
+ "reg-child-law": {
+  "desc": "실무 규정: 아동복지법",
+  "min_app": 9
+ },
+ "reg-welfare-law": {
+  "desc": "실무 규정: 사회복지사업법",
+  "min_app": 9
  }
 }
