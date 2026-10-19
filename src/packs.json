@@ -70,5 +70,25 @@
  "reg-welfare-law": {
   "desc": "실무 규정: 사회복지사업법",
   "min_app": 10
+ },
+ "reg-eomun-spell": {
+  "desc": "실무 규정: 한글 맞춤법",
+  "min_app": 11
+ },
+ "reg-eomun-std": {
+  "desc": "실무 규정: 표준어 규정",
+  "min_app": 11
+ },
+ "reg-eomun-punct": {
+  "desc": "실무 규정: 문장 부호",
+  "min_app": 11
+ },
+ "reg-eomun-roman": {
+  "desc": "실무 규정: 국어의 로마자 표기법",
+  "min_app": 11
+ },
+ "reg-eomun-loan": {
+  "desc": "실무 규정: 외래어 표기법",
+  "min_app": 11
  }
 }

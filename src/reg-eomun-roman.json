@@ -1,0 +1,288 @@
+{
+ "schema": 2,
+ "id": "eomun-roman",
+ "title": "국어의 로마자 표기법",
+ "kind": "어문 규범",
+ "about": "「국어의 로마자 표기법」 전 항(제1장~제3장, 부칙). 보기는 고시 원문 그대로. 시설명·주소 영문 표기에 쓴다(시설·법인명은 제3장 제7항에 따라 그동안 써 온 표기를 쓸 수 있음).",
+ "checked": "2026-10-19 (원문 PDF·고시 한글 파일 대조)",
+ "basis": {
+  "rom": {
+   "title": "국어의 로마자 표기법(문화체육관광부 고시 제2014-42호)",
+   "org": "문화체육관광부 고시 원문(한글 파일) — 조항 번호 기준",
+   "url": "https://korean.go.kr/kornorms/regltn/regltnView.do"
+  }
+ },
+ "groups": [
+  {
+   "id": "r1",
+   "title": "표기의 기본 원칙",
+   "cards": [
+    {
+     "art": "제1장 제1항",
+     "title": "표준 발음대로",
+     "gist": "국어의 로마자 표기는 국어의 표준 발음법에 따라 적는 것을 원칙으로 한다.",
+     "kw": "로마자 표기 원칙 발음대로 영문 표기",
+     "src": "rom"
+    },
+    {
+     "art": "제1장 제2항",
+     "title": "부호는 되도록 쓰지 않음",
+     "gist": "로마자 이외의 부호는 되도록 사용하지 않는다.",
+     "kw": "로마자 부호 반달표",
+     "src": "rom"
+    }
+   ]
+  },
+  {
+   "id": "r2",
+   "title": "표기 일람",
+   "cards": [
+    {
+     "art": "제2장 제1항 1",
+     "title": "단모음",
+     "gist": "ㅏ a, ㅓ eo, ㅗ o, ㅜ u, ㅡ eu, ㅣ i, ㅐ ae, ㅔ e, ㅚ oe, ㅟ wi",
+     "kw": "모음 로마자 eo eu oe",
+     "src": "rom"
+    },
+    {
+     "art": "제2장 제1항 2",
+     "title": "이중 모음",
+     "gist": "ㅑ ya, ㅕ yeo, ㅛ yo, ㅠ yu, ㅒ yae, ㅖ ye, ㅘ wa, ㅙ wae, ㅝ wo, ㅞ we, ㅢ ui. ‘ㅢ’는 ‘ㅣ’로 소리 나더라도 ui로 적는다. 장모음은 따로 표기하지 않는다.",
+     "ok": [
+      "광희문 Gwanghuimun"
+     ],
+     "kw": "이중 모음 로마자 ui yeo",
+     "src": "rom"
+    },
+    {
+     "art": "제2장 제2항",
+     "title": "자음",
+     "gist": "파열음 ㄱ g, k / ㄲ kk / ㅋ k / ㄷ d, t / ㄸ tt / ㅌ t / ㅂ b, p / ㅃ pp / ㅍ p; 파찰음 ㅈ j / ㅉ jj / ㅊ ch; 마찰음 ㅅ s / ㅆ ss / ㅎ h; 비음 ㄴ n / ㅁ m / ㅇ ng; 유음 ㄹ r, l",
+     "kw": "자음 로마자",
+     "src": "rom"
+    },
+    {
+     "art": "제2장 제2항 [붙임 1]",
+     "title": "ㄱ·ㄷ·ㅂ: 모음 앞 g·d·b, 자음 앞·어말 k·t·p",
+     "gist": "‘ㄱ, ㄷ, ㅂ’은 모음 앞에서는 g, d, b로, 자음 앞이나 어말에서는 k, t, p로 적는다([ ] 안의 발음에 따라 표기).",
+     "ok": [
+      "구미 Gumi",
+      "영동 Yeongdong",
+      "백암 Baegam",
+      "옥천 Okcheon",
+      "합덕 Hapdeok",
+      "호법 Hobeop",
+      "월곶[월곧] Wolgot",
+      "벚꽃[벋꼳] beotkkot",
+      "한밭[한받] Hanbat"
+     ],
+     "kw": "g k d t b p 받침 로마자",
+     "src": "rom"
+    },
+    {
+     "art": "제2장 제2항 [붙임 2]",
+     "title": "ㄹ: 모음 앞 r, 자음 앞·어말 l, ㄹㄹ은 ll",
+     "gist": "‘ㄹ’은 모음 앞에서는 r로, 자음 앞이나 어말에서는 l로 적는다. ‘ㄹㄹ’은 ll로 적는다.",
+     "ok": [
+      "구리 Guri",
+      "설악 Seorak",
+      "칠곡 Chilgok",
+      "임실 Imsil",
+      "울릉 Ulleung",
+      "대관령[대괄령] Daegwallyeong"
+     ],
+     "kw": "r l ll 로마자",
+     "src": "rom"
+    }
+   ]
+  },
+  {
+   "id": "r3",
+   "title": "표기상의 유의점",
+   "cards": [
+    {
+     "art": "제3장 제1항 1",
+     "title": "자음 동화는 반영",
+     "gist": "음운 변화가 일어나면 변화의 결과에 따라 적는다: 자음 사이 동화.",
+     "ok": [
+      "백마[뱅마] Baengma",
+      "신문로[신문노] Sinmunno",
+      "종로[종노] Jongno",
+      "왕십리[왕심니] Wangsimni",
+      "별내[별래] Byeollae",
+      "신라[실라] Silla"
+     ],
+     "kw": "공문서 자주 틀림 종로 Jongno 동화 로마자",
+     "src": "rom"
+    },
+    {
+     "art": "제3장 제1항 2·3",
+     "title": "ㄴ·ㄹ 덧남, 구개음화",
+     "gist": "‘ㄴ, ㄹ’이 덧나는 경우와 구개음화가 되는 경우도 소리대로 적는다.",
+     "ok": [
+      "학여울[항녀울] Hangnyeoul",
+      "알약[알략] allyak",
+      "해돋이[해도지] haedoji",
+      "같이[가치] gachi",
+      "굳히다[구치다] guchida"
+     ],
+     "kw": "구개음화 로마자",
+     "src": "rom"
+    },
+    {
+     "art": "제3장 제1항 4",
+     "title": "거센소리",
+     "gist": "‘ㄱ, ㄷ, ㅂ, ㅈ’이 ‘ㅎ’과 합하여 거센소리로 나면 소리대로 적는다. 다만 체언에서 ‘ㄱ, ㄷ, ㅂ’ 뒤의 ‘ㅎ’은 밝혀 적는다.",
+     "ok": [
+      "좋고[조코] joko",
+      "놓다[노타] nota",
+      "잡혀[자펴] japyeo",
+      "낳지[나치] nachi",
+      "묵호(Mukho)",
+      "집현전(Jiphyeonjeon)"
+     ],
+     "kw": "거센소리 ㅎ 로마자",
+     "src": "rom"
+    },
+    {
+     "art": "제3장 제1항 [붙임]",
+     "title": "된소리되기는 반영 안 함",
+     "gist": "된소리되기는 표기에 반영하지 않는다.",
+     "ok": [
+      "압구정 Apgujeong",
+      "낙동강 Nakdonggang",
+      "죽변 Jukbyeon",
+      "낙성대 Nakseongdae",
+      "합정 Hapjeong",
+      "팔당 Paldang",
+      "샛별 saetbyeol",
+      "울산 Ulsan"
+     ],
+     "kw": "공문서 자주 틀림 된소리 로마자 kk tt",
+     "src": "rom"
+    },
+    {
+     "art": "제3장 제2항",
+     "title": "붙임표(-)로 혼동 방지",
+     "gist": "발음상 혼동의 우려가 있을 때에는 음절 사이에 붙임표(-)를 쓸 수 있다.",
+     "ok": [
+      "중앙 Jung-ang",
+      "반구대 Ban-gudae",
+      "세운 Se-un",
+      "해운대 Hae-undae"
+     ],
+     "kw": "붙임표 하이픈 로마자",
+     "src": "rom"
+    },
+    {
+     "art": "제3장 제3항",
+     "title": "고유 명사 첫 글자 대문자",
+     "gist": "고유 명사는 첫 글자를 대문자로 적는다.",
+     "ok": [
+      "부산 Busan",
+      "세종 Sejong"
+     ],
+     "kw": "대문자 고유 명사",
+     "src": "rom"
+    },
+    {
+     "art": "제3장 제4항",
+     "title": "인명",
+     "gist": "인명은 성과 이름 순서로 띄어 쓴다. 이름은 붙여 쓰는 것이 원칙, 음절 사이 붙임표 허용. 이름의 음운 변화는 반영하지 않는다. 성의 표기는 따로 정한다.",
+     "ok": [
+      "민용하 Min Yongha (Min Yong-ha)",
+      "송나리 Song Nari (Song Na-ri)",
+      "한복남 Han Boknam (Han Bok-nam)",
+      "홍빛나 Hong Bitna (Hong Bit-na)"
+     ],
+     "kw": "공문서 자주 틀림 인명 이름 영문 표기 성 이름 순서 여권",
+     "src": "rom"
+    },
+    {
+     "art": "제3장 제5항",
+     "title": "행정 구역(주소)",
+     "gist": "‘도, 시, 군, 구, 읍, 면, 리, 동’과 ‘가’는 do, si, gun, gu, eup, myeon, ri, dong, ga로 적고 앞에 붙임표(-)를 넣는다. 붙임표 앞뒤의 음운 변화는 반영하지 않는다. ‘시, 군, 읍’은 생략할 수 있다.",
+     "ok": [
+      "충청북도 Chungcheongbuk-do",
+      "제주도 Jeju-do",
+      "의정부시 Uijeongbu-si",
+      "양주군 Yangju-gun",
+      "도봉구 Dobong-gu",
+      "신창읍 Sinchang-eup",
+      "삼죽면 Samjuk-myeon",
+      "인왕리 Inwang-ri",
+      "당산동 Dangsan-dong",
+      "봉천 1동 Bongcheon 1(il)-dong",
+      "종로 2가 Jongno 2(i)-ga",
+      "퇴계로 3가 Toegyero 3(sam)-ga",
+      "청주시 Cheongju",
+      "함평군 Hampyeong",
+      "순창읍 Sunchang"
+     ],
+     "kw": "공문서 자주 틀림 주소 영문 행정 구역 do si gun gu eup myeon ri dong 충청북도 Chungcheongbuk-do",
+     "src": "rom"
+    },
+    {
+     "art": "제3장 제6항",
+     "title": "자연 지물·문화재·인공 축조물",
+     "gist": "자연 지물명, 문화재명, 인공 축조물명은 붙임표(-) 없이 붙여 쓴다.",
+     "ok": [
+      "남산 Namsan",
+      "속리산 Songnisan",
+      "금강 Geumgang",
+      "독도 Dokdo",
+      "경복궁 Gyeongbokgung",
+      "무량수전 Muryangsujeon",
+      "연화교 Yeonhwagyo",
+      "극락전 Geungnakjeon",
+      "남한산성 Namhansanseong",
+      "불국사 Bulguksa",
+      "독립문 Dongnimmun",
+      "촉석루 Chokseongnu",
+      "종묘 Jongmyo",
+      "다보탑 Dabotap"
+     ],
+     "kw": "문화재 지명 산 강 로마자",
+     "src": "rom"
+    },
+    {
+     "art": "제3장 제7항",
+     "title": "인명·회사명·단체명",
+     "gist": "인명, 회사명, 단체명 등은 그동안 써 온 표기를 쓸 수 있다.",
+     "kw": "공문서 자주 틀림 기관명 시설명 법인명 단체명 영문 표기 관용",
+     "src": "rom"
+    },
+    {
+     "art": "제3장 제8항",
+     "title": "한글 복원용 전자 표기",
+     "gist": "학술 연구 논문 등 한글 복원을 전제로 할 때는 한글 표기를 대상으로 적는다. ‘ㄱ, ㄷ, ㅂ, ㄹ’은 g, d, b, l로만, 음가 없는 ‘ㅇ’은 붙임표(어두에서는 생략).",
+     "ok": [
+      "집 jib",
+      "짚 jip",
+      "밖 bakk",
+      "값 gabs",
+      "붓꽃 buskkoch",
+      "먹는 meogneun",
+      "독립 doglib",
+      "문리 munli",
+      "물엿 mul-yeos",
+      "굳이 gud-i",
+      "좋다johda",
+      "가곡 gagog",
+      "조랑말 jolangmal",
+      "없었습니다. eobs-eoss-seubnida"
+     ],
+     "kw": "전자 표기 전사 학술",
+     "src": "rom"
+    },
+    {
+     "art": "부칙 <제2000-8호, 2000.7.7>",
+     "title": "시행·경과 조치",
+     "gist": "고시한 날부터 시행. 종전 표기법으로 설치된 표지판(도로, 광고물, 문화재 등의 안내판)은 2005. 12. 31.까지, 교과서 등 출판물은 2002. 2. 28.까지 이 표기법을 따라야 한다.",
+     "kw": "부칙 경과 조치 표지판",
+     "src": "rom"
+    }
+   ]
+  }
+ ]
+}
