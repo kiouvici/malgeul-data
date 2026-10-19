@@ -70,5 +70,9 @@
  "reg-welfare-law": {
   "desc": "실무 규정: 사회복지사업법",
   "min_app": 10
+ },
+ "reg-jecheon-subsidy": {
+  "desc": "실무 규정: 제천시 지방보조금 관리 조례",
+  "min_app": 11
  }
 }
