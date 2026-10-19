@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-10-19T07:59:41+00:00",
+ "generated": "2026-10-19T11:42:05+00:00",
  "min_app": 1,
  "packs": [
   {
@@ -41,11 +41,11 @@
   },
   {
    "id": "hanja",
-   "version": "2026.10.19-2",
+   "version": "2026.10.19-3",
    "url": "packs/hanja.json.gz",
-   "sha256": "d3c6fcb3fed1dc9fb00a81bd14fe885bcc92054f2ae5f9dcf8dc90a5f6d5cecb",
-   "size": 2352008,
-   "raw_size": 6887969,
+   "sha256": "b2ab89f90eea5eb598da30c214b1637315f29074ab080f3d411b74fdbc534cc9",
+   "size": 2447867,
+   "raw_size": 7236428,
    "format": "json",
    "gzip": true,
    "min_app": 1,
