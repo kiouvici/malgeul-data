@@ -21,11 +21,11 @@
  },
  "admin": {
   "desc": "행정용어(알기 쉬운 행정용어 2018)",
-  "min_app": 9
+  "min_app": 10
  },
  "sets": {
   "desc": "추천 단어 묶음",
-  "min_app": 9
+  "min_app": 10
  },
  "rules": {
   "desc": "공문서 표기 카드(옛 앱용, 새 앱은 reg-draft)",
@@ -33,42 +33,42 @@
  },
  "regs": {
   "desc": "실무 규정 목록",
-  "min_app": 9
+  "min_app": 10
  },
  "reg-draft": {
   "desc": "기안문 작성 규칙",
-  "min_app": 9
+  "min_app": 10
  },
  "reg-fin": {
   "desc": "재무·회계 규칙",
-  "min_app": 9
+  "min_app": 10
  },
  "reg-subsidy": {
   "desc": "지방보조금 관리법",
-  "min_app": 9
+  "min_app": 10
  },
  "reg-contract": {
   "desc": "지방계약법",
-  "min_app": 9
+  "min_app": 10
  },
  "reg-guide-facility": {
   "desc": "사회복지시설 관리안내 요점",
-  "min_app": 9
+  "min_app": 10
  },
  "reg-guide-child": {
   "desc": "아동분야 사업안내 요점",
-  "min_app": 9
+  "min_app": 10
  },
  "reg-guide-corp": {
   "desc": "사회복지법인 관리안내 요점",
-  "min_app": 9
+  "min_app": 10
  },
  "reg-child-law": {
   "desc": "실무 규정: 아동복지법",
-  "min_app": 9
+  "min_app": 10
  },
  "reg-welfare-law": {
   "desc": "실무 규정: 사회복지사업법",
-  "min_app": 9
+  "min_app": 10
  }
 }

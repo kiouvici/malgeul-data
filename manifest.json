@@ -1,18 +1,18 @@
 {
  "schema": 1,
- "generated": "2026-10-19T04:55:03+00:00",
+ "generated": "2026-10-19T07:44:01+00:00",
  "min_app": 1,
  "packs": [
   {
    "id": "admin",
-   "version": "2026.10.19-2",
+   "version": "2026.10.19-3",
    "url": "packs/admin.json.gz",
-   "sha256": "0026303cd6c4767ef63fc6da1d8baa425e8f0eefc8760631b760c64a124b65e1",
-   "size": 113751,
-   "raw_size": 499425,
+   "sha256": "ac78a9544008ca6f19c547812a6f149a72229336446a7ea206d3e30992d2f6d5",
+   "size": 122248,
+   "raw_size": 536946,
    "format": "json",
    "gzip": true,
-   "min_app": 6,
+   "min_app": 10,
    "desc": "행정용어(알기 쉬운 행정용어 2018)"
   },
   {
@@ -53,11 +53,11 @@
   },
   {
    "id": "heot",
-   "version": "2026.10.19-6",
+   "version": "2026.10.19-7",
    "url": "packs/heot.json.gz",
-   "sha256": "f8ebeb9c5981fa84197b2e71c8e9f9c786e1a3d850f99a4776980f9103f31c14",
-   "size": 33251,
-   "raw_size": 193182,
+   "sha256": "a8cd8d4f075458e1877a03cc500a1e840f2e3499fd5263c6b3da6a6f6d9e28d7",
+   "size": 33527,
+   "raw_size": 193922,
    "format": "json",
    "gzip": true,
    "min_app": 8,
@@ -76,6 +76,126 @@
    "desc": "부수 모양·부수 밖 획수"
   },
   {
+   "id": "reg-child-law",
+   "version": "2026.10.19-1",
+   "url": "packs/reg-child-law.json.gz",
+   "sha256": "c5bcc04e381fed6aab442583c55009addae03273734435eeeb53dc408aa3787b",
+   "size": 5280,
+   "raw_size": 16476,
+   "format": "json",
+   "gzip": true,
+   "min_app": 10,
+   "desc": "실무 규정: 아동복지법"
+  },
+  {
+   "id": "reg-contract",
+   "version": "2026.10.19-1",
+   "url": "packs/reg-contract.json.gz",
+   "sha256": "9af5bacf9e9d6fe08d07b4c2cc9bd87a53594eb76f293c897e89e89145e44f0c",
+   "size": 3760,
+   "raw_size": 11382,
+   "format": "json",
+   "gzip": true,
+   "min_app": 10,
+   "desc": "지방계약법"
+  },
+  {
+   "id": "reg-draft",
+   "version": "2026.10.19-1",
+   "url": "packs/reg-draft.json.gz",
+   "sha256": "f510da933c909f390099a8de503504404d7b8e7dad7f6da1e7e18012209b4c71",
+   "size": 7568,
+   "raw_size": 24512,
+   "format": "json",
+   "gzip": true,
+   "min_app": 10,
+   "desc": "기안문 작성 규칙"
+  },
+  {
+   "id": "reg-fin",
+   "version": "2026.10.19-1",
+   "url": "packs/reg-fin.json.gz",
+   "sha256": "77227e2d996ceba17eeaf775d36e6709ce26f1c739070de9314f8d74a37feaae",
+   "size": 6787,
+   "raw_size": 24410,
+   "format": "json",
+   "gzip": true,
+   "min_app": 10,
+   "desc": "재무·회계 규칙"
+  },
+  {
+   "id": "reg-guide-child",
+   "version": "2026.10.19-1",
+   "url": "packs/reg-guide-child.json.gz",
+   "sha256": "2f7fc6382fd61a6ac48faa3f9609b8405e2b199efdacabf5bc21e327edc8a16f",
+   "size": 3426,
+   "raw_size": 10383,
+   "format": "json",
+   "gzip": true,
+   "min_app": 10,
+   "desc": "아동분야 사업안내 요점"
+  },
+  {
+   "id": "reg-guide-corp",
+   "version": "2026.10.19-1",
+   "url": "packs/reg-guide-corp.json.gz",
+   "sha256": "64a1436517ab1d99c157485826a990d232b6e9524f3f1c7dcee37f9d8e9ea531",
+   "size": 1422,
+   "raw_size": 3381,
+   "format": "json",
+   "gzip": true,
+   "min_app": 10,
+   "desc": "사회복지법인 관리안내 요점"
+  },
+  {
+   "id": "reg-guide-facility",
+   "version": "2026.10.19-1",
+   "url": "packs/reg-guide-facility.json.gz",
+   "sha256": "0f8b21552170e04863931674aebb7cac7e9a5b69e43d01adb75272e197cf88cf",
+   "size": 4643,
+   "raw_size": 13613,
+   "format": "json",
+   "gzip": true,
+   "min_app": 10,
+   "desc": "사회복지시설 관리안내 요점"
+  },
+  {
+   "id": "reg-subsidy",
+   "version": "2026.10.19-1",
+   "url": "packs/reg-subsidy.json.gz",
+   "sha256": "378955bab6778b1ca4d7a242b6c23248b75c3da8640d331e818bc33d47f6bfa1",
+   "size": 4285,
+   "raw_size": 13322,
+   "format": "json",
+   "gzip": true,
+   "min_app": 10,
+   "desc": "지방보조금 관리법"
+  },
+  {
+   "id": "reg-welfare-law",
+   "version": "2026.10.19-1",
+   "url": "packs/reg-welfare-law.json.gz",
+   "sha256": "f21711601e0a1eabd74ee5bdc8378ea217e1298671af5dfdce08d8030c1ee786",
+   "size": 3843,
+   "raw_size": 11328,
+   "format": "json",
+   "gzip": true,
+   "min_app": 10,
+   "desc": "실무 규정: 사회복지사업법"
+  },
+  {
+   "id": "regs",
+   "version": "2026.10.19-1",
+   "url": "packs/regs.json.gz",
+   "sha256": "36e2a4475c0540e542f5cc6cf041d63e822d3b5a36fa25a36bae021ed5bbecab",
+   "size": 1489,
+   "raw_size": 4297,
+   "format": "json",
+   "gzip": true,
+   "min_app": 10,
+   "desc": "실무 규정 목록"
+  },
+  {
    "id": "rules",
    "version": "2026.10.19-2",
    "url": "packs/rules.json.gz",
@@ -85,18 +205,18 @@
    "format": "json",
    "gzip": true,
    "min_app": 1,
-   "desc": "공문서 표기 카드"
+   "desc": "공문서 표기 카드(옛 앱용, 새 앱은 reg-draft)"
   },
   {
    "id": "sets",
-   "version": "2026.10.19-2",
+   "version": "2026.10.19-3",
    "url": "packs/sets.json.gz",
-   "sha256": "3891ee5e0ab22d0271597cd8eca09226868850df4b66e157d6d72575f1a37932",
-   "size": 2919,
-   "raw_size": 8047,
+   "sha256": "4edaa93344d4eb8c1fde231ec54bf6762232706b06de6bda407e7f14edd290c8",
+   "size": 5008,
+   "raw_size": 16481,
    "format": "json",
    "gzip": true,
-   "min_app": 1,
+   "min_app": 10,
    "desc": "추천 단어 묶음"
   }
  ]
