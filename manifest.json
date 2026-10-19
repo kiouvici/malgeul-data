@@ -1,18 +1,18 @@
 {
  "schema": 1,
- "generated": "2026-10-19T00:07:40+00:00",
+ "generated": "2026-10-19T00:50:45+00:00",
  "min_app": 1,
  "packs": [
   {
    "id": "admin",
-   "version": "2026.10.19-1",
+   "version": "2026.10.19-2",
    "url": "packs/admin.json.gz",
-   "sha256": "ac026836b6d4d1d3b78e24d5b41e4f8c2d068de66ab56b3f8cd8676a33493dc3",
-   "size": 110995,
-   "raw_size": 464369,
+   "sha256": "0026303cd6c4767ef63fc6da1d8baa425e8f0eefc8760631b760c64a124b65e1",
+   "size": 113751,
+   "raw_size": 499425,
    "format": "json",
    "gzip": true,
-   "min_app": 5,
+   "min_app": 6,
    "desc": "행정용어(알기 쉬운 행정용어 2018)"
   },
   {
@@ -53,14 +53,14 @@
   },
   {
    "id": "heot",
-   "version": "2026.10.19-4",
+   "version": "2026.10.19-5",
    "url": "packs/heot.json.gz",
-   "sha256": "ac6641071eee1e683f9d1904adf1e4ecc36d9c2d66edae26df4a6e411c53f686",
-   "size": 31688,
-   "raw_size": 334185,
+   "sha256": "1eaef53e7b0e1e4bac043fd5e473dec3211af14edce696531092887e783f2e06",
+   "size": 33008,
+   "raw_size": 192492,
    "format": "json",
    "gzip": true,
-   "min_app": 1,
+   "min_app": 6,
    "desc": "헷갈리는 말"
   },
   {
