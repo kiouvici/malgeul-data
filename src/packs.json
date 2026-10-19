@@ -130,5 +130,173 @@
  "reg-inspect": {
   "desc": "지도점검·현지조사 사례(감사 대비)",
   "min_app": 12
+ },
+ "texts": {
+  "desc": "원문 전체 목록(법령·조례·지침·어문 원문 추출본)",
+  "min_app": 13
+ },
+ "text-child-act": {
+  "desc": "원문: 아동복지법",
+  "min_app": 13
+ },
+ "text-child-dec": {
+  "desc": "원문: 아동복지법 시행령",
+  "min_app": 13
+ },
+ "text-child-rule": {
+  "desc": "원문: 아동복지법 시행규칙",
+  "min_app": 13
+ },
+ "text-abuse-act": {
+  "desc": "원문: 아동학대범죄의 처벌 등에 관한 특례법",
+  "min_app": 13
+ },
+ "text-abuse-dec": {
+  "desc": "원문: 아동학대범죄의 처벌 등에 관한 특례법 시행령",
+  "min_app": 13
+ },
+ "text-abuse-rule": {
+  "desc": "원문: 아동학대범죄의 처벌 등에 관한 특례법 시행규칙",
+  "min_app": 13
+ },
+ "text-welfare-act": {
+  "desc": "원문: 사회복지사업법",
+  "min_app": 13
+ },
+ "text-welfare-dec": {
+  "desc": "원문: 사회복지사업법 시행령",
+  "min_app": 13
+ },
+ "text-welfare-rule": {
+  "desc": "원문: 사회복지사업법 시행규칙",
+  "min_app": 13
+ },
+ "text-fin-rule": {
+  "desc": "원문: 사회복지법인 및 사회복지시설 재무ㆍ회계 규칙",
+  "min_app": 13
+ },
+ "text-labor-act": {
+  "desc": "원문: 근로기준법",
+  "min_app": 13
+ },
+ "text-labor-dec": {
+  "desc": "원문: 근로기준법 시행령",
+  "min_app": 13
+ },
+ "text-labor-rule": {
+  "desc": "원문: 근로기준법 시행규칙",
+  "min_app": 13
+ },
+ "text-privacy-act": {
+  "desc": "원문: 개인정보 보호법",
+  "min_app": 13
+ },
+ "text-privacy-dec": {
+  "desc": "원문: 개인정보 보호법 시행령",
+  "min_app": 13
+ },
+ "text-lcontract-act": {
+  "desc": "원문: 지방자치단체를 당사자로 하는 계약에 관한 법률",
+  "min_app": 13
+ },
+ "text-lcontract-dec": {
+  "desc": "원문: 지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+  "min_app": 13
+ },
+ "text-lcontract-rule": {
+  "desc": "원문: 지방자치단체를 당사자로 하는 계약에 관한 법률 시행규칙",
+  "min_app": 13
+ },
+ "text-lsubsidy-act": {
+  "desc": "원문: 지방자치단체 보조금 관리에 관한 법률",
+  "min_app": 13
+ },
+ "text-lsubsidy-dec": {
+  "desc": "원문: 지방자치단체 보조금 관리에 관한 법률 시행령",
+  "min_app": 13
+ },
+ "text-lsubsidy-rule": {
+  "desc": "원문: 지방자치단체 보조금 관리에 관한 법률 시행규칙",
+  "min_app": 13
+ },
+ "text-admin-dec": {
+  "desc": "원문: 행정업무의 운영 및 혁신에 관한 규정",
+  "min_app": 13
+ },
+ "text-admin-rule": {
+  "desc": "원문: 행정업무의 운영 및 혁신에 관한 규정 시행규칙",
+  "min_app": 13
+ },
+ "text-family-rule": {
+  "desc": "원문: 가족관계의 등록 등에 관한 규칙",
+  "min_app": 13
+ },
+ "text-cb-subsidy-ord": {
+  "desc": "원문: 충청북도 지방보조금 관리 조례",
+  "min_app": 13
+ },
+ "text-jc-subsidy-ord": {
+  "desc": "원문: 제천시 지방보조금 관리 조례",
+  "min_app": 13
+ },
+ "text-guide-child1": {
+  "desc": "원문: 2026 아동분야 사업안내 1권",
+  "min_app": 13
+ },
+ "text-guide-child2": {
+  "desc": "원문: 2026 아동분야 사업안내 2권",
+  "min_app": 13
+ },
+ "text-guide-facility": {
+  "desc": "원문: 2026 사회복지시설 관리안내",
+  "min_app": 13
+ },
+ "text-guide-corp": {
+  "desc": "원문: 2026 사회복지법인 관리안내",
+  "min_app": 13
+ },
+ "text-selfrel1": {
+  "desc": "원문: 2026 자립지원 업무 매뉴얼 Ⅰ",
+  "min_app": 13
+ },
+ "text-selfrel2": {
+  "desc": "원문: 2026 자립지원 업무 매뉴얼 Ⅱ",
+  "min_app": 13
+ },
+ "text-wage-guide": {
+  "desc": "원문: 2026년 사회복지시설 종사자 인건비 가이드라인",
+  "min_app": 13
+ },
+ "text-inspect-cases-2024": {
+  "desc": "원문: 2024 사회복지법인·시설 현지조사 절차 및 사례집",
+  "min_app": 13
+ },
+ "text-inspect-manual-2023": {
+  "desc": "원문: 2023 사회복지법인·시설 현지조사 매뉴얼",
+  "min_app": 13
+ },
+ "text-inspect-seoul-2025": {
+  "desc": "원문: 2025 사회복지법인·시설 운영개선을 위한 지도점검사례집",
+  "min_app": 13
+ },
+ "text-admin-manual": {
+  "desc": "원문: 2025 행정업무운영 편람",
+  "min_app": 13
+ },
+ "text-eomun-spell-std": {
+  "desc": "원문: 한글 맞춤법·표준어 규정 해설",
+  "min_app": 13
+ },
+ "text-eomun-punct": {
+  "desc": "원문: 문장 부호 해설",
+  "min_app": 13
+ },
+ "text-eomun-roman": {
+  "desc": "원문: 국어의 로마자 표기법",
+  "min_app": 13
+ },
+ "text-eomun-loan": {
+  "desc": "원문: 외래어 표기법",
+  "min_app": 13
  }
 }

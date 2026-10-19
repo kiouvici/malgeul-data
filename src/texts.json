@@ -1,0 +1,1039 @@
+[
+ {
+  "docid": "child-act",
+  "title": "아동복지법",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2026-10-02",
+    "promulgated": "2026-09-29",
+    "effective": "2026-10-02",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/아동복지법",
+  "fetched": "2026-10-19",
+  "sha256": "6748ede1778fc85563400b4b430b7094aa7f77f0bf92a51fefa167a763adde76",
+  "pack": "text-child-act",
+  "src_sha256": [
+   "1a700b8d79876f1e8dbbd2716dac251910d1ef55b504d8165ec6b6769a3557b1"
+  ]
+ },
+ {
+  "docid": "child-dec",
+  "title": "아동복지법 시행령",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2026-08-04",
+    "promulgated": "2026-08-04",
+    "effective": "2026-08-04",
+    "status_hint": null
+   },
+   {
+    "ed": "2027-01-01",
+    "promulgated": "2026-08-04",
+    "effective": "2027-01-01",
+    "status_hint": "예정"
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/아동복지법시행령",
+  "fetched": "2026-10-19",
+  "sha256": "e1537661442cb94d8bbf510bcb652720a21abbb15b20a66a016e8c387cc78c41",
+  "pack": "text-child-dec",
+  "src_sha256": [
+   "4e42d335b9118c4c8e8c0f15339dcab46c92c3cac74892b3215040f410371589",
+   "63f7401794518b5fd61db1864e5bc539276840f16c9b84416473851e784dc813"
+  ]
+ },
+ {
+  "docid": "child-rule",
+  "title": "아동복지법 시행규칙",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2026-10-02",
+    "promulgated": "2026-10-02",
+    "effective": "2026-10-02",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/아동복지법시행규칙",
+  "fetched": "2026-10-19",
+  "sha256": "e6ef02e4ee9c9fc2cc02e6fad7fa9d37664f9ff3a78b2ed609346e76ebc0c251",
+  "pack": "text-child-rule",
+  "src_sha256": [
+   "5a36083fa169dfac66cdd56f10d34f1818b8dd26353964b469d94f1e10a691fe"
+  ]
+ },
+ {
+  "docid": "abuse-act",
+  "title": "아동학대범죄의 처벌 등에 관한 특례법",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "법무부·보건복지부",
+  "editions": [
+   {
+    "ed": "2026-10-02",
+    "promulgated": null,
+    "effective": "2026-10-02",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/아동학대범죄의처벌등에관한특례법",
+  "fetched": "2026-10-19",
+  "sha256": "a31e114d5061362b88a152fdc5aef0daeb78160e1892805d9c25938e672d8b02",
+  "pack": "text-abuse-act",
+  "src_sha256": [
+   "17f7da7e52b17fd0a7b2f64ec9609074a107ad1c8c20f704665fd6dce8a2c78b"
+  ]
+ },
+ {
+  "docid": "abuse-dec",
+  "title": "아동학대범죄의 처벌 등에 관한 특례법 시행령",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "법무부·보건복지부",
+  "editions": [
+   {
+    "ed": "2026-10-02",
+    "promulgated": null,
+    "effective": "2026-10-02",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/아동학대범죄의처벌등에관한특례법시행령",
+  "fetched": "2026-10-19",
+  "sha256": "eafa3cebfc31f112b2d3ec1e37f5a490b5dea2fa4c23fcb5e704ba13726ce477",
+  "pack": "text-abuse-dec",
+  "src_sha256": [
+   "641e21c031d8b759dd790d20ac1294e87a9c0293ff10018558c9c2625a0759d8"
+  ]
+ },
+ {
+  "docid": "abuse-rule",
+  "title": "아동학대범죄의 처벌 등에 관한 특례법 시행규칙",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "법무부·보건복지부",
+  "editions": [
+   {
+    "ed": "2026-10-02",
+    "promulgated": null,
+    "effective": "2026-10-02",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/아동학대범죄의처벌등에관한특례법시행규칙",
+  "fetched": "2026-10-19",
+  "sha256": "ac8e3fa3ddb9071cdccc6d9b447ff3be8ed874636dac173ae541cf6ace8989bc",
+  "pack": "text-abuse-rule",
+  "src_sha256": [
+   "db098b69b3861f312b5a065bbd3a24bba5d55798abdce1c87f53750ff622359a"
+  ]
+ },
+ {
+  "docid": "welfare-act",
+  "title": "사회복지사업법",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2025-10-02",
+    "promulgated": "2025-04-01",
+    "effective": "2025-10-02",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/사회복지사업법",
+  "fetched": "2026-10-19",
+  "sha256": "3a1200fc61f7d50dd6aceea64b5720ead44641af19391a5364f7467f53a59ac5",
+  "pack": "text-welfare-act",
+  "src_sha256": [
+   "3c5ead6c1bb5d5dbaf12eff9bc0285838762853665562130adadff57d454ccd9"
+  ]
+ },
+ {
+  "docid": "welfare-dec",
+  "title": "사회복지사업법 시행령",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2026-02-03",
+    "promulgated": "2026-02-03",
+    "effective": "2026-02-03",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/사회복지사업법시행령",
+  "fetched": "2026-10-19",
+  "sha256": "f2f7fdd252393c3ad878f552b53c17a75d8a6c885f3b575ed47067ca2f642fd7",
+  "pack": "text-welfare-dec",
+  "src_sha256": [
+   "7556c71c12819924405e086ae5e19e4691fd007645adf4450fbc2a766c705ae7"
+  ]
+ },
+ {
+  "docid": "welfare-rule",
+  "title": "사회복지사업법 시행규칙",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2026-08-27",
+    "promulgated": "2026-08-27",
+    "effective": "2026-08-27",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/사회복지사업법시행규칙",
+  "fetched": "2026-10-19",
+  "sha256": "390b930e152ac732b314cdaaf4f0d12e568d534ed9e5536d17eb656dd8b93fb1",
+  "pack": "text-welfare-rule",
+  "src_sha256": [
+   "e4bdf9ad5cdac014f3fc3970a8259b9cc8ec7b5f0be244cbfa37b920ccbcdab0"
+  ]
+ },
+ {
+  "docid": "fin-rule",
+  "title": "사회복지법인 및 사회복지시설 재무ㆍ회계 규칙",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2023-01-01",
+    "promulgated": null,
+    "effective": "2023-01-01",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/사회복지법인및사회복지시설재무ㆍ회계규칙",
+  "fetched": "2026-10-19",
+  "sha256": "a3bd4e565df0766a7da41c7c50cb55126f42accb53d1ecad605ed0ba2d246e52",
+  "pack": "text-fin-rule",
+  "src_sha256": [
+   "f1782930107733570b5f60ccf78f29e03c47a1aa6842923738721ab0cecced54"
+  ]
+ },
+ {
+  "docid": "labor-act",
+  "title": "근로기준법",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "고용노동부",
+  "editions": [
+   {
+    "ed": "2026-10-08",
+    "promulgated": "2026-04-07",
+    "effective": "2026-10-08",
+    "status_hint": null
+   },
+   {
+    "ed": "2027-06-10",
+    "promulgated": "2026-06-09",
+    "effective": "2027-06-10",
+    "status_hint": "예정"
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/근로기준법",
+  "fetched": "2026-10-19",
+  "sha256": "61071f235b858fbeaba6028b3c143e22eddaecdb999ffc433997ef8c2776ac90",
+  "pack": "text-labor-act",
+  "src_sha256": [
+   "a02a01e8f414cdef399368d072e9bd6e6e66f47e12757e46fc64757cc86e7a7b",
+   "f80ec98567bf769965c575eba38f4cc7cfa7a82a9e603205feec0d3dcc309662"
+  ]
+ },
+ {
+  "docid": "labor-dec",
+  "title": "근로기준법 시행령",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "고용노동부",
+  "editions": [
+   {
+    "ed": "2025-10-23",
+    "promulgated": "2025-04-08",
+    "effective": "2025-10-23",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/근로기준법시행령",
+  "fetched": "2026-10-19",
+  "sha256": "f6492334242e2bcbffd98ad3659c3040445d36b5274b5499d890283ac1c76763",
+  "pack": "text-labor-dec",
+  "src_sha256": [
+   "0daf66a10fb1c57d687f4c2ccba6a6835af4a3fd497d1f21c41a47f629e8a103"
+  ]
+ },
+ {
+  "docid": "labor-rule",
+  "title": "근로기준법 시행규칙",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "고용노동부",
+  "editions": [
+   {
+    "ed": "2025-02-23",
+    "promulgated": "2025-02-21",
+    "effective": "2025-02-23",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/근로기준법시행규칙",
+  "fetched": "2026-10-19",
+  "sha256": "98aed7f03b437e9f70000a5a14047e3456633fcd6264a2c636c61f86d9d32252",
+  "pack": "text-labor-rule",
+  "src_sha256": [
+   "91850563d1800a00c50a48a443d2110aa326db5402400d5587acc5cc4dd4b5b0"
+  ]
+ },
+ {
+  "docid": "privacy-act",
+  "title": "개인정보 보호법",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "개인정보보호위원회",
+  "editions": [
+   {
+    "ed": "2026-09-11",
+    "promulgated": "2026-03-10",
+    "effective": "2026-09-11",
+    "status_hint": null
+   },
+   {
+    "ed": "2027-03-09",
+    "promulgated": "2026-09-08",
+    "effective": "2027-03-09",
+    "status_hint": "예정"
+   },
+   {
+    "ed": "2027-07-01",
+    "promulgated": "2026-03-10",
+    "effective": "2027-07-01",
+    "status_hint": "예정"
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/개인정보보호법",
+  "fetched": "2026-10-19",
+  "sha256": "3a535a7a65ffa45531aab20c28865f6aac514425b8d04f8a920437920e09d704",
+  "pack": "text-privacy-act",
+  "src_sha256": [
+   "698bbb35d031e4f66cc71769626af03abcfc757f97daff0521b2142ed95341db",
+   "c990a171b6039866e025a05f255dc35cd0af03d240b02ef6f7e55821c5815e57",
+   "286dba6cde959956a303daace7488239d5ac34570c08192139f6c5a376ac4d78"
+  ]
+ },
+ {
+  "docid": "privacy-dec",
+  "title": "개인정보 보호법 시행령",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "개인정보보호위원회",
+  "editions": [
+   {
+    "ed": "2026-09-11",
+    "promulgated": "2026-09-10",
+    "effective": "2026-09-11",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/개인정보보호법시행령",
+  "fetched": "2026-10-19",
+  "sha256": "6e61c511097c6253d66bde72d93705d8b771a5e9157788319c0a8eee2864ec7e",
+  "pack": "text-privacy-dec",
+  "src_sha256": [
+   "6df28518ecfb347451821cb412f03e218feaad2a22531d52a9c3604cd5ad3595"
+  ]
+ },
+ {
+  "docid": "lcontract-act",
+  "title": "지방자치단체를 당사자로 하는 계약에 관한 법률",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "행정안전부",
+  "editions": [
+   {
+    "ed": "2024-02-17",
+    "promulgated": null,
+    "effective": "2024-02-17",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/지방자치단체를당사자로하는계약에관한법률",
+  "fetched": "2026-10-19",
+  "sha256": "36837441292bdb359b1ef72b18d4a23da8a40767ed8951db0e422954b9159ddf",
+  "pack": "text-lcontract-act",
+  "src_sha256": [
+   "9eb78eff529fb4accee75c5af0ea4e387fb9153551374f9e4dc57930a036f600"
+  ]
+ },
+ {
+  "docid": "lcontract-dec",
+  "title": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행령",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "행정안전부",
+  "editions": [
+   {
+    "ed": "2026-06-03",
+    "promulgated": null,
+    "effective": "2026-06-03",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/지방자치단체를당사자로하는계약에관한법률시행령",
+  "fetched": "2026-10-19",
+  "sha256": "c37274e6387efc58936f14b0051435421f9ca3c7e511f85c5b63fa27c4cc8d23",
+  "pack": "text-lcontract-dec",
+  "src_sha256": [
+   "585a8dc82448a3ebb36066ab6067bf71c2d8772dd041f73a74c83ccc72903de9"
+  ]
+ },
+ {
+  "docid": "lcontract-rule",
+  "title": "지방자치단체를 당사자로 하는 계약에 관한 법률 시행규칙",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "행정안전부",
+  "editions": [
+   {
+    "ed": "2026-07-01",
+    "promulgated": null,
+    "effective": "2026-07-01",
+    "status_hint": null
+   },
+   {
+    "ed": "2026-10-25",
+    "promulgated": "2026-04-24",
+    "effective": "2026-10-25",
+    "status_hint": "예정"
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/지방자치단체를당사자로하는계약에관한법률시행규칙",
+  "fetched": "2026-10-19",
+  "sha256": "c8f6bb2b9230847477cfbd7ce4fd68850b44b6a8215a343ca495e07b9ab7b5e1",
+  "pack": "text-lcontract-rule",
+  "src_sha256": [
+   "32b007c142ab5cfb06e81a6546eb7cba9832d9b0c18398ac3371ba84e476563d",
+   "03dae2038f79531be348894417518abfdfc8ca26ab981958421a937075333845"
+  ]
+ },
+ {
+  "docid": "lsubsidy-act",
+  "title": "지방자치단체 보조금 관리에 관한 법률",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "행정안전부",
+  "editions": [
+   {
+    "ed": "2023-10-12",
+    "promulgated": null,
+    "effective": "2023-10-12",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률",
+  "fetched": "2026-10-19",
+  "sha256": "c0d90866e57f4b8783011a7c13e083a93df73cf8e828ff5e6ccbc8adf879272e",
+  "pack": "text-lsubsidy-act",
+  "src_sha256": [
+   "eff9edb4c426ee11be02ba66239bc87da5e40b9b925999163e09acb4b5adad35"
+  ]
+ },
+ {
+  "docid": "lsubsidy-dec",
+  "title": "지방자치단체 보조금 관리에 관한 법률 시행령",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "행정안전부",
+  "editions": [
+   {
+    "ed": "2023-10-12",
+    "promulgated": null,
+    "effective": "2023-10-12",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률시행령",
+  "fetched": "2026-10-19",
+  "sha256": "6fddd17bd2fe92747d461f6b3ed66c80470b97e5a5a6a4a5361e3f10f82ed144",
+  "pack": "text-lsubsidy-dec",
+  "src_sha256": [
+   "97d82e923ae9c1f27ab29df95470d619f1dc89c085f8f0cb4d158c3a5e4b216c"
+  ]
+ },
+ {
+  "docid": "lsubsidy-rule",
+  "title": "지방자치단체 보조금 관리에 관한 법률 시행규칙",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "행정안전부",
+  "editions": [
+   {
+    "ed": "2023-12-13",
+    "promulgated": null,
+    "effective": "2023-12-13",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/지방자치단체보조금관리에관한법률시행규칙",
+  "fetched": "2026-10-19",
+  "sha256": "e7ad9fe0a08a0147837d0fa75634764980f7748ff014fb9e354b7cb2370d1879",
+  "pack": "text-lsubsidy-rule",
+  "src_sha256": [
+   "6fa52a6e02a2f8cc967c3fb2e2d67dcd48971c66aa6080993261423acc76f30a"
+  ]
+ },
+ {
+  "docid": "admin-dec",
+  "title": "행정업무의 운영 및 혁신에 관한 규정",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "행정안전부",
+  "editions": [
+   {
+    "ed": "2026-10-02",
+    "promulgated": null,
+    "effective": "2026-10-02",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/행정업무의운영및혁신에관한규정",
+  "fetched": "2026-10-19",
+  "sha256": "e2338f5b6aa80b8ee6de2c9600fa29207903fa9d0c4f1d3883f557174ae1d932",
+  "pack": "text-admin-dec",
+  "src_sha256": [
+   "d500baa19f20faae4ad2d55a7499a378b9c11d789cc22ff8f34827b57d037b56"
+  ]
+ },
+ {
+  "docid": "admin-rule",
+  "title": "행정업무의 운영 및 혁신에 관한 규정 시행규칙",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "행정안전부",
+  "editions": [
+   {
+    "ed": "2023-06-28",
+    "promulgated": null,
+    "effective": "2023-06-28",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/행정업무의운영및혁신에관한규정시행규칙",
+  "fetched": "2026-10-19",
+  "sha256": "69781b87779b13b46536d1dfd9f5cb4e627157aa2f045dd29b7de6cc276c93af",
+  "pack": "text-admin-rule",
+  "src_sha256": [
+   "e15bc8ac9925e8cd2519e71e9b743f30d87c7fedd52cc44babfd033be85a9c55"
+  ]
+ },
+ {
+  "docid": "family-rule",
+  "title": "가족관계의 등록 등에 관한 규칙",
+  "kind": "법령",
+  "group": "법령",
+  "publisher": "대법원",
+  "editions": [
+   {
+    "ed": "2025-07-19",
+    "promulgated": "2025-06-26",
+    "effective": "2025-07-19",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/법령/가족관계의등록등에관한규칙",
+  "fetched": "2026-10-19",
+  "sha256": "afd97b0dc3f64a3c387c19cf3ba09c69b1f1a4547580a90e7bf5e3cdd0608e52",
+  "pack": "text-family-rule",
+  "src_sha256": [
+   "752c9dbf449d4f0fdf59e838b94777145b625d2c0bd15ee2b94687f6adbe8958"
+  ]
+ },
+ {
+  "docid": "cb-subsidy-ord",
+  "title": "충청북도 지방보조금 관리 조례",
+  "kind": "조례",
+  "group": "조례",
+  "publisher": "충청북도",
+  "editions": [
+   {
+    "ed": "2025-05-16",
+    "promulgated": "2025-05-16",
+    "effective": "2025-05-16",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/자치법규/충청북도지방보조금관리조례",
+  "fetched": "2026-10-19",
+  "sha256": "cd8da1c4d037b90d75f2a89ac0e8824ec84a9fdf33af2929cb0910e0728ef46a",
+  "pack": "text-cb-subsidy-ord",
+  "src_sha256": [
+   "06ba6340389d9304e57d25683a2d3242054ed7fc5e3f43695ded1b31099a5158"
+  ]
+ },
+ {
+  "docid": "jc-subsidy-ord",
+  "title": "제천시 지방보조금 관리 조례",
+  "kind": "조례",
+  "group": "조례",
+  "publisher": "충청북도 제천시",
+  "editions": [
+   {
+    "ed": "2021-07-30",
+    "promulgated": "2021-07-30",
+    "effective": "2021-07-30",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
+  "source_url": "https://www.law.go.kr/자치법규/제천시지방보조금관리조례",
+  "fetched": "2026-10-19",
+  "sha256": "803177403f5860691b148c85f8f86a6c4e083298cd25b47f461bd022dc7b9b78",
+  "pack": "text-jc-subsidy-ord",
+  "src_sha256": [
+   "fdeec82b655f7792431c4f17db97a416db745f1c8d997ffdbc3b5a635f47e9fc"
+  ]
+ },
+ {
+  "docid": "guide-child1",
+  "title": "2026 아동분야 사업안내 1권",
+  "kind": "지침",
+  "group": "지침",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2026-07-01",
+    "promulgated": null,
+    "effective": "2026-07-01",
+    "status_hint": null,
+    "label": "2026. 7. 개정본(HWPX)"
+   },
+   {
+    "ed": "2026-03-19",
+    "promulgated": null,
+    "effective": "2026-03-19",
+    "status_hint": null,
+    "label": "2026. 3. 발간본(PDF, 표지 표기 2025)"
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문에 공공누리 표시 없음. 보건복지부 발간 지침(법령 아님).",
+  "source_url": "https://www.mohw.go.kr",
+  "fetched": "2026-10-19",
+  "sha256": "825a8aff672a5408af5d5bb476b967712257d2ea866412db75e685b380c5f0c3",
+  "pack": "text-guide-child1",
+  "src_sha256": [
+   "41667ef0d7c02fa6aea148615863bbd2164918b2f1110be43b0e8b7b1ec14db1",
+   "96a51ed4ccbbfecce5619e4873dbcc34af1b812b21c82ecd258c8656c2eb8da1"
+  ]
+ },
+ {
+  "docid": "guide-child2",
+  "title": "2026 아동분야 사업안내 2권",
+  "kind": "지침",
+  "group": "지침",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2026-07-01",
+    "promulgated": null,
+    "effective": "2026-07-01",
+    "status_hint": null,
+    "label": "2026. 7. 개정본(HWPX)"
+   },
+   {
+    "ed": "2026-03-19",
+    "promulgated": null,
+    "effective": "2026-03-19",
+    "status_hint": null,
+    "label": "2026. 3. 발간본(PDF, 표지 표기 2025)"
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문에 공공누리 표시 없음. 보건복지부 발간 지침(법령 아님).",
+  "source_url": "https://www.mohw.go.kr",
+  "fetched": "2026-10-19",
+  "sha256": "3e0a56e5a31ec06631dbb2634103fb294faa14e0e9ce15df2772dd6e1a00d312",
+  "pack": "text-guide-child2",
+  "src_sha256": [
+   "4eb4d40f885c23c1bd9d71a78848945c54296e8f7838f2dc5e7f9e5a56fbe4a4",
+   "7625d5ad8ef15d647891a38d41e805f598935ec92d6912c088dd82ec700b9510"
+  ]
+ },
+ {
+  "docid": "guide-facility",
+  "title": "2026 사회복지시설 관리안내",
+  "kind": "지침",
+  "group": "지침",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2026-01-01",
+    "promulgated": null,
+    "effective": "2026-01-01",
+    "status_hint": null
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문에 공공누리 표시 없음. 보건복지부 발간 지침(법령 아님).",
+  "source_url": "https://www.mohw.go.kr",
+  "fetched": "2026-10-19",
+  "sha256": "c1218e4697609727c0bdad605d00f5eca62f0b52d485952993a2f53868d6502d",
+  "pack": "text-guide-facility",
+  "src_sha256": [
+   "c6277d2e3c8916fd440c6342c5b28b183971303390aca5f5ae453158f36f7ab3"
+  ]
+ },
+ {
+  "docid": "guide-corp",
+  "title": "2026 사회복지법인 관리안내",
+  "kind": "지침",
+  "group": "지침",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2026-01-01",
+    "promulgated": null,
+    "effective": "2026-01-01",
+    "status_hint": null
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문에 공공누리 표시 없음. 보건복지부 발간 지침(법령 아님).",
+  "source_url": "https://www.mohw.go.kr",
+  "fetched": "2026-10-19",
+  "sha256": "0a0959176f636c1fb2ad0cf32d67b8c078a96c3019ab0cd5baa1728b6e07b7a9",
+  "pack": "text-guide-corp",
+  "src_sha256": [
+   "fb76c2144cc9017fa2f65bae5c9344931ca7ebf89583afcb9281de0225a82cfd"
+  ]
+ },
+ {
+  "docid": "selfrel1",
+  "title": "2026 자립지원 업무 매뉴얼 Ⅰ",
+  "kind": "지침",
+  "group": "지침",
+  "publisher": "보건복지부·아동권리보장원",
+  "editions": [
+   {
+    "ed": "2026-01-01",
+    "promulgated": null,
+    "effective": "2026-01-01",
+    "status_hint": null
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문에 공공누리 표시 없음. 업무 매뉴얼(법령 아님).",
+  "source_url": "",
+  "fetched": "2026-10-19",
+  "sha256": "09572f6dee6cddcb3751bbce04fb41b9658dd3585d4ffdbcf9ef24ae1b7290cb",
+  "pack": "text-selfrel1",
+  "src_sha256": [
+   "9fa8370db740b036cadd22e0b88955e80159ccfe5230dd80380f4f50d3432ecd"
+  ]
+ },
+ {
+  "docid": "selfrel2",
+  "title": "2026 자립지원 업무 매뉴얼 Ⅱ",
+  "kind": "지침",
+  "group": "지침",
+  "publisher": "보건복지부·아동권리보장원",
+  "editions": [
+   {
+    "ed": "2026-01-01",
+    "promulgated": null,
+    "effective": "2026-01-01",
+    "status_hint": null
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문에 공공누리 표시 없음. 업무 매뉴얼(법령 아님).",
+  "source_url": "",
+  "fetched": "2026-10-19",
+  "sha256": "52ecc47f1202185a0b6e33ed7d228e52f86178c5aca5a1032778441ee198ef8e",
+  "pack": "text-selfrel2",
+  "src_sha256": [
+   "ba0069148715af1f949dbc01cd9640cddae83f834077f2ecce2f10a9db595ae6"
+  ]
+ },
+ {
+  "docid": "wage-guide",
+  "title": "2026년 사회복지시설 종사자 인건비 가이드라인",
+  "kind": "지침",
+  "group": "지침",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2026-01-01",
+    "promulgated": null,
+    "effective": "2026-01-01",
+    "status_hint": null
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문에 공공누리 표시 없음. 보건복지부 가이드라인(법령 아님).",
+  "source_url": "https://www.mohw.go.kr",
+  "fetched": "2026-10-19",
+  "sha256": "83097accc32152288673224226a733785657722c6d7886599a43ad553f3ce05b",
+  "pack": "text-wage-guide",
+  "src_sha256": [
+   "9584c39bc9f1f695554981cd446a8fa88ad7875db73e3511d087b47099940744"
+  ]
+ },
+ {
+  "docid": "inspect-cases-2024",
+  "title": "2024 사회복지법인·시설 현지조사 절차 및 사례집",
+  "kind": "지침",
+  "group": "지침",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2024-12-01",
+    "promulgated": null,
+    "effective": "2024-12-01",
+    "status_hint": null
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문에 공공누리 표시 없음. 보건복지부 발간 사례집(법령 아님).",
+  "source_url": "https://www.mohw.go.kr",
+  "fetched": "2026-10-19",
+  "sha256": "0d1f339a2ff514acaf1a47646a7aa094d005c466d88410ad0adaa7d6be55ab4b",
+  "pack": "text-inspect-cases-2024",
+  "src_sha256": [
+   "68aa5c6ed7c51a398d44a6d047c974d8d4dbb43ba6201e0db66017e57a514952"
+  ]
+ },
+ {
+  "docid": "inspect-manual-2023",
+  "title": "2023 사회복지법인·시설 현지조사 매뉴얼",
+  "kind": "지침",
+  "group": "지침",
+  "publisher": "보건복지부",
+  "editions": [
+   {
+    "ed": "2023-01-01",
+    "promulgated": null,
+    "effective": "2023-01-01",
+    "status_hint": null
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문 표기: “본 매뉴얼은 보건복지부(복지급여조사담당관)의 사회복지법인 및 시설에 대한 현지조사 방식을 소개한 것으로 담당 공무원의 체계적인 조사업무 습득을 지원하기 위한 안내서 입니다.” 공무원용 안내서(법령 아님), 개인 사용.",
+  "source_url": "https://www.mohw.go.kr",
+  "fetched": "2026-10-19",
+  "sha256": "a85b45129707673e04027503b6999078745725d64a5c31f6684966740241a920",
+  "pack": "text-inspect-manual-2023",
+  "src_sha256": [
+   "b9e46ef1be45602c7bd41e52f2de87de774f645b95784c26dbdbfc555e209dac"
+  ]
+ },
+ {
+  "docid": "inspect-seoul-2025",
+  "title": "2025 사회복지법인·시설 운영개선을 위한 지도점검사례집",
+  "kind": "지침",
+  "group": "지침",
+  "publisher": "서울시사회복지협의회",
+  "editions": [
+   {
+    "ed": "2025-12-01",
+    "promulgated": null,
+    "effective": "2025-12-01",
+    "status_hint": null
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문에 공공누리 표시 없음(발간번호 서사협-25-132). 사례집(법령 아님).",
+  "source_url": "",
+  "fetched": "2026-10-19",
+  "sha256": "60ded74a7854453f096963466757c9d454bec4452922d150e6fb159e60b47fba",
+  "pack": "text-inspect-seoul-2025",
+  "src_sha256": [
+   "5366fd0f9b44162f8d05778862c4912a707af9ee600245ac2532b2cb61186552"
+  ]
+ },
+ {
+  "docid": "admin-manual",
+  "title": "2025 행정업무운영 편람",
+  "kind": "지침",
+  "group": "지침",
+  "publisher": "행정안전부",
+  "editions": [
+   {
+    "ed": "2025-12-17",
+    "promulgated": null,
+    "effective": "2025-12-17",
+    "status_hint": null
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문에 공공누리 표시 없음. 원문 표기: “본 책자의 내용은 행정안전부 인터넷 누리집(www.mois.go.kr)의 ‘정책자료’ → ‘간행물’에 게시되어 있으니 많은 활용 바랍니다.” 행정안전부 편람(법령 아님). 쪽은 같은 판 PDF(최종본 2025. 12. 17.)에서 맞춤.",
+  "source_url": "",
+  "fetched": "2026-10-19",
+  "sha256": "cc5bff86d2f7f4e0cae18d813a9870e1dacdeb290390b4620bfad3af42531c87",
+  "pack": "text-admin-manual",
+  "src_sha256": [
+   "c6dd7e847a99f219681afc5a29c80a9665c04df9cda4d820a3350d739664fdf6"
+  ]
+ },
+ {
+  "docid": "eomun-spell-std",
+  "title": "한글 맞춤법·표준어 규정 해설",
+  "kind": "어문",
+  "group": "어문",
+  "publisher": "국립국어원",
+  "editions": [
+   {
+    "ed": "2018-01-08",
+    "promulgated": null,
+    "effective": "2018-01-08",
+    "status_hint": null
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문 표기: 발행일 2018년 12월 21일, 발행인 국립국어원장, 발행처 국립국어원(발간 등록 번호 11-1371028-000712-01). 공공누리 표시 없음. 개인 사용.",
+  "source_url": "",
+  "fetched": "2026-10-19",
+  "sha256": "ad756d29cd6cf84dd187fc91ab468d84d403eee7a82afa1e031fa9de7cb25510",
+  "pack": "text-eomun-spell-std",
+  "src_sha256": [
+   "dcca9b73804a46c08ecbe19af2c151adcd1bde143e13198548bb693575df0243"
+  ]
+ },
+ {
+  "docid": "eomun-punct",
+  "title": "문장 부호 해설",
+  "kind": "어문",
+  "group": "어문",
+  "publisher": "국립국어원",
+  "editions": [
+   {
+    "ed": "2014-12-05",
+    "promulgated": null,
+    "effective": "2014-12-05",
+    "status_hint": null
+   }
+  ],
+  "kogl": "표시 없음",
+  "notice": "원문 표기: “이 책의 저작권은 국립국어원에 있습니다. Copyright ⓒ2014 The National Institute of the Korean Language” (발간 등록 번호 11-1371028-000552-01). 개인 사용.",
+  "source_url": "",
+  "fetched": "2026-10-19",
+  "sha256": "1f891ee6eb24000d3002d93a32abdbad2ea12ff2308a33d4f3225d233ac8bf3a",
+  "pack": "text-eomun-punct",
+  "src_sha256": [
+   "6d5646ac3c46fd9a26923a28a5c9347bd64b7a233fe272363bd78287d3182f99"
+  ]
+ },
+ {
+  "docid": "eomun-roman",
+  "title": "국어의 로마자 표기법",
+  "kind": "어문",
+  "group": "어문",
+  "publisher": "문화체육관광부",
+  "editions": [
+   {
+    "ed": "2014-12-05",
+    "promulgated": null,
+    "effective": "2014-12-05",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "문화체육관광부 고시 제2014-42호. 고시는 저작권 보호 대상이 아님(저작권법 제7조).",
+  "source_url": "",
+  "fetched": "2026-10-19",
+  "sha256": "e726bcf8a74f20d8e1b20aea056229fb66102cb0d88999a6fa0515d0472c3afd",
+  "pack": "text-eomun-roman",
+  "src_sha256": [
+   "d922332747d9006d752dcc97929764a2692e2905e7114a95dd5e0d82e2f41f6a"
+  ]
+ },
+ {
+  "docid": "eomun-loan",
+  "title": "외래어 표기법",
+  "kind": "어문",
+  "group": "어문",
+  "publisher": "문화체육관광부",
+  "editions": [
+   {
+    "ed": "2017-03-28",
+    "promulgated": null,
+    "effective": "2017-03-28",
+    "status_hint": null
+   }
+  ],
+  "kogl": "비보호",
+  "notice": "문화체육관광부 고시 제2017-14호(2017. 3. 28.). 고시는 저작권 보호 대상이 아님(저작권법 제7조).",
+  "source_url": "",
+  "fetched": "2026-10-19",
+  "sha256": "02dd98c69a59904fc32f707ae1fe27860c98aae14d1e3665c0762ba527222032",
+  "pack": "text-eomun-loan",
+  "src_sha256": [
+   "0e7f310b38244bc56bcd3f21ac6661b9accb58c97abb522d98deaffac45061e0"
+  ]
+ }
+]

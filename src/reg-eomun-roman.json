@@ -22,14 +22,26 @@
      "title": "표준 발음대로",
      "gist": "국어의 로마자 표기는 국어의 표준 발음법에 따라 적는 것을 원칙으로 한다.",
      "kw": "로마자 표기 원칙 발음대로 영문 표기",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제1장"
+      }
+     ]
     },
     {
      "art": "제1장 제2항",
      "title": "부호는 되도록 쓰지 않음",
      "gist": "로마자 이외의 부호는 되도록 사용하지 않는다.",
      "kw": "로마자 부호 반달표",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제1장"
+      }
+     ]
     }
    ]
   },
@@ -42,7 +54,13 @@
      "title": "단모음",
      "gist": "ㅏ a, ㅓ eo, ㅗ o, ㅜ u, ㅡ eu, ㅣ i, ㅐ ae, ㅔ e, ㅚ oe, ㅟ wi",
      "kw": "모음 로마자 eo eu oe",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제2장"
+      }
+     ]
     },
     {
      "art": "제2장 제1항 2",
@@ -52,14 +70,26 @@
       "광희문 Gwanghuimun"
      ],
      "kw": "이중 모음 로마자 ui yeo",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제2장"
+      }
+     ]
     },
     {
      "art": "제2장 제2항",
      "title": "자음",
      "gist": "파열음 ㄱ g, k / ㄲ kk / ㅋ k / ㄷ d, t / ㄸ tt / ㅌ t / ㅂ b, p / ㅃ pp / ㅍ p; 파찰음 ㅈ j / ㅉ jj / ㅊ ch; 마찰음 ㅅ s / ㅆ ss / ㅎ h; 비음 ㄴ n / ㅁ m / ㅇ ng; 유음 ㄹ r, l",
      "kw": "자음 로마자",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제2장"
+      }
+     ]
     },
     {
      "art": "제2장 제2항 [붙임 1]",
@@ -77,7 +107,13 @@
       "한밭[한받] Hanbat"
      ],
      "kw": "g k d t b p 받침 로마자",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제2장"
+      }
+     ]
     },
     {
      "art": "제2장 제2항 [붙임 2]",
@@ -92,7 +128,13 @@
       "대관령[대괄령] Daegwallyeong"
      ],
      "kw": "r l ll 로마자",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제2장"
+      }
+     ]
     }
    ]
   },
@@ -113,7 +155,13 @@
       "신라[실라] Silla"
      ],
      "kw": "공문서 자주 틀림 종로 Jongno 동화 로마자",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제3장 제1항 2·3",
@@ -127,7 +175,13 @@
       "굳히다[구치다] guchida"
      ],
      "kw": "구개음화 로마자",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제3장 제1항 4",
@@ -142,7 +196,13 @@
       "집현전(Jiphyeonjeon)"
      ],
      "kw": "거센소리 ㅎ 로마자",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제3장 제1항 [붙임]",
@@ -159,7 +219,13 @@
       "울산 Ulsan"
      ],
      "kw": "공문서 자주 틀림 된소리 로마자 kk tt",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제3장 제2항",
@@ -172,7 +238,13 @@
       "해운대 Hae-undae"
      ],
      "kw": "붙임표 하이픈 로마자",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제3장 제3항",
@@ -183,7 +255,13 @@
       "세종 Sejong"
      ],
      "kw": "대문자 고유 명사",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제3장 제4항",
@@ -196,7 +274,13 @@
       "홍빛나 Hong Bitna (Hong Bit-na)"
      ],
      "kw": "공문서 자주 틀림 인명 이름 영문 표기 성 이름 순서 여권",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제3장 제5항",
@@ -220,7 +304,13 @@
       "순창읍 Sunchang"
      ],
      "kw": "공문서 자주 틀림 주소 영문 행정 구역 do si gun gu eup myeon ri dong 충청북도 Chungcheongbuk-do",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제3장 제6항",
@@ -243,14 +333,26 @@
       "다보탑 Dabotap"
      ],
      "kw": "문화재 지명 산 강 로마자",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제3장 제7항",
      "title": "인명·회사명·단체명",
      "gist": "인명, 회사명, 단체명 등은 그동안 써 온 표기를 쓸 수 있다.",
      "kw": "공문서 자주 틀림 기관명 시설명 법인명 단체명 영문 표기 관용",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제3장 제8항",
@@ -273,7 +375,13 @@
       "없었습니다. eobs-eoss-seubnida"
      ],
      "kw": "전자 표기 전사 학술",
-     "src": "rom"
+     "src": "rom",
+     "srcs": [
+      {
+       "doc": "eomun-roman",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "부칙 <제2000-8호, 2000.7.7>",

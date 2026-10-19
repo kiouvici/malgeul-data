@@ -16,11 +16,11 @@
   - sets.json: id 중복, roles 역할별 카드 20장 이상
 결과: [실패] 상·중, [참고] 하. 실패가 있으면 종료 코드 1(--strict면 참고도 실패로 셈).
 """
-import collections, json, os, re, sys
+import collections, json, os, re, sqlite3, sys
 
 GROUPS = {'법령': (10, 99), '조례': (100, 199), '지침': (200, 299), '어문': (300, 399)}
 DATE = re.compile(r'\d{4}-\d{2}-\d{2}')
-CARD_KEYS = set('art title gist no ok src page check from until note kw see'.split())
+CARD_KEYS = set('art title gist no ok src page check from until note kw see srcs'.split())
 
 
 def main():
@@ -66,7 +66,7 @@ def main():
         elif b.get('alias'): iss('중', f'regs {b["id"]}: hidden 없이 alias')
     for f in sorted(os.listdir(D)):
         n, ext = os.path.splitext(f)
-        if ext in ('.json', '.jsonl', '.sqlite') and n != 'packs' and n not in packs: iss('중', f'{f}: packs.json에 없음')
+        if ext in ('.json', '.jsonl', '.sqlite', '.db') and n != 'packs' and n not in packs: iss('중', f'{f}: packs.json에 없음')
     for k, v in packs.items():
         if not isinstance(v.get('min_app'), int): iss('중', f'packs {k}: min_app 없음')
 
@@ -131,6 +131,65 @@ def main():
                     if b[0] <= a[1]: iss('상', f'{rid}: {k} 유효기간 겹침 {a} / {b}')
         for ch in d.get('changes', []) or []:
             if not DATE.fullmatch(str(ch.get('date', ''))): iss('중', f'{rid}: changes 날짜 {ch.get("date")}')
+
+    # ── 원문 전체(texts.json + text-<docid>.db) ──
+    TX = {}
+    tj = J('texts.json')
+    if tj is not None:
+        if not isinstance(tj, list): iss('상', 'texts.json: 목록([...])이어야 함')
+        else:
+            for k, n in collections.Counter(t.get('docid') for t in tj).items():
+                if n > 1: iss('상', f'texts: docid 중복 {k}')
+            for t in tj:
+                did = t.get('docid', '')
+                w = f'texts/{did}'
+                for k in ('title', 'kind', 'editions', 'kogl', 'notice', 'sha256'):
+                    if not t.get(k): iss('상', f'{w}: {k} 없음')
+                if t.get('kind') not in ('법령', '조례', '지침', '어문'): iss('상', f'{w}: kind {t.get("kind")} 모름')
+                if t.get('kogl') not in ('제1유형', '제2유형', '제3유형', '제4유형', '표시 없음', '비보호'): iss('중', f'{w}: kogl {t.get("kogl")}')
+                eds = [e.get('ed') for e in t.get('editions', [])]
+                for e in t.get('editions', []):
+                    if not DATE.fullmatch(str(e.get('effective', ''))): iss('상', f'{w}: effective 형식 {e.get("effective")}')
+                if len(eds) != len(set(eds)): iss('상', f'{w}: 판 중복')
+                pk = f'text-{did}'
+                if pk not in packs: iss('중', f'packs.json에 {pk} 없음')
+                elif packs[pk].get('min_app', 0) < 13: iss('중', f'packs {pk}: min_app 13 미만')
+                dbp = os.path.join(D, pk + '.db')
+                if not os.path.exists(dbp): iss('상', f'{w}: {pk}.db 없음'); continue
+                con = sqlite3.connect(dbp)
+                try:
+                    deds = {r[0] for r in con.execute('SELECT ed FROM docs')}
+                    if deds != set(eds): iss('상', f'{w}: db 판 {sorted(deds)} ≠ texts {eds}')
+                    ps = collections.defaultdict(set)
+                    for ed, path in con.execute('SELECT ed, path FROM units'):
+                        if not path: iss('상', f'{w}: 빈 path')
+                        elif path in ps[ed]: iss('상', f'{w}/{ed}: path 중복 {path}')
+                        ps[ed].add(path)
+                    nu = con.execute('SELECT COUNT(*) FROM units').fetchone()[0]
+                    ng = con.execute('SELECT COUNT(*) FROM grams WHERE grams MATCH ?', ('"' + '조' + '"',)).fetchone()[0] if False else None
+                    bad = con.execute('SELECT COUNT(*) FROM xref WHERE src_uid NOT IN (SELECT uid FROM units)').fetchone()[0]
+                    if bad: iss('상', f'{w}: xref src_uid 없는 단위 {bad}건')
+                    TX[did] = dict(paths=ps, xref=con.execute('SELECT src_uid, dst_docid, dst_path FROM xref').fetchall(), n=nu)
+                finally:
+                    con.close()
+            for did, x in TX.items():
+                nb = 0
+                for (u, dd, dp) in x['xref']:
+                    if dd not in TX or not any(dp in s_ for s_ in TX[dd]['paths'].values()):
+                        nb += 1
+                        if nb <= 5: iss('상', f'texts/{did}: 깨진 xref → {dd} {dp}')
+                if nb > 5: iss('상', f'texts/{did}: 깨진 xref 모두 {nb}건')
+    for rid, d in R.items():
+        for g in d.get('groups', []):
+            for c in g.get('cards', []):
+                if 'srcs' not in c: continue
+                w = f'{rid}/{g.get("id")}/{c.get("title")} srcs'
+                if not isinstance(c['srcs'], list) or not c['srcs']: iss('상', f'{w}: 형식'); continue
+                for o in c['srcs']:
+                    dd, dp, de = o.get('doc'), o.get('path'), o.get('ed')
+                    if dd not in TX: iss('상', f'{w}: 원문 {dd} 없음'); continue
+                    if de and dp not in TX[dd]['paths'].get(de, ()): iss('상', f'{w}: {dd}/{de} {dp} 없음')
+                    elif not de and not any(dp in s_ for s_ in TX[dd]['paths'].values()): iss('상', f'{w}: {dd} {dp} 없음')
 
     p = J('paths.json')
     if p:

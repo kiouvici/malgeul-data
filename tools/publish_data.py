@@ -85,7 +85,7 @@ def main():
             n = 1
             if o and o.get('version', '').startswith(today + '-'): n = int(o['version'].split('-')[-1]) + 1
             ver = f'{today}-{n}'
-        fname = f'{base}.{fmt}.gz'
+        fname = f'{base}.db.gz' if ext == '.db' else f'{base}.{fmt}.gz'  # 원문 묶음 text-<docid>.db.gz(명세)
         big = len(data) > a.release_over * 1048576 and a.release_base
         if big:
             os.makedirs(os.path.join(a.out, 'release'), exist_ok=True)

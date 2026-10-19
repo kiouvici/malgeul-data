@@ -40,7 +40,13 @@
      ],
      "kw": "띄어쓰기 단어 조사",
      "page": "14",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p16"
+      }
+     ]
     },
     {
      "art": "제3항",
@@ -48,7 +54,13 @@
      "gist": "외래어는 「외래어 표기법」에 따라 적는다.",
      "kw": "외래어 표기법",
      "page": "15",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p17"
+      }
+     ]
     },
     {
      "art": "제4항",
@@ -545,7 +557,13 @@
      ],
      "kw": "요",
      "page": "46",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p48"
+      }
+     ]
     },
     {
      "art": "제18항",
@@ -579,7 +597,13 @@
      ],
      "kw": "마라 말아라 말라 금지 안내",
      "page": "56",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p58"
+      }
+     ]
     }
    ]
   },
@@ -818,7 +842,13 @@
      ],
      "kw": "공문서 자주 틀림 반드시 반듯이 지그시 지긋이",
      "page": "72",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p74"
+      }
+     ]
     },
     {
      "art": "제26항",
@@ -887,7 +917,13 @@
      ],
      "kw": "공문서 자주 틀림 며칠 몇일 몇 일",
      "page": "76",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p78"
+      }
+     ]
     },
     {
      "art": "제28항",
@@ -908,7 +944,13 @@
      ],
      "kw": "다달이 바느질 부당 부득이",
      "page": "78",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p80"
+      }
+     ]
     },
     {
      "art": "제29항",
@@ -1117,7 +1159,13 @@
      ],
      "kw": "패어 째어 패여",
      "page": "89",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p91"
+      }
+     ]
     },
     {
      "art": "제35항",
@@ -1327,7 +1375,13 @@
      ],
      "kw": "공문서 자주 틀림 조사 붙여 쓰기 밖에 부터 처럼",
      "page": "99",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p101"
+      }
+     ]
     },
     {
      "art": "제42항",
@@ -1343,7 +1397,13 @@
      ],
      "kw": "공문서 자주 틀림 의존 명사 것 수 바 지 띄어쓰기",
      "page": "100",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p102"
+      }
+     ]
     },
     {
      "art": "제42항 해설",
@@ -1382,7 +1442,13 @@
      ],
      "kw": "공문서 자주 틀림 만에 지 차 듯 판 띄어쓰기",
      "page": "101",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p103"
+      }
+     ]
     },
     {
      "art": "제43항",
@@ -1812,7 +1878,13 @@
      ],
      "kw": "공문서 자주 틀림 갈음 가름 갈음하다 대신",
      "page": "128",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p130"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -1824,7 +1896,13 @@
      ],
      "kw": "거름 걸음",
      "page": "129",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p131"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -1838,7 +1916,13 @@
      ],
      "kw": "공문서 자주 틀림 거치다 걷히다 심의를 거쳐 세금이 걷히다",
      "page": "129",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p131"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -1863,7 +1947,13 @@
      ],
      "kw": "공문서 자주 틀림 그러므로 그럼으로써",
      "page": "130",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p132"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -1889,7 +1979,13 @@
      ],
      "kw": "공문서 자주 틀림 늘리다 늘이다 예산을 늘리다 인원을 늘리다",
      "page": "131",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p133"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -1914,7 +2010,13 @@
      ],
      "kw": "다치다 닫히다 닫치다",
      "page": "132",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p134"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -1927,7 +2029,13 @@
      ],
      "kw": "공문서 자주 틀림 맞히다 맞추다 정답을 맞히다",
      "page": "132",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p134"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -1939,7 +2047,13 @@
      ],
      "kw": "목거리 목걸이",
      "page": "133",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p135"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -1965,7 +2079,13 @@
      ],
      "kw": "공문서 자주 틀림 반드시 반듯이",
      "page": "134",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p136"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -1977,7 +2097,13 @@
      ],
      "kw": "부딪치다 부딪히다",
      "page": "134",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p136"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2021,7 +2147,13 @@
      ],
      "kw": "아름 알음 앎",
      "page": "136",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p138"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2045,7 +2177,13 @@
      ],
      "kw": "어름 얼음",
      "page": "137",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p139"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2057,7 +2195,13 @@
      ],
      "kw": "이따가 있다가",
      "page": "137",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p139"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2069,7 +2213,13 @@
      ],
      "kw": "저리다 절이다",
      "page": "138",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p140"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2081,7 +2231,13 @@
      ],
      "kw": "조리다 졸이다",
      "page": "138",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p140"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2105,7 +2261,13 @@
      ],
      "kw": "노라고 느라고",
      "page": "139",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p141"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2117,7 +2279,13 @@
      ],
      "kw": "느니보다",
      "page": "139",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p141"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2129,7 +2297,13 @@
      ],
      "kw": "리만큼",
      "page": "140",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p142"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2141,7 +2315,13 @@
      ],
      "kw": "러 려 하려고",
      "page": "140",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p142"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2169,7 +2349,13 @@
      ],
      "kw": "공문서 자주 틀림 므로 함으로써 하므로 이유",
      "page": "141",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p143"
+      }
+     ]
     }
    ]
   }

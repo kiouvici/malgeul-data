@@ -90,7 +90,13 @@
      ],
      "kw": "공문서 자주 틀림 날짜 연월일 마침표 2026. 1. 1. 날짜 표기",
      "page": "10",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p16"
+      }
+     ]
     },
     {
      "art": "제1항 (3)",
@@ -104,7 +110,13 @@
      ],
      "kw": "3.1 운동 가운뎃점",
      "page": "11",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p17"
+      }
+     ]
     },
     {
      "art": "제1항 (4)",
@@ -157,7 +169,13 @@
      ],
      "kw": "물음표 괄호",
      "page": "15",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p21"
+      }
+     ]
     },
     {
      "art": "제2항 (3)",
@@ -202,7 +220,13 @@
      ],
      "kw": "느낌표",
      "page": "18",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p24"
+      }
+     ]
     },
     {
      "art": "제3항 (3)",
@@ -228,7 +252,13 @@
      ],
      "kw": "느낌표",
      "page": "19",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p25"
+      }
+     ]
     }
    ]
   },
@@ -289,7 +319,13 @@
      ],
      "kw": "쉼표 절",
      "page": "23",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p29"
+      }
+     ]
     },
     {
      "art": "제4항 (6)·(7)",
@@ -303,7 +339,13 @@
      ],
      "kw": "쉼표",
      "page": "24",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p30"
+      }
+     ]
     },
     {
      "art": "제4항 (8)",
@@ -378,7 +420,13 @@
      ],
      "kw": "가운뎃점",
      "page": "32",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p38"
+      }
+     ]
     },
     {
      "art": "제5항 (2)",
@@ -430,7 +478,13 @@
      ],
      "kw": "공문서 자주 틀림 쌍점 일시 장소 띄어쓰기",
      "page": "35",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p41"
+      }
+     ]
     },
     {
      "art": "제6항 (3)·(4)",
@@ -445,7 +499,13 @@
      ],
      "kw": "쌍점 시각 대",
      "page": "36",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p42"
+      }
+     ]
     }
    ]
   },
@@ -511,7 +571,13 @@
      ],
      "kw": "작은따옴표",
      "page": "42",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p48"
+      }
+     ]
     }
    ]
   },
@@ -530,7 +596,13 @@
      ],
      "kw": "공문서 자주 틀림 소괄호 요일 날짜",
      "page": "43",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p49"
+      }
+     ]
     },
     {
      "art": "제10항 (2)",
@@ -582,7 +654,13 @@
      ],
      "kw": "중괄호",
      "page": "48",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p54"
+      }
+     ]
     },
     {
      "art": "제12항",
@@ -617,7 +695,13 @@
      ],
      "kw": "겹낫표 책 제목 신문",
      "page": "52",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p58"
+      }
+     ]
     },
     {
      "art": "제14항",
@@ -631,7 +715,13 @@
      ],
      "kw": "공문서 자주 틀림 홑낫표 법령 이름 규정 제목",
      "page": "53",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p59"
+      }
+     ]
     }
    ]
   },
@@ -650,7 +740,13 @@
      ],
      "kw": "줄표 부제",
      "page": "54",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p60"
+      }
+     ]
     },
     {
      "art": "제16항",
@@ -679,7 +775,13 @@
      ],
      "kw": "공문서 자주 틀림 물결표 기간 범위",
      "page": "57",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p63"
+      }
+     ]
     }
    ]
   },
@@ -698,7 +800,13 @@
      ],
      "kw": "강조 밑줄 작은따옴표",
      "page": "58",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p64"
+      }
+     ]
     },
     {
      "art": "제19항",
@@ -724,7 +832,13 @@
      ],
      "kw": "빠짐표",
      "page": "61",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p67"
+      }
+     ]
     },
     {
      "art": "제21항",
