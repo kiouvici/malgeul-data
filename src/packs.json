@@ -70,5 +70,9 @@
  "reg-welfare-law": {
   "desc": "실무 규정: 사회복지사업법",
   "min_app": 10
+ },
+ "reg-guide-selfreliance": {
+  "desc": "2026 자립지원 업무매뉴얼 요점",
+  "min_app": 11
  }
 }
