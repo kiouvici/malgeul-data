@@ -20,9 +20,9 @@ gzip은 시간 정보 없이 만들어 같은 내용이면 sha256이 같다.
 import argparse, base64, datetime, gzip, hashlib, io, json, os, re, shutil, sqlite3, sys
 
 APP_PACKS = {'dadm': 'bareun/dadm.json', 'heot': 'bareun/heot.json', 'hanja': 'hanja/hanja.json', 'rad': 'hanja/rad.json',
-             'rules': 'bareun/rules.json', 'sets': 'bareun/sets.json', 'admin': 'bareun/admin.json'}
+             'regs': 'regs/index.json', 'reg-draft': 'regs/draft.json', 'reg-fin': 'regs/fin.json', 'sets': 'bareun/sets.json', 'admin': 'bareun/admin.json'}
 DESC = {'dadm': '다듬은 말', 'heot': '헷갈리는 말', 'hanja': '한자 자료(훈음·급수·부수·획수·필순)', 'rad': '부수 모양·부수 밖 획수', 'features': '기능 설정',
-        'rules': '공문서 표기 카드', 'sets': '추천 단어 묶음', 'admin': '행정용어(알기 쉬운 행정용어 2018)'}
+        'rules': '공문서 표기 카드(옛 앱용)', 'regs': '실무 규정 목록', 'reg-draft': '기안문 작성 규칙', 'reg-fin': '재무·회계 규칙', 'sets': '추천 단어 묶음', 'admin': '행정용어(알기 쉬운 행정용어 2018)'}
 FMT = {'.json': 'json', '.jsonl': 'jsonl', '.sqlite': 'sqlite', '.db': 'sqlite'}
 
 
