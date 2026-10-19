@@ -70,5 +70,9 @@
  "reg-welfare-law": {
   "desc": "실무 규정: 사회복지사업법",
   "min_app": 10
+ },
+ "reg-abuse": {
+  "desc": "실무 규정: 아동학대처벌법",
+  "min_app": 11
  }
 }
