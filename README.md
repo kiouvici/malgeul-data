@@ -68,3 +68,13 @@ python3 tools/publish_data.py src . --release-base https://github.com/kiouvici/m
 
 앱은 바로 앞 판을 하나 남겨 두고, 받은 자료를 읽다 실패하면 앞 판(없으면 앱 기본 자료)으로 돌아갑니다.
 잘못 올렸다면 `src/`를 고쳐 다시 올리면 됩니다(`git revert` 후 다시 만들기도 됨).
+
+## 필순 자료 출처(hanja의 `p`·`ps`)
+
+| ps | 출처 | 라이선스 |
+|---|---|---|
+| `jp`, `kr`, `cmp` | KanjiVG(https://kanjivg.tagaini.net) — `kr`은 한국 자형으로 고친 것, `cmp`는 부품을 이어 만든 어림 필순 | CC BY-SA 3.0 |
+| `ak`(한국), `aj`(일본), `cn`(번체) | animCJK(https://github.com/parsimonhi/animCJK) 획 중심선(medians)을 109 좌표로 바꾼 것 | Arphic Public License(`licenses/arphic/`) |
+| `cn` | Make Me a Hanzi(https://github.com/skishore/makemeahanzi) 획 중심선을 109 좌표로 바꾼 것 | Arphic Public License(`licenses/arphic/`) |
+
+`ak`·`aj`·`cn`(kdict와 같은 코드)은 `od: 1`을 붙였고(`cn`은 '중국 자료' 안내), 총획(`s`)과 획 수가 다르면 앱이 '필순 자료와 총획이 다름'을 함께 보입니다.
