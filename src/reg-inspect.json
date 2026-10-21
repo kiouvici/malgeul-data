@@ -177,6 +177,16 @@
        "reg": "welfare-law",
        "art": "법 제37조, 규칙 제25조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p176"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p177"
+      }
      ]
     },
     {
@@ -189,7 +199,29 @@
      ],
      "kw": "공통 확인서 사실확인서 문답서 질문서 답변서 서명",
      "src": "c24",
-     "page": "178~182"
+     "page": "178~182",
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p178"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p179"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p180"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p181"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p182"
+      }
+     ]
     },
     {
      "art": "2024 사례집 참고서식 8~9",
@@ -202,6 +234,16 @@
       {
        "reg": "welfare-law",
        "art": "법 제40조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p183"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p184"
       }
      ]
     },
@@ -329,7 +371,17 @@
      ],
      "kw": "공통 아동양육시설 정기조사 특정조사 양육수당 선정 지표 이월금 업무추진비율 특수관계인",
      "src": "m23",
-     "page": "12~13"
+     "page": "12~13",
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p18"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p19"
+      }
+     ]
     },
     {
      "art": "행정조사기본법 제17조, 2023 매뉴얼 Ⅲ-1",
@@ -340,7 +392,17 @@
      ],
      "kw": "공통 사전통지 7일 조사명령서 자료제출요구서 엑셀",
      "src": "m23",
-     "page": "14, 20"
+     "page": "14, 20",
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p20"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p26"
+      }
+     ]
     },
     {
      "art": "2023 매뉴얼 Ⅲ-1 <조사대상기관 준비사항>",
@@ -365,7 +427,17 @@
      ],
      "kw": "공통 증표 현장출입조사서 2주 조사원",
      "src": "m23",
-     "page": "20, 23"
+     "page": "20, 23",
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p26"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p29"
+      }
+     ]
     },
     {
      "art": "사회복지사업법 제54조, 2023 매뉴얼 Ⅲ-3",
@@ -380,7 +452,17 @@
      ],
      "kw": "공통 확인서 서명 강제 아님 자료제출 거부 벌금 1천만 원",
      "src": "m23",
-     "page": "23~24"
+     "page": "23~24",
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p29"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p30"
+      }
+     ]
     },
     {
      "art": "2023 매뉴얼 Ⅲ-3(강평)·Ⅳ",
@@ -391,7 +473,17 @@
      ],
      "kw": "공통 강평 처분요구 2개월 사전통지 의견제출 행정절차법 행정심판",
      "src": "m23",
-     "page": "26~27"
+     "page": "26~27",
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p32"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p33"
+      }
+     ]
     },
     {
      "art": "2023 매뉴얼 Ⅲ-3 <세부 조사항목>",
@@ -425,6 +517,12 @@
        "reg": "subsidy",
        "art": "법 제12조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p63"
+      }
      ]
     },
     {
@@ -438,6 +536,16 @@
       {
        "reg": "welfare-law",
        "art": "법 제40조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p63"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p64"
       }
      ]
     },
@@ -459,6 +567,12 @@
       {
        "reg": "child-law",
        "art": "법 제29조의3, 제75조 ②"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p64"
       }
      ]
     },
@@ -482,6 +596,12 @@
        "reg": "fin",
        "art": "제15조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p65"
+      }
      ]
     },
     {
@@ -499,6 +619,16 @@
        "reg": "fin",
        "art": "제17조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p65"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p66"
+      }
      ]
     },
     {
@@ -512,6 +642,16 @@
       {
        "reg": "welfare-law",
        "art": "법 제40조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p66"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p67"
       }
      ]
     }
@@ -542,6 +682,20 @@
       {
        "reg": "welfare-law",
        "art": "법 제18조 ①·③~⑤"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p22"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p23"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p24"
       }
      ]
     },
@@ -652,6 +806,16 @@
       {
        "reg": "guide-facility",
        "art": "관리안내(법 제24조, 규칙 제16조)"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p28"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p29"
       }
      ]
     },
@@ -788,6 +952,16 @@
        "reg": "guide-facility",
        "art": "관리안내(법 제23조, 규칙 제14조)"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p34"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p35"
+      }
      ]
     },
     {
@@ -863,6 +1037,16 @@
        "reg": "welfare-law",
        "art": "법 제18조 ⑦, 시행령 제10조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p38"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p39"
+      }
      ]
     },
     {
@@ -883,6 +1067,16 @@
       {
        "reg": "welfare-law",
        "art": "법 제23조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p40"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p41"
       }
      ]
     },
@@ -908,6 +1102,16 @@
       {
        "reg": "fin",
        "art": "제6조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p42"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p43"
       }
      ]
     },
@@ -966,6 +1170,16 @@
        "reg": "guide-child",
        "art": "1권 Ⅵ-4-나-(3)"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p58"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p59"
+      }
      ]
     },
     {
@@ -986,6 +1200,24 @@
       {
        "reg": "fin",
        "art": "제15조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p62"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p63"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p64"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p65"
       }
      ]
     },
@@ -1011,6 +1243,16 @@
       {
        "reg": "guide-facility",
        "art": "관리안내(법 제25조, 영 제10조의4·제10조의5)"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p191"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p198"
       }
      ]
     },
@@ -1060,6 +1302,28 @@
        "reg": "welfare-law",
        "art": "법 제28조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p5"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p6"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p7"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p8"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p9"
+      }
      ]
     },
     {
@@ -1071,7 +1335,17 @@
      ],
      "kw": "공통 법인 등기 목적란 자산의 총액 순재산 과태료",
      "src": "c25",
-     "page": "9, 12"
+     "page": "9, 12",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p8"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p10"
+      }
+     ]
     },
     {
      "art": "2025 법인관리 안내, 법무부 비영리법인 편람",
@@ -1079,7 +1353,17 @@
      "gist": "정관에 분사무소를 둘 수 있다고만 했으면 다른 지역 분사무소 활동도 목적 범위 안(정관 목적 범위는 목적 수행에 직접·간접으로 필요한 행위 포함). 조례는 법률이 아니어서 조례만으로 법인 성립 불가. 지원법인이 시설을 위탁 운영하려면 정관변경과 위탁운영에 필요한 기본재산(연간 운영비 등 충당 재원) 추가 필요.",
      "kw": "공통 법인 분사무소 지원법인 위탁 정관변경",
      "src": "c25",
-     "page": "7, 12"
+     "page": "7, 12",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p7"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p10"
+      }
+     ]
     },
     {
      "art": "2025 법인관리 안내, 사회복지사업법 시행규칙 제12조",
@@ -1099,6 +1383,16 @@
        "reg": "welfare-law",
        "art": "법 제23조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p10"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p11"
+      }
      ]
     },
     {
@@ -1116,6 +1410,12 @@
       {
        "reg": "guide-facility",
        "art": "관리안내(법 제23조, 규칙 제14조)"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p12"
       }
      ]
     },
@@ -1138,6 +1438,12 @@
        "reg": "welfare-law",
        "art": "법 제23조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p13"
+      }
      ]
     },
     {
@@ -1151,6 +1457,12 @@
       {
        "reg": "subsidy",
        "art": "법 제21조, 영 제12조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p13"
       }
      ]
     },
@@ -1167,7 +1479,13 @@
      ],
      "kw": "공통 법인 이사회 소집통지 안건 무효 판례",
      "src": "c25",
-     "page": "20"
+     "page": "20",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p14"
+      }
+     ]
     },
     {
      "art": "공익법인법 제9조 ③(2025 법인관리 안내, 법무부 유권해석 2020. 12.)",
@@ -1181,7 +1499,13 @@
      ],
      "kw": "공통 법인 이사회 영상회의 비대면 서면결의 금지 녹화",
      "src": "c25",
-     "page": "21"
+     "page": "21",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p14"
+      }
+     ]
     },
     {
      "art": "사회복지사업법 제18조 ①(복지부 질의회신 2016, 법무부 편람)",
@@ -1201,6 +1525,16 @@
        "reg": "welfare-law",
        "art": "법 제18조 ①·③~⑤"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p14"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p15"
+      }
      ]
     },
     {
@@ -1218,6 +1552,20 @@
        "reg": "welfare-law",
        "art": "법 제22조의3"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p15"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p16"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p22"
+      }
      ]
     },
     {
@@ -1234,6 +1582,16 @@
       {
        "reg": "welfare-law",
        "art": "법 제19조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p17"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p19"
       }
      ]
     },
@@ -1255,6 +1613,20 @@
        "reg": "welfare-law",
        "art": "법 제18조 ①·③~⑤"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p17"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p19"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p23"
+      }
      ]
     },
     {
@@ -1268,6 +1640,20 @@
       {
        "reg": "welfare-law",
        "art": "법 제21조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p18"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p19"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p21"
       }
      ]
     },
@@ -1294,6 +1680,24 @@
        "reg": "welfare-law",
        "art": "법 제18조 ①·③~⑤"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p18"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p19"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p20"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p21"
+      }
      ]
     },
     {
@@ -1311,6 +1715,16 @@
        "reg": "welfare-law",
        "art": "법 제18조 ①·③~⑤"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p21"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p23"
+      }
      ]
     },
     {
@@ -1325,6 +1739,12 @@
        "reg": "guide-facility",
        "art": "관리안내",
        "t": "시설장의 근로자성"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p23"
       }
      ]
     },
@@ -1351,6 +1771,16 @@
        "reg": "guide-facility",
        "art": "관리안내(법 제18조 ②·⑧)"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p22"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p24"
+      }
      ]
     },
     {
@@ -1371,6 +1801,16 @@
        "reg": "welfare-law",
        "art": "법 제18조 ⑦, 시행령 제10조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p25"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p26"
+      }
      ]
     },
     {
@@ -1385,7 +1825,17 @@
      ],
      "kw": "공통 법인 정관변경 등기 3주 법무사 공고 방법 주사무소",
      "src": "c25",
-     "page": "45~47"
+     "page": "45~47",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p26"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p27"
+      }
+     ]
     },
     {
      "art": "사회복지사업법 제17조 ②·제24조(복지부 2015, 대법원 판례)",
@@ -1404,6 +1854,24 @@
       {
        "reg": "guide-facility",
        "art": "관리안내(법 제24조, 규칙 제16조)"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p28"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p29"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p33"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p34"
       }
      ]
     },
@@ -1424,6 +1892,28 @@
       {
        "reg": "welfare-law",
        "art": "법 제23조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p28"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p29"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p30"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p31"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p33"
       }
      ]
     },
@@ -1450,6 +1940,24 @@
        "reg": "guide-facility",
        "art": "관리안내(법 제23조, 규칙 제14조)"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p29"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p30"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p32"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p33"
+      }
      ]
     },
     {
@@ -1463,6 +1971,28 @@
       {
        "reg": "welfare-law",
        "art": "법 제23조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p63"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p68"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p69"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p70"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p71"
       }
      ]
     }
@@ -1720,6 +2250,16 @@
        "reg": "welfare-law",
        "art": "법 제36조, 규칙 제24조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p67"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p68"
+      }
      ]
     },
     {
@@ -1733,6 +2273,12 @@
       {
        "reg": "welfare-law",
        "art": "법 제38조, 규칙 제26조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p70"
       }
      ]
     }
@@ -1837,7 +2383,17 @@
      "note": "처분: 행정처분. 노인 사업안내 인용 사례이나 민법 절차는 모든 시설 공통.",
      "kw": "공통 무연고 사망 유류금품 상속재산관리인 국가귀속",
      "src": "c24",
-     "page": "55~56"
+     "page": "55~56",
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p55"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p56"
+      }
+     ]
     },
     {
      "art": "아동복지법 제30조, 시행령 별표 4, 시행규칙 별표 2",
@@ -1916,6 +2472,16 @@
        "art": "관리안내",
        "t": "인건비 보조 지급 연령 상한"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p70"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p71"
+      }
      ]
     },
     {
@@ -1937,6 +2503,16 @@
       {
        "reg": "wage-guide",
        "art": "제8조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p72"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p73"
       }
      ]
     },
@@ -1987,6 +2563,16 @@
        "reg": "wage-guide",
        "art": "보수 체계 제13조 제2호, 별표 8"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p77"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p78"
+      }
      ]
     },
     {
@@ -2007,6 +2593,16 @@
       {
        "reg": "fin",
        "art": "제22조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p79"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p80"
       }
      ]
     },
@@ -2062,6 +2658,16 @@
        "art": "관리안내",
        "t": "인건비 보조 지급 연령 상한"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p82"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p83"
+      }
      ]
     },
     {
@@ -2104,6 +2710,16 @@
        "reg": "subsidy",
        "art": "법 제37조~제39조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p85"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p86"
+      }
      ]
     },
     {
@@ -2129,6 +2745,20 @@
       {
        "reg": "guide-child",
        "art": "2권 Ⅶ-2-바(아동복지법 제29조의3)"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p87"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p88"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p89"
       }
      ]
     },
@@ -2186,6 +2816,16 @@
        "art": "관리안내",
        "t": "근로기준법 적용"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p193"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p214"
+      }
      ]
     },
     {
@@ -2239,6 +2879,12 @@
        "reg": "welfare-law",
        "art": "법 제35조의3, 제58조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p73"
+      }
      ]
     },
     {
@@ -2262,6 +2908,12 @@
        "art": "관리안내",
        "t": "채용조건 불리 변경 금지·임면보고"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p73"
+      }
      ]
     },
     {
@@ -2282,6 +2934,12 @@
       {
        "reg": "privacy",
        "art": "법 제15조 ②"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p74"
       }
      ]
     },
@@ -2307,6 +2965,12 @@
       {
        "reg": "labor",
        "art": "법 제17조 ①, 영 제8조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p74"
       }
      ]
     },
@@ -2334,6 +2998,12 @@
        "art": "관리안내",
        "t": "시설장 상근·겸직"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p75"
+      }
      ]
     },
     {
@@ -2356,6 +3026,16 @@
        "reg": "wage-guide",
        "art": "제6조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p75"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p76"
+      }
      ]
     },
     {
@@ -2376,6 +3056,16 @@
       {
        "reg": "wage-guide",
        "art": "제8조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p76"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p77"
       }
      ]
     },
@@ -2399,6 +3089,12 @@
        "reg": "wage-guide",
        "art": "보수 체계 제13조 제2호, 별표 8"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p77"
+      }
      ]
     },
     {
@@ -2417,6 +3113,12 @@
        "reg": "guide-facility",
        "art": "관리안내",
        "t": "공개모집 원칙"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p35"
       }
      ]
     },
@@ -2442,6 +3144,12 @@
        "reg": "welfare-law",
        "art": "법 제35조의2"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p35"
+      }
      ]
     },
     {
@@ -2459,6 +3167,12 @@
        "reg": "welfare-law",
        "art": "법 제35조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p36"
+      }
      ]
     },
     {
@@ -2473,6 +3187,16 @@
        "reg": "wage-guide",
        "art": "제8조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p36"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p37"
+      }
      ]
     },
     {
@@ -2486,6 +3210,16 @@
       {
        "reg": "wage-guide",
        "art": "제6조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p37"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p38"
       }
      ]
     },
@@ -2502,6 +3236,12 @@
        "art": "관리안내",
        "t": "시설장의 근로자성"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p37"
+      }
      ]
     },
     {
@@ -2513,7 +3253,13 @@
      ],
      "kw": "공통 법인 상근임직원 정원 보수 규정 보고",
      "src": "c25",
-     "page": "68"
+     "page": "68",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p38"
+      }
+     ]
     },
     {
      "art": "사회복지사업법 제35조 ①(서울시 지침 2020, 대법원 2012두14484, 법제처 18-0718)",
@@ -2534,6 +3280,12 @@
        "reg": "guide-facility",
        "art": "관리안내",
        "t": "시설장 상근·겸직"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p38"
       }
      ]
     },
@@ -2556,6 +3308,16 @@
        "reg": "labor",
        "art": "법 제60조 ①·②, 영 제7조의2 ③"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p39"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p40"
+      }
      ]
     },
     {
@@ -2569,6 +3331,12 @@
       {
        "reg": "welfare-law",
        "art": "법 제11조의3"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p40"
       }
      ]
     }
@@ -2606,6 +3374,16 @@
        "reg": "wage-guide",
        "art": "보수 체계 제13조 제3호, 별표 8"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p75"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p76"
+      }
      ]
     },
     {
@@ -2633,6 +3411,12 @@
        "reg": "labor",
        "art": "법 제56조 ①"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p78"
+      }
      ]
     },
     {
@@ -2659,6 +3443,16 @@
       {
        "reg": "labor",
        "art": "법 제50조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p78"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p79"
       }
      ]
     },
@@ -2689,6 +3483,20 @@
        "reg": "guide-facility",
        "art": "관리안내",
        "t": "1년 미만 퇴직자의 퇴직적립금"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p80"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p81"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p82"
       }
      ]
     }
@@ -2722,6 +3530,16 @@
       {
        "reg": "fin",
        "art": "제15조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p92"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p93"
       }
      ]
     },
@@ -2861,6 +3679,16 @@
        "reg": "fin",
        "art": "제16조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p99"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p100"
+      }
      ]
     },
     {
@@ -2882,6 +3710,16 @@
       {
        "reg": "subsidy",
        "art": "법 제31조, 영 제18조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p102"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p103"
       }
      ]
     },
@@ -2914,6 +3752,16 @@
        "reg": "fin",
        "art": "제30조의2"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p104"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p105"
+      }
      ]
     },
     {
@@ -2945,6 +3793,16 @@
        "reg": "fin",
        "art": "제5조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p106"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p107"
+      }
      ]
     },
     {
@@ -2966,6 +3824,16 @@
       {
        "reg": "fin",
        "art": "제18조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p108"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p109"
       }
      ]
     },
@@ -2992,6 +3860,16 @@
        "reg": "fin",
        "art": "제25조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p110"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p111"
+      }
      ]
     },
     {
@@ -3013,6 +3891,16 @@
       {
        "reg": "fin",
        "art": "제22조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p112"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p113"
       }
      ]
     },
@@ -3073,6 +3961,16 @@
        "art": "관리안내",
        "t": "기타후생경비와 기관운영비"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p115"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p116"
+      }
      ]
     },
     {
@@ -3099,6 +3997,20 @@
        "reg": "fin",
        "art": "제28조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p117"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p118"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p119"
+      }
      ]
     },
     {
@@ -3120,6 +4032,24 @@
       {
        "reg": "fin",
        "art": "제15조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p120"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p121"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p122"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p123"
       }
      ]
     },
@@ -3151,6 +4081,24 @@
       {
        "reg": "contract",
        "art": "영 제25조 ① 제5호"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p124"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p125"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p126"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p127"
       }
      ]
     },
@@ -3292,6 +4240,76 @@
        "reg": "subsidy",
        "art": "법 제17조 ①, 영 제9조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p71"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p72"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p73"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p74"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p75"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p76"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p77"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p78"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p79"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p80"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p81"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p82"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p83"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p84"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p85"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p86"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p87"
+      }
      ]
     },
     {
@@ -3308,6 +4326,20 @@
       {
        "reg": "subsidy",
        "art": "법 제21조, 영 제12조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p80"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p81"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p82"
       }
      ]
     },
@@ -3329,6 +4361,12 @@
       {
        "reg": "fin",
        "art": "제6조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p84"
       }
      ]
     },
@@ -3354,6 +4392,12 @@
        "reg": "fin",
        "art": "제13조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p84"
+      }
      ]
     },
     {
@@ -3375,6 +4419,16 @@
       {
        "reg": "fin",
        "art": "제10조 ③, 별표 3·4"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p85"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p86"
       }
      ]
     },
@@ -3400,6 +4454,16 @@
        "art": "관리안내",
        "t": "클린카드 제한 업종·포인트"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p86"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p87"
+      }
      ]
     },
     {
@@ -3421,6 +4485,12 @@
        "reg": "fin",
        "art": "제30조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p87"
+      }
      ]
     },
     {
@@ -3436,7 +4506,13 @@
      ],
      "kw": "공통 아동양육시설 예수금 연말정산 환급금 잔액",
      "src": "c25",
-     "page": "164"
+     "page": "164",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p88"
+      }
+     ]
     },
     {
      "art": "보조금법 제16조·제17조, 사회복지사업법 제34조",
@@ -3455,6 +4531,16 @@
       {
        "reg": "subsidy",
        "art": "법 제13조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p88"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p89"
       }
      ]
     },
@@ -3488,6 +4574,16 @@
        "reg": "fin",
        "art": "제41조의4 ①"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p89"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p90"
+      }
      ]
     },
     {
@@ -3512,6 +4608,16 @@
       {
        "reg": "cb-subsidy",
        "art": "충청북도 지방보조금 관리 조례 제17조 ②"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p90"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p91"
       }
      ]
     },
@@ -3542,6 +4648,16 @@
        "reg": "fin",
        "art": "제5조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p91"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p92"
+      }
      ]
     },
     {
@@ -3563,6 +4679,16 @@
        "reg": "fin",
        "art": "제25조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p92"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p93"
+      }
      ]
     },
     {
@@ -3577,7 +4703,13 @@
      ],
      "kw": "공통 아동양육시설 자동차세 연납 할인 환경개선부담금 예산절감",
      "src": "c25",
-     "page": "175"
+     "page": "175",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p93"
+      }
+     ]
     },
     {
      "art": "재무·회계 규칙 제29조, 지방보조금 관리기준 제11조·제13조",
@@ -3596,6 +4728,12 @@
       {
        "reg": "fin",
        "art": "제29조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p94"
       }
      ]
     },
@@ -3623,6 +4761,12 @@
        "reg": "fin",
        "art": "제13조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p94"
+      }
      ]
     },
     {
@@ -3645,6 +4789,12 @@
        "reg": "fin",
        "art": "제10조 ③, 별표 3·4"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p95"
+      }
      ]
     },
     {
@@ -3664,6 +4814,12 @@
       {
        "reg": "fin",
        "art": "제23조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p96"
       }
      ]
     },
@@ -3689,6 +4845,16 @@
       {
        "reg": "fin",
        "art": "제4조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p96"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p97"
       }
      ]
     },
@@ -3716,6 +4882,16 @@
        "reg": "fin",
        "art": "제15조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p97"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p98"
+      }
      ]
     },
     {
@@ -3735,6 +4911,12 @@
       {
        "reg": "fin",
        "art": "제19조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p98"
       }
      ]
     },
@@ -3790,6 +4972,16 @@
        "reg": "fin",
        "art": "제10조 ①"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p40"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p41"
+      }
      ]
     },
     {
@@ -3815,6 +5007,12 @@
        "reg": "fin",
        "art": "제10조 ③, 별표 3·4"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p41"
+      }
      ]
     },
     {
@@ -3835,6 +5033,20 @@
        "reg": "welfare-law",
        "art": "법 제28조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p41"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p42"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p44"
+      }
      ]
     },
     {
@@ -3853,6 +5065,12 @@
       {
        "reg": "welfare-law",
        "art": "법 제28조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p42"
       }
      ]
     },
@@ -3875,6 +5093,16 @@
        "reg": "welfare-law",
        "art": "법 제23조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p42"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p43"
+      }
      ]
     },
     {
@@ -3889,6 +5117,12 @@
        "reg": "guide-facility",
        "art": "관리안내",
        "t": "기타후생경비와 기관운영비"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p43"
       }
      ]
     },
@@ -3905,6 +5139,12 @@
        "reg": "fin",
        "art": "제15조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p44"
+      }
      ]
     },
     {
@@ -3917,7 +5157,37 @@
      "note": "의료법인·산학협력단·종교단체·아파트 입주자대표회의 등 다른 기관 전용 회신은 제외.",
      "kw": "공통 법인 법인세 수익사업 구분경리 고유목적사업준비금 이자소득 가산세 주차료",
      "src": "c25",
-     "page": "81~93"
+     "page": "81~93",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p44"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p45"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p46"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p47"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p48"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p49"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p50"
+      }
+     ]
     },
     {
      "art": "상속세 및 증여세법 제48조·제50조의3·제50조의4(국세청·기재부 회신 모음)",
@@ -3929,7 +5199,45 @@
      "note": "종교단체·의료법인·상속 출연 등 기관·개인 전용 회신은 제외.",
      "kw": "공통 법인 상증법 출연재산 3년 공시 가산세 출연재산보고서 외부전문가 세무확인 5억",
      "src": "c25",
-     "page": "93~109"
+     "page": "93~109",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p50"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p51"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p52"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p53"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p54"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p55"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p56"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p57"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p58"
+      }
+     ]
     },
     {
      "art": "2025 사례집 Q&A(재무·회계)",
@@ -3951,6 +5259,20 @@
        "reg": "fin",
        "art": "제23조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p115"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p116"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p117"
+      }
      ]
     },
     {
@@ -3967,6 +5289,16 @@
       {
        "reg": "fin",
        "art": "제41조의4 ②~④"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p117"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p118"
       }
      ]
     }
@@ -4000,6 +5332,20 @@
        "reg": "fin",
        "art": "제10조 ③, 별표 3·4"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p138"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p139"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p140"
+      }
      ]
     },
     {
@@ -4026,6 +5372,16 @@
        "reg": "guide-child",
        "art": "1권 Ⅵ-2-라-(3)",
        "t": "지정후원금 관리비 15%"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p141"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p142"
       }
      ]
     },
@@ -4090,6 +5446,36 @@
        "art": "1권 Ⅵ-2-라-(3)",
        "t": "비지정후원금"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p144"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p145"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p146"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p147"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p148"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p149"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p152"
+      }
      ]
     },
     {
@@ -4125,6 +5511,24 @@
       {
        "reg": "welfare-law",
        "art": "법 제45조, 제58조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p150"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p151"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p152"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p153"
       }
      ]
     },
@@ -4205,6 +5609,16 @@
        "art": "관리안내",
        "t": "비지정후원금 사용 기준"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p164"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p215"
+      }
      ]
     },
     {
@@ -4225,6 +5639,16 @@
       {
        "reg": "fin",
        "art": "제41조의6"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p163"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p164"
       }
      ]
     },
@@ -4247,6 +5671,12 @@
        "reg": "guide-facility",
        "art": "관리안내",
        "t": "지정후원금"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p101"
       }
      ]
     },
@@ -4279,6 +5709,16 @@
        "art": "1권 Ⅵ-2-라-(3)",
        "t": "비지정후원금"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p102"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p103"
+      }
      ]
     },
     {
@@ -4300,6 +5740,16 @@
        "reg": "fin",
        "art": "제41조의7"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p103"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p104"
+      }
      ]
     },
     {
@@ -4320,6 +5770,16 @@
        "reg": "fin",
        "art": "제41조의4 ①"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p104"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p105"
+      }
      ]
     },
     {
@@ -4339,6 +5799,12 @@
       {
        "reg": "fin",
        "art": "제41조의4 ①"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p105"
       }
      ]
     },
@@ -4363,6 +5829,12 @@
        "art": "관리안내",
        "t": "후원금으로 수당 지급"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p62"
+      }
      ]
     },
     {
@@ -4381,6 +5853,12 @@
        "art": "관리안내",
        "t": "지정후원금"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p61"
+      }
      ]
     },
     {
@@ -4389,7 +5867,13 @@
      "gist": "국가·지자체 출자·출연 법인이 아닌 사회복지법인·시설이 “적극적인 모집행위 없이 자발적으로 기탁하는 금품을 접수할 시” 기부금품법 적용 대상 아님(모집행위 = 서신·광고 등으로 출연을 의뢰·권유·요구). 적극 모집이면 기부금품법 절차 검토.",
      "kw": "공통 아동양육시설 기부금품법 모집 등록 자발적 기탁",
      "src": "c25",
-     "page": "116"
+     "page": "116",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p62"
+      }
+     ]
     },
     {
      "art": "상증법(국세청 회신), 복지부 사회서비스자원과-1374(2015)",
@@ -4405,6 +5889,16 @@
       {
        "reg": "fin",
        "art": "제41조의7"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p60"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p61"
       }
      ]
     }
@@ -4441,6 +5935,16 @@
        "reg": "fin",
        "art": "제30조의2"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p158"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p159"
+      }
      ]
     },
     {
@@ -4467,6 +5971,20 @@
        "reg": "fin",
        "art": "제30조의2"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p160"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p161"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p162"
+      }
      ]
     },
     {
@@ -4487,6 +6005,16 @@
       {
        "reg": "contract",
        "art": "법 제18조, 영 제67조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p163"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p164"
       }
      ]
     },
@@ -4572,6 +6100,16 @@
        "reg": "welfare-law",
        "art": "법 제23조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p167"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p168"
+      }
      ]
     },
     {
@@ -4598,6 +6136,16 @@
        "reg": "fin",
        "art": "제39조·제40조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p169"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p172"
+      }
      ]
     },
     {
@@ -4619,6 +6167,16 @@
        "reg": "welfare-law",
        "art": "법 제28조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p170"
+      },
+      {
+       "doc": "inspect-cases-2024",
+       "path": "p171"
+      }
      ]
     },
     {
@@ -4639,6 +6197,16 @@
       {
        "reg": "subsidy",
        "art": "법 제14조·제15조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p59"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p60"
       }
      ]
     },
@@ -4689,6 +6257,12 @@
        "reg": "contract",
        "art": "법 제14조, 영 제50조, 규칙 제48조"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p108"
+      }
      ]
     },
     {
@@ -4711,6 +6285,12 @@
       {
        "reg": "contract",
        "art": "영 제31조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p109"
       }
      ]
     },
@@ -4738,6 +6318,16 @@
        "reg": "contract",
        "art": "영 제30조 ①·②"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p110"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p111"
+      }
      ]
     },
     {
@@ -4753,7 +6343,13 @@
      "note": "장애인보호작업장 사례 — 수익사업(과세사업)을 하는 법인·시설 공통.",
      "kw": "공통 부가가치세 매입세액 공제 환급 보조금 반납",
      "src": "c25",
-     "page": "208"
+     "page": "208",
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p112"
+      }
+     ]
     },
     {
      "art": "인지세법 제3조, 지방계약법 시행령 제71조·제37조 ④",
@@ -4773,6 +6369,16 @@
       {
        "reg": "contract",
        "art": "법 제15조, 영 제51조·제53조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p112"
+      },
+      {
+       "doc": "inspect-seoul-2025",
+       "path": "p113"
       }
      ]
     }
@@ -4836,6 +6442,16 @@
        "art": "관리안내(국가인권위원회법)",
        "t": "진정함"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p42"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p43"
+      }
      ]
     },
     {
@@ -4858,6 +6474,20 @@
       {
        "reg": "wage-guide",
        "art": "제4조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p43"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p44"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p45"
       }
      ]
     },
@@ -4884,6 +6514,16 @@
       {
        "reg": "fin",
        "art": "제26조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p45"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p46"
       }
      ]
     },
@@ -4913,6 +6553,16 @@
        "art": "관리안내",
        "t": "전용계좌 이자·별도 계좌"
       }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p46"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p47"
+      }
      ]
     },
     {
@@ -4934,6 +6584,20 @@
       {
        "reg": "fin",
        "art": "제30조"
+      }
+     ],
+     "srcs": [
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p47"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p48"
+      },
+      {
+       "doc": "inspect-manual-2023",
+       "path": "p53"
       }
      ]
     }

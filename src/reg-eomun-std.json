@@ -28,7 +28,21 @@
      "gist": "표준어는 교양 있는 사람들이 두루 쓰는 현대 서울말로 정함을 원칙으로 한다.",
      "kw": "표준어 정의 서울말",
      "src": "py",
-     "page": "149~151"
+     "page": "149~151",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p151"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p152"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p153"
+      }
+     ]
     },
     {
      "art": "사정 원칙 제2항",
@@ -36,7 +50,17 @@
      "gist": "외래어는 따로 사정한다.",
      "kw": "외래어 사정",
      "src": "py",
-     "page": "151~152"
+     "page": "151~152",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p153"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p154"
+      }
+     ]
     }
    ]
   },
@@ -69,7 +93,17 @@
      "note": "예의 ‘-’는 원문의 단어 구성 표시(붙여 씀).",
      "kw": "칸 간 부엌 녘",
      "src": "py",
-     "page": "153~154"
+     "page": "153~154",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p155"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p156"
+      }
+     ]
     },
     {
      "art": "사정 원칙 제4항",
@@ -217,7 +251,17 @@
      "note": "암컷 접두사 ‘암-’도 같은 원리.",
      "kw": "공문서 자주 틀림 수컷 숫 수놈 숫양 수캐",
      "src": "py",
-     "page": "159~160"
+     "page": "159~160",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p161"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p162"
+      }
+     ]
     },
     {
      "art": "사정 원칙 제8항",
@@ -253,7 +297,17 @@
      ],
      "kw": "공문서 자주 틀림 깡충깡충 오뚝이 부조 사돈 삼촌 -둥이",
      "src": "py",
-     "page": "161~162"
+     "page": "161~162",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p163"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p164"
+      }
+     ]
     },
     {
      "art": "사정 원칙 제9항",
@@ -456,7 +510,17 @@
      ],
      "kw": "공문서 자주 틀림 윗사람 윗목 위층 위쪽 웃어른 웃돈",
      "src": "py",
-     "page": "169~170"
+     "page": "169~170",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p171"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p172"
+      }
+     ]
     },
     {
      "art": "사정 원칙 제13항",
@@ -506,7 +570,17 @@
      ],
      "kw": "공문서 자주 틀림 구절 귀절 문구 글귀 인용구",
      "src": "py",
-     "page": "171~172"
+     "page": "171~172",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p173"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p174"
+      }
+     ]
     }
    ]
   },
@@ -615,7 +689,17 @@
      ],
      "kw": "귀이개 낌새 부스럼",
      "src": "py",
-     "page": "174~175"
+     "page": "174~175",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p176"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p177"
+      }
+     ]
     },
     {
      "art": "사정 원칙 제16항",
@@ -638,7 +722,17 @@
      ],
      "kw": "공문서 자주 틀림 머무르다 머물다 서툴다 외우다",
      "src": "py",
-     "page": "176~177"
+     "page": "176~177",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p178"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p179"
+      }
+     ]
     },
     {
      "art": "사정 원칙 제17항",
@@ -768,7 +862,21 @@
      "note": "‘-습니다’: 모음 뒤에는 ‘-ㅂ니다’. 선택·무관의 어미는 ‘-든’.",
      "kw": "공문서 자주 틀림 습니다 읍니다 던 든 려고 귀띔 설령 천장",
      "src": "py",
-     "page": "178~180"
+     "page": "178~180",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p180"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p181"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p182"
+      }
+     ]
     },
     {
      "art": "사정 원칙 제18항",
@@ -924,7 +1032,17 @@
      ],
      "kw": "잔돈 푼돈 성냥 외지다",
      "src": "py",
-     "page": "186~187"
+     "page": "186~187",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p188"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p189"
+      }
+     ]
     },
     {
      "art": "사정 원칙 제22항",
@@ -978,7 +1096,17 @@
      ],
      "kw": "겸상 단벌 윤달 총각무 칫솔",
      "src": "py",
-     "page": "188~189"
+     "page": "188~189",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p190"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p191"
+      }
+     ]
     },
     {
      "art": "사정 원칙 제23항",
@@ -1236,7 +1364,25 @@
      ],
      "kw": "공문서 자주 틀림 게끔 게시리 열심히 열심으로 지만서도 손수레 전봇대",
      "src": "py",
-     "page": "192~195"
+     "page": "192~195",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p194"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p195"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p196"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p197"
+      }
+     ]
     },
     {
      "art": "사정 원칙 제26항",
@@ -1422,7 +1568,41 @@
      ],
      "kw": "공문서 자주 틀림 복수 표준어 이에요 이어요 세요 셔요 여쭈다 여쭙다 일일이",
      "src": "py",
-     "page": "197~204"
+     "page": "197~204",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p199"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p200"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p201"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p202"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p203"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p204"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p205"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p206"
+      }
+     ]
     },
     {
      "art": "제26항 해설·[붙임]",
@@ -1435,7 +1615,17 @@
      ],
      "kw": "공문서 자주 틀림 이에요 예요 이어요 여요",
      "src": "py",
-     "page": "206~207"
+     "page": "206~207",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p208"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p209"
+      }
+     ]
     }
    ]
   },
@@ -1469,7 +1659,17 @@
      ],
      "kw": "짜장면 맨날 먹거리 손주 길래 추가 표준어",
      "src": "py",
-     "page": "208~209"
+     "page": "208~209",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p210"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p211"
+      }
+     ]
     },
     {
      "art": "[붙임] 2014년",
@@ -1519,7 +1719,17 @@
      ],
      "kw": "말아라 이쁘다 찰지다 노랗네 추가 표준어",
      "src": "py",
-     "page": "210~211"
+     "page": "210~211",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p212"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p213"
+      }
+     ]
     },
     {
      "art": "[붙임] 2016년",
@@ -1575,7 +1785,21 @@
      "gist": "표준 발음법은 표준어의 실제 발음을 따르되, 국어의 전통성과 합리성을 고려하여 정한다.",
      "kw": "표준 발음 원칙",
      "src": "bp",
-     "page": "215~217"
+     "page": "215~217",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p217"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p218"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p219"
+      }
+     ]
     },
     {
      "art": "발음법 제2항·제3항",
@@ -1583,7 +1807,21 @@
      "gist": "자음: ㄱ ㄲ ㄴ ㄷ ㄸ ㄹ ㅁ ㅂ ㅃ ㅅ ㅆ ㅇ ㅈ ㅉ ㅊ ㅋ ㅌ ㅍ ㅎ. 모음: ㅏ ㅐ ㅑ ㅒ ㅓ ㅔ ㅕ ㅖ ㅗ ㅘ ㅙ ㅚ ㅛ ㅜ ㅝ ㅞ ㅟ ㅠ ㅡ ㅢ ㅣ.",
      "kw": "자음 모음",
      "src": "bp",
-     "page": "218~220"
+     "page": "218~220",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p220"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p221"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p222"
+      }
+     ]
     },
     {
      "art": "발음법 제4항",
@@ -1591,7 +1829,17 @@
      "gist": "‘ㅏ ㅐ ㅓ ㅔ ㅗ ㅚ ㅜ ㅟ ㅡ ㅣ’는 단모음으로 발음한다. ‘ㅚ, ㅟ’는 이중 모음으로 발음할 수 있다.",
      "kw": "단모음 ㅚ ㅟ",
      "src": "bp",
-     "page": "220~221"
+     "page": "220~221",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p222"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p223"
+      }
+     ]
     },
     {
      "art": "발음법 제5항",
@@ -1610,7 +1858,21 @@
      ],
      "kw": "의 발음 협의 주의 계 례",
      "src": "bp",
-     "page": "222~224"
+     "page": "222~224",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p224"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p225"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p226"
+      }
+     ]
     }
    ]
   },
@@ -1636,7 +1898,17 @@
      ],
      "kw": "장단 긴소리",
      "src": "bp",
-     "page": "225~226"
+     "page": "225~226",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p227"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p228"
+      }
+     ]
     },
     {
      "art": "발음법 제7항",
@@ -1656,7 +1928,21 @@
      ],
      "kw": "장단 짧은소리",
      "src": "bp",
-     "page": "227~229"
+     "page": "227~229",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p229"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p230"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p231"
+      }
+     ]
     }
    ]
   },
@@ -1695,7 +1981,17 @@
      ],
      "kw": "받침 발음",
      "src": "bp",
-     "page": "230~231"
+     "page": "230~231",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p232"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p233"
+      }
+     ]
     },
     {
      "art": "발음법 제10항",
@@ -1716,7 +2012,17 @@
      ],
      "kw": "공문서 자주 틀림 여덟 넓다 밟다 겹받침 발음",
      "src": "bp",
-     "page": "231~232"
+     "page": "231~232",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p233"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p234"
+      }
+     ]
     },
     {
      "art": "발음법 제11항",
@@ -1735,7 +2041,17 @@
      ],
      "kw": "닭 맑다 읽다 겹받침",
      "src": "bp",
-     "page": "232~233"
+     "page": "232~233",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p234"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p235"
+      }
+     ]
     },
     {
      "art": "발음법 제12항",
@@ -1758,7 +2074,29 @@
      ],
      "kw": "ㅎ 발음 놓고 많다",
      "src": "bp",
-     "page": "233~237"
+     "page": "233~237",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p235"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p236"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p237"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p238"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p239"
+      }
+     ]
     },
     {
      "art": "발음법 제13항",
@@ -1775,7 +2113,17 @@
      ],
      "kw": "연음 꽃을 밭에",
      "src": "bp",
-     "page": "237~238"
+     "page": "237~238",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p239"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p240"
+      }
+     ]
     },
     {
      "art": "발음법 제14항",
@@ -1792,7 +2140,17 @@
      ],
      "kw": "연음 닭을 값을",
      "src": "bp",
-     "page": "238~239"
+     "page": "238~239",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p240"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p241"
+      }
+     ]
     },
     {
      "art": "발음법 제15항",
@@ -1810,7 +2168,21 @@
      ],
      "kw": "맛있다 멋있다 겉옷",
      "src": "bp",
-     "page": "239~241"
+     "page": "239~241",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p241"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p242"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p243"
+      }
+     ]
     },
     {
      "art": "발음법 제16항",
@@ -1827,7 +2199,17 @@
      ],
      "kw": "디귿이 자모 이름",
      "src": "bp",
-     "page": "241~242"
+     "page": "241~242",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p243"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p244"
+      }
+     ]
     }
    ]
   },
@@ -1895,7 +2277,17 @@
      ],
      "kw": "대통령 협력 발음",
      "src": "bp",
-     "page": "245~246"
+     "page": "245~246",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p247"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p248"
+      }
+     ]
     },
     {
      "art": "발음법 제20항",
@@ -1915,7 +2307,17 @@
      ],
      "kw": "신라 생산량 상견례 입원료 발음",
      "src": "bp",
-     "page": "247~248"
+     "page": "247~248",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p249"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p250"
+      }
+     ]
     },
     {
      "art": "발음법 제21항",
@@ -2015,7 +2417,17 @@
      ],
      "kw": "경음화 신고",
      "src": "bp",
-     "page": "250~251"
+     "page": "250~251",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p252"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p253"
+      }
+     ]
     },
     {
      "art": "발음법 제26항",
@@ -2035,7 +2447,17 @@
      ],
      "kw": "갈등 일시 발전 발음",
      "src": "bp",
-     "page": "252~253"
+     "page": "252~253",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p254"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p255"
+      }
+     ]
     },
     {
      "art": "발음법 제27항",
@@ -2077,7 +2499,17 @@
      ],
      "kw": "된소리 합성어",
      "src": "bp",
-     "page": "254~255"
+     "page": "254~255",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p256"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p257"
+      }
+     ]
     }
    ]
   },
@@ -2107,7 +2539,21 @@
      ],
      "kw": "ㄴ 첨가 금융 검열 서울역 발음",
      "src": "bp",
-     "page": "256~258"
+     "page": "256~258",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p258"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p259"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p260"
+      }
+     ]
     },
     {
      "art": "발음법 제30항",
@@ -2126,7 +2572,21 @@
      ],
      "kw": "사이시옷 발음",
      "src": "bp",
-     "page": "258~260"
+     "page": "258~260",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p260"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p261"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p262"
+      }
+     ]
     }
    ]
   }

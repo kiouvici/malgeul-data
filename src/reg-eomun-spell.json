@@ -29,7 +29,21 @@
      ],
      "kw": "소리대로 어법 형태소",
      "page": "11~13",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p13"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p14"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p15"
+      }
+     ]
     },
     {
      "art": "제2항",
@@ -68,7 +82,17 @@
      "gist": "자모는 24자: ㄱ(기역) ㄴ(니은) ㄷ(디귿) ㄹ(리을) ㅁ(미음) ㅂ(비읍) ㅅ(시옷) ㅇ(이응) ㅈ(지읒) ㅊ(치읓) ㅋ(키읔) ㅌ(티읕) ㅍ(피읖) ㅎ(히읗), ㅏ~ㅣ 10자. 어우른 글자: ㄲ(쌍기역) ㄸ(쌍디귿) ㅃ(쌍비읍) ㅆ(쌍시옷) ㅉ(쌍지읒), ㅐ ㅒ ㅔ ㅖ ㅘ ㅙ ㅚ ㅝ ㅞ ㅟ ㅢ.",
      "kw": "자모 이름 기역 디귿 시옷",
      "page": "16~17",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p18"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p19"
+      }
+     ]
     },
     {
      "art": "제4항 [붙임 2]",
@@ -76,7 +100,17 @@
      "gist": "자음: ㄱ ㄲ ㄴ ㄷ ㄸ ㄹ ㅁ ㅂ ㅃ ㅅ ㅆ ㅇ ㅈ ㅉ ㅊ ㅋ ㅌ ㅍ ㅎ. 모음: ㅏ ㅐ ㅑ ㅒ ㅓ ㅔ ㅕ ㅖ ㅗ ㅘ ㅙ ㅚ ㅛ ㅜ ㅝ ㅞ ㅟ ㅠ ㅡ ㅢ ㅣ. 받침 순서: ㄱㄲㄳㄴㄵㄶㄷㄹㄺㄻㄼㄽㄾㄿㅀㅁㅂㅄㅅㅆㅇㅈㅊㅋㅌㅍㅎ.",
      "kw": "가나다순 정렬 사전 순서",
      "page": "16~17",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p18"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p19"
+      }
+     ]
     }
    ]
   },
@@ -106,7 +140,21 @@
      ],
      "kw": "된소리 깍두기 법석 갑자기",
      "page": "19~21",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p21"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p22"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p23"
+      }
+     ]
     },
     {
      "art": "제6항",
@@ -136,7 +184,17 @@
      ],
      "kw": "공문서 자주 틀림 구개음화 굳이 같이",
      "page": "21~22",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p23"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p24"
+      }
+     ]
     },
     {
      "art": "제7항",
@@ -158,7 +216,17 @@
      ],
      "kw": "받침 ㅅ 웃어른 옛 첫 헛",
      "page": "23~24",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p25"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p26"
+      }
+     ]
     },
     {
      "art": "제8항",
@@ -188,7 +256,17 @@
      ],
      "kw": "공문서 자주 틀림 계 례 폐 게시판 휴게실 게재 게양",
      "page": "24~25",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p26"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p27"
+      }
+     ]
     },
     {
      "art": "제9항",
@@ -222,7 +300,21 @@
      ],
      "kw": "공문서 자주 틀림 띄어쓰기 희망 무늬",
      "page": "25~27",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p27"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p28"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p29"
+      }
+     ]
     }
    ]
   },
@@ -252,7 +344,21 @@
      ],
      "kw": "두음 법칙 여자 연세",
      "page": "27~29",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p29"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p30"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p31"
+      }
+     ]
     },
     {
      "art": "제10항 [붙임 1~3]",
@@ -270,7 +376,21 @@
      ],
      "kw": "남녀 신여성 고유 명사",
      "page": "27~29",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p29"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p30"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p31"
+      }
+     ]
     },
     {
      "art": "제10항 해설",
@@ -285,7 +405,17 @@
      "note": "표준국어대사전: 졸업 연도/제작 연도, 1985년도 출생자/1990년도 예산안.",
      "kw": "공문서 자주 틀림 연도 년도 회계연도 사업연도",
      "page": "28~29",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p30"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p31"
+      }
+     ]
     },
     {
      "art": "제11항",
@@ -311,7 +441,29 @@
      ],
      "kw": "두음 법칙 양심 예의",
      "page": "30~34",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p32"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p33"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p34"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p35"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p36"
+      }
+     ]
     },
     {
      "art": "제11항 [붙임 1] 다만",
@@ -350,7 +502,21 @@
      ],
      "kw": "공문서 자주 틀림 율 률 비율 합격률 이자율 출석률 집행률",
      "page": "30~32",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p32"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p33"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p34"
+      }
+     ]
     },
     {
      "art": "제11항 [붙임 2~5]",
@@ -371,7 +537,25 @@
      ],
      "kw": "해외여행 연이율 구름양 운량",
      "page": "31~34",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p33"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p34"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p35"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p36"
+      }
+     ]
     },
     {
      "art": "제12항",
@@ -400,7 +584,17 @@
      ],
      "kw": "공문서 자주 틀림 란 난 비고란 공란 고랭지",
      "page": "34~35",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p36"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p37"
+      }
+     ]
     },
     {
      "art": "제13항",
@@ -446,7 +640,17 @@
      ],
      "kw": "누누이 씁쓸하다 늠름하다",
      "page": "36~37",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p38"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p39"
+      }
+     ]
     }
    ]
   },
@@ -472,7 +676,17 @@
      ],
      "kw": "체언 조사 본모양",
      "page": "38~39",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p40"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p41"
+      }
+     ]
     },
     {
      "art": "제15항",
@@ -488,7 +702,21 @@
      ],
      "kw": "어간 어미",
      "page": "40~42",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p42"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p43"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p44"
+      }
+     ]
     },
     {
      "art": "제15항 [붙임 1]",
@@ -506,7 +734,21 @@
      ],
      "kw": "드러나다 사라지다",
      "page": "41~43",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p43"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p44"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p45"
+      }
+     ]
     },
     {
      "art": "제15항 [붙임 2·3]",
@@ -526,7 +768,25 @@
      ],
      "kw": "공문서 자주 틀림 오 요 하시오 마시오 안내문",
      "page": "41~44",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p43"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p44"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p45"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p46"
+      }
+     ]
     },
     {
      "art": "제16항",
@@ -544,7 +804,17 @@
      ],
      "kw": "모음 조화 되어 돼",
      "page": "44~45",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p46"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p47"
+      }
+     ]
     },
     {
      "art": "제17항",
@@ -583,7 +853,49 @@
      ],
      "kw": "공문서 자주 틀림 불규칙 담가 도와 바라 마라 말아라",
      "page": "47~56",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p49"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p50"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p51"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p52"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p53"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p54"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p55"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p56"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p57"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p58"
+      }
+     ]
     },
     {
      "art": "제18항 해설",
@@ -645,7 +957,25 @@
      ],
      "kw": "앎 묶음 마감 너머 넘어 목걸이 목거리",
      "page": "57~60",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p59"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p60"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p61"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p62"
+      }
+     ]
     },
     {
      "art": "제20항",
@@ -674,7 +1004,21 @@
      ],
      "kw": "공문서 자주 틀림 낱낱이 일일이 번번이 틈틈이 값어치 원어치",
      "page": "61~63",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p63"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p64"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p65"
+      }
+     ]
     },
     {
      "art": "제21항",
@@ -702,7 +1046,21 @@
      ],
      "kw": "널따랗다 넓적하다 짤막하다 얄팍하다",
      "page": "63~65",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p65"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p66"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p67"
+      }
+     ]
     },
     {
      "art": "제22항",
@@ -734,7 +1092,21 @@
      ],
      "kw": "맞추다 갖추다 부치다 받치다 없애다 드리다",
      "page": "66~68",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p68"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p69"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p70"
+      }
+     ]
     },
     {
      "art": "제23항",
@@ -774,7 +1146,21 @@
      ],
      "kw": "오뚝이 홀쭉이",
      "page": "68~70",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p70"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p71"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p72"
+      }
+     ]
     },
     {
      "art": "제24항",
@@ -806,7 +1192,17 @@
      ],
      "kw": "망설이다 움직이다",
      "page": "70~71",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p72"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p73"
+      }
+     ]
     },
     {
      "art": "제25항",
@@ -828,7 +1224,21 @@
      ],
      "kw": "공문서 자주 틀림 깨끗이 더욱이 일찍이 반드시 반듯이 지그시 지긋이",
      "page": "71~73",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p73"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p74"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p75"
+      }
+     ]
     },
     {
      "art": "제25항 해설",
@@ -866,7 +1276,17 @@
      ],
      "kw": "부질없다 착하다",
      "page": "73~74",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p75"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p76"
+      }
+     ]
     }
    ]
   },
@@ -906,7 +1326,25 @@
      ],
      "kw": "공문서 자주 틀림 며칠 몇일 덧니 웃옷",
      "page": "74~77",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p76"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p77"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p78"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p79"
+      }
+     ]
     },
     {
      "art": "제27항 [붙임 2] 해설",
@@ -968,7 +1406,17 @@
      ],
      "kw": "공문서 자주 틀림 이튿날 숟가락 섣부르다",
      "page": "78~79",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p80"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p81"
+      }
+     ]
     },
     {
      "art": "제30항",
@@ -1000,7 +1448,25 @@
      ],
      "kw": "공문서 자주 틀림 사이시옷 횟수 전셋집 등굣길 절댓값",
      "page": "80~83",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p82"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p83"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p84"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p85"
+      }
+     ]
     },
     {
      "art": "제30항 해설",
@@ -1029,7 +1495,21 @@
      ],
      "kw": "공문서 자주 틀림 개수 갯수 초점 촛점 전세방 전셋방 해님",
      "page": "81~83",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p83"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p84"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p85"
+      }
+     ]
     },
     {
      "art": "제30항 해설",
@@ -1055,7 +1535,17 @@
      ],
      "kw": "공문서 자주 틀림 등굣길 혼잣말 절댓값 장밋빛 최댓값 최솟값",
      "page": "82~83",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p84"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p85"
+      }
+     ]
     },
     {
      "art": "제31항",
@@ -1083,7 +1573,17 @@
      ],
      "kw": "햅쌀 안팎 수컷 암탉",
      "page": "83~84",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p85"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p86"
+      }
+     ]
     }
    ]
   },
@@ -1104,7 +1604,17 @@
      ],
      "kw": "엊저녁 갖고 딛고",
      "page": "85~86",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p87"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p88"
+      }
+     ]
     },
     {
      "art": "제33항",
@@ -1123,7 +1633,17 @@
      ],
      "kw": "그걸로 뭘",
      "page": "86~87",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p88"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p89"
+      }
+     ]
     },
     {
      "art": "제34항",
@@ -1147,7 +1667,21 @@
      ],
      "kw": "했다 하였다 갰다",
      "page": "87~89",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p89"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p90"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p91"
+      }
+     ]
     },
     {
      "art": "제34항 해설",
@@ -1186,7 +1720,21 @@
      ],
      "kw": "공문서 자주 틀림 돼 되 됐다 봬요 뵈요 뵀다",
      "page": "89~91",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p91"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p92"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p93"
+      }
+     ]
     },
     {
      "art": "제35항 [붙임 2] 해설",
@@ -1202,7 +1750,17 @@
      ],
      "kw": "공문서 자주 틀림 돼 되 봬요 뵈요 안 돼 안 되",
      "page": "90~91",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p92"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p93"
+      }
+     ]
     },
     {
      "art": "제36항",
@@ -1224,7 +1782,17 @@
      ],
      "kw": "가져 다녀 견뎌",
      "page": "91~92",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p93"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p94"
+      }
+     ]
     },
     {
      "art": "제37항",
@@ -1242,7 +1810,17 @@
      ],
      "kw": "띄다 새삼스레",
      "page": "92~93",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p94"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p95"
+      }
+     ]
     },
     {
      "art": "제38항",
@@ -1259,7 +1837,17 @@
      ],
      "kw": "띄어쓰기 쓰여 보여",
      "page": "93~94",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p95"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p96"
+      }
+     ]
     },
     {
      "art": "제39항",
@@ -1278,7 +1866,17 @@
      ],
      "kw": "공문서 자주 틀림 적잖은 만만찮다 편찮다 않잖아",
      "page": "94~95",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p96"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p97"
+      }
+     ]
     },
     {
      "art": "제40항",
@@ -1301,7 +1899,25 @@
      ],
      "kw": "공문서 자주 틀림 간편케 연구토록 추진토록 달성코자 청컨대 개의치",
      "page": "95~98",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p97"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p98"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p99"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p100"
+      }
+     ]
     },
     {
      "art": "제40항 [붙임 1·2]",
@@ -1321,7 +1937,25 @@
      ],
      "kw": "공문서 자주 틀림 생각건대 넉넉지 익숙지 못지않다 섭섭지",
      "page": "95~98",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p97"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p98"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p99"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p100"
+      }
+     ]
     },
     {
      "art": "제40항 [붙임 3]",
@@ -1346,7 +1980,21 @@
      ],
      "kw": "공문서 자주 틀림 아무튼 하여튼 요컨대",
      "page": "96~98",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p98"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p99"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p100"
+      }
+     ]
     }
    ]
   },
@@ -1422,7 +2070,17 @@
      ],
      "kw": "공문서 자주 틀림 대로 만큼 뿐 들 띄어쓰기",
      "page": "100~101",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p102"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p103"
+      }
+     ]
     },
     {
      "art": "제42항 해설",
@@ -1477,7 +2135,21 @@
      ],
      "kw": "공문서 자주 틀림 단위 명사 띄어쓰기 년 월 일 호 개 명",
      "page": "101~103",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p103"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p104"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p105"
+      }
+     ]
     },
     {
      "art": "제43항 해설",
@@ -1496,7 +2168,17 @@
      ],
      "kw": "공문서 자주 틀림 제1조 제7항 번지 시간 명 학년 띄어쓰기 허용",
      "page": "102~103",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p104"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p105"
+      }
+     ]
     },
     {
      "art": "제44항",
@@ -1515,7 +2197,17 @@
      ],
      "kw": "공문서 자주 틀림 만 단위 금액 일금 원정 숫자 띄어쓰기",
      "page": "104~105",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p106"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p107"
+      }
+     ]
     },
     {
      "art": "제45항",
@@ -1536,7 +2228,21 @@
      ],
      "kw": "공문서 자주 틀림 및 등 겸 내지 대 띄어쓰기",
      "page": "105~107",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p107"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p108"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p109"
+      }
+     ]
     },
     {
      "art": "제46항",
@@ -1559,7 +2265,17 @@
      ],
      "kw": "좀더 단음절 띄어쓰기",
      "page": "107~108",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p109"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p110"
+      }
+     ]
     }
    ]
   },
@@ -1584,7 +2300,25 @@
      ],
      "kw": "공문서 자주 틀림 보조 용언 띄어쓰기 해 보다 해 주다 할 만하다",
      "page": "109~112",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p111"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p112"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p113"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p114"
+      }
+     ]
     },
     {
      "art": "제47항 해설",
@@ -1613,7 +2347,21 @@
      ],
      "kw": "공문서 자주 틀림 싶어 하다 지워지다 보조 용언 띄어쓰기",
      "page": "110~112",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p112"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p113"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p114"
+      }
+     ]
     },
     {
      "art": "제48항",
@@ -1635,7 +2383,21 @@
      ],
      "kw": "공문서 자주 틀림 씨 님 성명 직함 띄어쓰기",
      "page": "112~114",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p114"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p115"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p116"
+      }
+     ]
     },
     {
      "art": "제49항",
@@ -1657,7 +2419,21 @@
      ],
      "kw": "공문서 자주 틀림 기관명 부서명 시설명 고유 명사 부설 산하 띄어쓰기",
      "page": "114~116",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p116"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p117"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p118"
+      }
+     ]
     },
     {
      "art": "제50항",
@@ -1673,7 +2449,21 @@
      ],
      "kw": "전문 용어 띄어쓰기 붙여 쓰기",
      "page": "116~118",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p118"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p119"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p120"
+      }
+     ]
     }
    ]
   },
@@ -1717,7 +2507,21 @@
      ],
      "kw": "공문서 자주 틀림 이 히 깨끗이 꼼꼼히 일일이 솔직히 엄격히 정확히 각별히 소홀히",
      "page": "119~121",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p121"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p122"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p123"
+      }
+     ]
     },
     {
      "art": "제52항",
@@ -1739,7 +2543,17 @@
      ],
      "kw": "공문서 자주 틀림 허락 곤란 의논 유월 시월",
      "page": "121~122",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p123"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p124"
+      }
+     ]
     },
     {
      "art": "제53항",
@@ -1771,7 +2585,21 @@
      ],
      "kw": "공문서 자주 틀림 할게 할께 할지 할수록 합니까",
      "page": "122~124",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p124"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p125"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p126"
+      }
+     ]
     },
     {
      "art": "제54항",
@@ -1815,7 +2643,21 @@
      ],
      "kw": "공문서 자주 틀림 일꾼 꾼 빛깔 곱빼기 멋쩍다 겸연쩍다",
      "page": "124~126",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p126"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p127"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p128"
+      }
+     ]
     },
     {
      "art": "제55항",
@@ -1833,7 +2675,17 @@
      ],
      "kw": "공문서 자주 틀림 맞추다 마추다 일정 맞추다",
      "page": "126~127",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p128"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p129"
+      }
+     ]
     },
     {
      "art": "제56항",
@@ -1859,7 +2711,17 @@
      ],
      "kw": "공문서 자주 틀림 던지 든지 던 든",
      "page": "127~128",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p129"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p130"
+      }
+     ]
     }
    ]
   },
@@ -1935,7 +2797,17 @@
      ],
      "kw": "걷잡다 겉잡다",
      "page": "129~130",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p131"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p132"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -1965,7 +2837,17 @@
      ],
      "kw": "노름 놀음",
      "page": "130~131",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p132"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p133"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -1997,7 +2879,17 @@
      ],
      "kw": "다리다 달이다",
      "page": "131~132",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p133"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p134"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2067,7 +2959,17 @@
      ],
      "kw": "공문서 자주 틀림 바치다 받치다 받히다 밭치다",
      "page": "133~134",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p135"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p136"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2122,7 +3024,17 @@
      ],
      "kw": "공문서 자주 틀림 부치다 붙이다 안건을 회의에 부치다 표결에 부치다 조건을 붙이다",
      "page": "134~135",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p136"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p137"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2134,7 +3046,17 @@
      ],
      "kw": "시키다 식히다",
      "page": "135~136",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p137"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p138"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2165,7 +3087,17 @@
      ],
      "kw": "안치다 앉히다",
      "page": "136~137",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p138"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p139"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2249,7 +3181,17 @@
      ],
      "kw": "주리다 줄이다",
      "page": "138~139",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p140"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p141"
+      }
+     ]
     },
     {
      "art": "제57항",
@@ -2335,7 +3277,17 @@
      ],
      "kw": "공문서 자주 틀림 로서 로써 시설장으로서 자격 수단",
      "page": "140~141",
-     "src": "gm"
+     "src": "gm",
+     "srcs": [
+      {
+       "doc": "eomun-spell-std",
+       "path": "p142"
+      },
+      {
+       "doc": "eomun-spell-std",
+       "path": "p143"
+      }
+     ]
     },
     {
      "art": "제57항",

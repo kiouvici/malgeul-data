@@ -169,7 +169,9 @@ def main():
                     ng = con.execute('SELECT COUNT(*) FROM grams WHERE grams MATCH ?', ('"' + '조' + '"',)).fetchone()[0] if False else None
                     bad = con.execute('SELECT COUNT(*) FROM xref WHERE src_uid NOT IN (SELECT uid FROM units)').fetchone()[0]
                     if bad: iss('상', f'{w}: xref src_uid 없는 단위 {bad}건')
-                    TX[did] = dict(paths=ps, xref=con.execute('SELECT src_uid, dst_docid, dst_path FROM xref').fetchall(), n=nu)
+                    today = os.environ.get('VERIFY_TODAY') or __import__('datetime').date.today().isoformat()
+                    past = sorted((e.get('effective', ''), e.get('ed')) for e in t.get('editions', []) if e.get('effective', '')[:10] <= today)
+                    TX[did] = dict(cur=(past[-1][1] if past else eds[0] if eds else ''), paths=ps, xref=con.execute('SELECT src_uid, dst_docid, dst_path FROM xref').fetchall(), n=nu)
                 finally:
                     con.close()
             for did, x in TX.items():
@@ -190,6 +192,7 @@ def main():
                     if dd not in TX: iss('상', f'{w}: 원문 {dd} 없음'); continue
                     if de and dp not in TX[dd]['paths'].get(de, ()): iss('상', f'{w}: {dd}/{de} {dp} 없음')
                     elif not de and not any(dp in s_ for s_ in TX[dd]['paths'].values()): iss('상', f'{w}: {dd} {dp} 없음')
+                    elif not de and dp not in TX[dd]['paths'].get(TX[dd]['cur'], ()): iss('중', f'{w}: {dd} {dp} 지금 판({TX[dd]["cur"]})에 없음 — ed를 적어야 앱이 바로 엶')
 
     p = J('paths.json')
     if p:

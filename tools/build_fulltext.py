@@ -71,7 +71,10 @@ class Log:
         if why == '쪽번호' and re.fullmatch(r'[-–—·|\s]*\d{1,4}[-–—·|\s]*', text): self.pnum[ed].append((page, int(re.sub(r'\D', '', text))))
         elif why in ('머리말', '꼬리말'):
             ns = re.findall(r'(?<![\d.])\d{1,3}(?![\d.년월])', text)
-            if len(ns) == 1: self.pnum[ed].append((page, int(ns[0])))
+            mp = re.fullmatch(r'\s*(\d{1,3})\s*p\s+(\d{1,3})\s*p\s*', text)  # 2쪽 펼침 꼬리말 '13p 14p'
+            if mp and int(mp.group(2)) == int(mp.group(1)) + 1:
+                self.pnum[ed].append((page, int(mp.group(1)))); self.pnum[ed].append((page, int(mp.group(2))))
+            elif len(ns) == 1: self.pnum[ed].append((page, int(ns[0])))
         self.f.write(f'{ed}\t{page}\t{why}\t{text}\n')
 
     def close(self): self.f.close()
@@ -515,21 +518,31 @@ HP = '{http://www.hancom.co.kr/hwpml/2011/paragraph}'
 ROMAN = 'ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ'
 
 
+def _t_text(t):
+    """hp:t 한 개의 글. 탭(<hp:tab/>)은 공백 하나로(번호와 제목 사이 탭이 빠져 '2보호아동…'처럼 붙던 문제)."""
+    out = [t.text or '']
+    for ch in t:
+        if ch.tag == HP + 'tab': out.append(' ')
+        else: out.append(''.join(ch.itertext()))
+        out.append(ch.tail or '')
+    return ''.join(out)
+
+
 def hx_text(el):
     """hp:t 안의 글(하위 요소 꼬리 포함). 탭은 공백."""
     parts = []
     for t in el.iter(HP + 't'):
-        parts.append(''.join(t.itertext()))
-    return nfc(''.join(parts))
+        parts.append(_t_text(t))
+    return nfc(re.sub(r'(?<=\S) {2,}(?=\S)', ' ', ''.join(parts)))
 
 
 def hx_par_text(p):
-    """문단 글(표·그림 안 글 제외)."""
+    """문단 글(표·그림 안 글 제외). 탭은 공백."""
     parts = []
     for run in p.findall(HP + 'run'):
         for ch in run:
-            if ch.tag == HP + 't': parts.append(''.join(ch.itertext()))
-    return nfc(''.join(parts)).strip()
+            if ch.tag == HP + 't': parts.append(_t_text(ch))
+    return nfc(re.sub(r'(?<=\S) {2,}(?=\S)', ' ', ''.join(parts))).strip()
 
 
 def hx_table(tbl):
@@ -552,13 +565,14 @@ def _in_nested(p, tc):
     return False
 
 
-def hx_flatten(sec_root):
-    """문단 흐름: ('p', text) | ('tbl', rows). 한 칸짜리 표(글상자)는 안의 문단을 풀어 넣는다. 머리말·꼬리말·각주 컨트롤은 제외."""
+def hx_flatten(sec_root, styles=None):
+    """문단 흐름: ('p', text, 문단 스타일 이름) | ('tbl', rows, None). 한 칸짜리 표(글상자)는 안의 문단을 풀어 넣는다. 머리말·꼬리말·각주 컨트롤은 제외."""
     out = []
+    styles = styles or {}
 
     def walk_p(p):
         txt = hx_par_text(p)
-        if txt: out.append(('p', txt))
+        if txt: out.append(('p', txt, styles.get(p.get('styleIDRef'), '')))
         for run in p.findall(HP + 'run'):
             for ch in run:
                 if ch.tag == HP + 'tbl': walk_tbl(ch)
@@ -577,7 +591,7 @@ def hx_flatten(sec_root):
                     for pp in sl.findall(HP + 'p'): walk_p(pp)
                 break
             return
-        out.append(('tbl', hx_table(tbl)))
+        out.append(('tbl', hx_table(tbl), None))
 
     for p in sec_root.findall(HP + 'p'):
         walk_p(p)
@@ -595,57 +609,120 @@ def is_heading_text(t):
     return len(t) <= 60 and not re.search(r'(다|함|음|임|것)\s*\.?$', t)
 
 
+# HWPX 문단 스타일 이름으로 제목 단계를 가린다(사업안내·편람). 스타일을 쓰지 않는 문서는 글 모양으로만 가린다.
+HX_LV1 = {'1.', '++1', '1번숫자'}
+HX_LV2 = {'가.', '++가.'}
+HX_TOC = {'간지목차', '#간지목차', '차례 1', '+중간목차들', '+중간목차들 1'}
+HX_CHAP = {'장-제목'}
+HX_SEC = {'++절', '절 숫자'}
+
+
+def hx_styles(d):
+    try:
+        h = open(os.path.join(d, 'Contents', 'header.xml'), encoding='utf-8').read()
+    except OSError:
+        return {}
+    return {m.group(1): nfc(m.group(2)).strip() for m in re.finditer(r'<hh:style id="(\d+)"[^>]*?\sname="([^"]*)"', h)}
+
+
 def parse_hwpx(path, workdir):
-    """HWPX → 장·절 단위. 경로: 장(구역 파일마다 첫머리의 Ⅰ~Ⅻ, 없으면 '부록n')>번호(1.)>가. ; 큰 표는 '…>표n'(is_table=1).
-    칸이 4개 이하이고 글이 짧은 표(제목 상자)는 표가 아니라 제목 줄로 읽는다. 목차 줄(제목 뒤에 쪽 번호)은 제목으로 보지 않는다."""
+    """HWPX → 장·절 단위. 경로: 장>번호(1.)>가. ; 큰 표는 '…>표n'(is_table=1).
+    장: 구역 첫머리의 Ⅰ~Ⅻ(앞 장 다음 번호일 때만 — 장 안 소제목 'Ⅵ 행정사항' 같은 것을 장으로 잘못 잡지 않게), '제n장'(편람), 없으면 '부록n'.
+    제목 단계는 문단 스타일('1.'·'가.' 등)로 가리고(본문 속 번호 목록 '1. 「고등교육법」…'은 제목이 아님), 간지 목차 줄은 제목으로 보지 않는다.
+    스타일이 없는 문서는 글 모양으로 가린다. 칸이 4개 이하이고 글이 짧은 표(제목 상자)는 표가 아니라 그 안 문단으로 읽는다."""
     from lxml import etree
     d = os.path.join(workdir, 'hwpx', os.path.basename(path)[:8])
     if not os.path.exists(d):
         with zipfile.ZipFile(path) as z: z.extractall(d)
+    styles = hx_styles(d)
     secs = sorted(glob.glob(d + '/Contents/section*.xml'), key=lambda p: int(re.findall(r'\d+', os.path.basename(p))[0]))
-    units = []
-    used = collections.Counter()
-    napp = 0
-    last_roman = -1
-    for si, sp in enumerate(secs):
+    flows = []
+    for sp in secs:
         flow = []
-        for typ, val in hx_flatten(etree.parse(sp).getroot()):
+        for typ, val, st in hx_flatten(etree.parse(sp).getroot(), styles):
             if typ == 'tbl':
                 cells = [c for r in val for c in r if c.strip()]
-                if len([c for r in val for c in r]) <= 4 and sum(len(c) for c in cells) <= 80:
-                    if cells: flow.append(('h', ' '.join(c.strip() for c in cells)))
+                # 제목 상자: 칸이 4개 이하이고 글이 짧은 표, 또는 빈 칸이 많아도 글 든 칸이 2개 이하인 짧은 표('1 | 문서의 개요')
+                if (len([c for r in val for c in r]) <= 4 or len(cells) <= 2) and sum(len(c) for c in cells) <= 80:
+                    if cells: flow.append(('h', ' '.join(c.strip() for c in cells), ''))
                     continue
-            flow.append((typ, val))
-        if not flow: continue
-        chap = None
-        for typ, val in flow[:8]:
+            flow.append((typ, val, st))
+        flows.append(flow)
+    used_st = {st for fl in flows for _, _, st in fl if st}
+    by_style = bool(used_st & HX_LV1) and bool(used_st & HX_LV2)
+    units = []
+    used = collections.Counter()
+    # 1차: 구역마다 장 후보. 홀로 선 'Ⅵ'은 앞 장보다 뒤 번호면 장, 'Ⅵ 행정사항'처럼 글이 붙은 것은 바로 다음 번호일 때만 장.
+    cands = []
+    last_roman = -1
+    for flow in flows:
+        new = None; divider = any(st in HX_TOC or st in ('간지제목',) for _, _, st in flow[:8])
+        for typ, val, st in flow[:8]:
             if typ in ('p', 'h'):
-                m = re.match(r'^([ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ])(?:\s*[.．]?\s*(\S.{0,40}))?$', val.strip())
-                if m and not re.search(r'\d{1,3}$', val.strip()): chap = m.group(1); break
-        if chap is not None and ROMAN.index(chap) <= last_roman: chap = None
-        if chap is not None: last_roman = ROMAN.index(chap)
-        if chap is None:
-            napp += 1; chap = f'부록{napp}'
+                v = val.strip()
+                m = re.match(r'^([ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ])(?:\s*[.．]?\s*(\S.{0,40}))?$', v)
+                if m and not re.search(r'\d{1,3}$', v):
+                    i = ROMAN.index(m.group(1))
+                    if (m.group(2) is None and i > last_roman) or i == last_roman + 1:
+                        new = m.group(1); last_roman = i; break
+                m = re.match(r'^제\s*(\d+)\s*장\s*[.．]?(?:\s*\S.{0,40})?$', v)
+                if m and (st in HX_CHAP or not by_style) and not re.search(r'\S\s+\d{1,3}$', v):
+                    new = f'제{int(m.group(1))}장'; break
+        first_txt = next((val.strip() for typ, val, st in flow if typ in ('p', 'h') and val.strip()), '')
+        starts_sec = bool(re.match(r'^제\s*\d+\s*절', first_txt))
+        only_div = bool(flow) and all(typ in ('p', 'h') and (st in HX_TOC or st == '간지제목' or re.fullmatch(r'[ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩⅪⅫ]', val.strip())) for typ, val, st in flow)
+        cands.append([new, divider and bool(flow), only_div, starts_sec])
+    # 2차: 장 번호 글자가 그림에 들어 있어 못 읽은 간지 구역 — 앞 장이 Ⅰ, 뒤 장이 Ⅲ이면 그 사이 Ⅱ로 메운다(확실할 때만).
+    for k, (c, div, _, sts) in enumerate(cands):
+        # 간지(장 표지·목차)만 있는 구역, 또는 '제n절'로 시작하는 구역은 앞 장에 이어진다
+        if c is None and k and (cands[k - 1][2] or sts) and cands[k - 1][0]:
+            cands[k][0] = cands[k - 1][0]; continue
+        if c is None and div:
+            prv = next((cands[j][0] for j in range(k - 1, -1, -1) if cands[j][0]), None)
+            nxt = next((cands[j][0] for j in range(k + 1, len(cands)) if cands[j][0]), None)
+            if prv and nxt and len(prv) == 1 == len(nxt) and prv in ROMAN and nxt in ROMAN and ROMAN.index(nxt) == ROMAN.index(prv) + 2: cands[k][0] = ROMAN[ROMAN.index(prv) + 1]
+    napp = 0
+    chap = None
+    for flow, (new, _, _, _) in zip(flows, cands):
+        if not flow: continue
+        if new is None:
+            napp += 1; new = f'부록{napp}'
+        chap = new
         lv1 = lv2 = None
+        sec_ = None
         cur = dict(path=chap, title=flow[0][1][:60] if flow[0][0] in ('p', 'h') else chap, lines=[], is_table=0)
         tcount = collections.Counter()
 
         def flush():
             if cur['lines']: units.append(cur)
 
-        for typ, val in flow:
+        def base_path():
+            return chap + (f'>{sec_}' if sec_ else '')
+
+        for typ, val, st in flow:
             if typ in ('p', 'h'):
                 t = val.strip()
                 if not t: continue
-                toc = re.search(r'\S\s*\d{1,3}$', t) and len(t) < 70
-                m2 = re.match(r'^(\d{1,2})\s*[.．]\s*(\S.{0,50})$', t) or (re.match(r'^(\d{1,2})\s+([가-힣].{0,50})$', t) if typ == 'h' else None)
-                m3 = re.match(r'^([가-하])\s*[.．]\s*(\S.{0,50})$', t)
-                if m2 and not toc and is_heading_text(t):
+                toc = (re.search(r'\S\s*\d{1,3}$', t) and len(t) < 70) or st in HX_TOC
+                if by_style:
+                    ms = re.match(r'^제\s*(\d+)\s*절\s*(\S.{0,50})?$', t) if st in HX_SEC else None
+                    m2 = re.match(r'^(\d{1,2})\s*[.．]?\s*(\S.{0,60})$', t) if st in HX_LV1 else (
+                        re.match(r'^(\d{1,2})\s*[.．]?\s+([가-힣‘「].{0,60})$', t) if typ == 'h' and is_heading_text(t) else None)  # 제목 상자(한 칸 표)
+                    m3 = re.match(r'^([가-하])\s*[.．]\s*(\S.{0,60})$', t) if st in HX_LV2 else None
+                else:
+                    ms = None
+                    m2 = re.match(r'^(\d{1,2})\s*[.．]\s*(\S.{0,50})$', t) or (re.match(r'^(\d{1,2})\s+([가-힣].{0,50})$', t) if typ == 'h' else None)
+                    m3 = re.match(r'^([가-하])\s*[.．]\s*(\S.{0,50})$', t)
+                    if not is_heading_text(t): m2 = m3 = None
+                if ms and not toc:
+                    flush(); sec_ = f'제{int(ms.group(1))}절'; lv1 = lv2 = None
+                    cur = dict(path=base_path(), title=t, lines=[t], is_table=0); continue
+                if m2 and not toc:
                     flush(); lv1, lv2 = m2.group(1), None
-                    cur = dict(path=f'{chap}>{lv1}', title=t, lines=[t], is_table=0); continue
-                if m3 and lv1 and not toc and is_heading_text(t):
+                    cur = dict(path=f'{base_path()}>{lv1}', title=t, lines=[t], is_table=0); continue
+                if m3 and lv1 and not toc:
                     flush(); lv2 = m3.group(1)
-                    cur = dict(path=f'{chap}>{lv1}>{lv2}', title=t, lines=[t], is_table=0); continue
+                    cur = dict(path=f'{base_path()}>{lv1}>{lv2}', title=t, lines=[t], is_table=0); continue
                 cur['lines'].append(t)
             else:
                 body = '\n'.join(' | '.join(c.replace('\n', ' ') for c in r) for r in val)
@@ -878,6 +955,28 @@ def build_xref(docmap, units_by_doc):
 
 # ───────────────────────── 주 흐름 ─────────────────────────
 
+def spread_pagemap(sizes, anchors):
+    """2쪽 펼침(가로로 긴 쪽 = 인쇄 2쪽)이 섞인 PDF: 쪽마다 인쇄 쪽 수(1 또는 2)를 쌓아 인쇄 쪽 → 물리 쪽 표를 만든다.
+    쪽번호를 읽은 곳(anchors: (물리 쪽, 인쇄 쪽))이 모두 한 가지 시작값으로 맞을 때만 쓰고, 아니면 None."""
+    if not anchors: return None
+    cnt = [2 if Wd > 1.2 * H else 1 for H, Wd in sizes]
+    cum = [0]
+    for c in cnt: cum.append(cum[-1] + c)
+    votes = collections.Counter()
+    for (pi, n) in anchors:  # 물리 pi(1부터)의 인쇄 쪽 = base + cum[pi-1] + 1 … base + cum[pi]
+        if 1 <= pi <= len(cnt):
+            for b_ in range(n - cum[pi], n - cum[pi - 1]): votes[b_] += 1
+    if not votes: return None
+    (b, nv), *rest = votes.most_common()
+    # 거의 모든 쪽번호(90% 이상, 3곳 이상)가 같은 시작값을 가리키고, 버금 값이 확실히 적을 때만
+    if nv < 3 or nv < 0.9 * len(anchors) or (rest and rest[0][1] == nv): return None
+    pm = {}
+    for pi in range(1, len(cnt) + 1):
+        for k in range(b + cum[pi - 1] + 1, b + cum[pi] + 1):
+            if k >= 1: pm[k] = pi
+    return pm
+
+
 def find_src(updir, prefix):
     fs = [f for f in os.listdir(updir) if f.startswith(prefix)]
     if len(fs) != 1: raise SystemExit(f'원본 {prefix}: {len(fs)}개')
@@ -990,6 +1089,9 @@ def main():
                 for a_, b_ in zip(ks, ks[1:]):
                     if pm[b_] - pm[a_] == b_ - a_:
                         for k in range(a_ + 1, b_): pm[k] = pm[a_] + (k - a_)
+            if fmt == 'pdfpage' and any(Wd > 1.2 * H for H, Wd, _ in pg):
+                sp = spread_pagemap([(H, Wd) for H, Wd, _ in pg], pairs)
+                if sp is not None: pm = sp; info['spread'] = True
             info['pagemap'] = len(pm)
             e['_pagemap'] = pm
             info['units'] = len(units)

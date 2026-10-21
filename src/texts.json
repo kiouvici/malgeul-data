@@ -604,7 +604,7 @@
   "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
   "source_url": "https://www.law.go.kr/법령/가족관계의등록등에관한규칙",
   "fetched": "2026-10-19",
-  "sha256": "afd97b0dc3f64a3c387c19cf3ba09c69b1f1a4547580a90e7bf5e3cdd0608e52",
+  "sha256": "ff87189561f39ecb45c8f17eb0e41ac759394f6aae4820cb6be3eeb8f49c9b62",
   "pack": "text-family-rule",
   "src_sha256": [
    "752c9dbf449d4f0fdf59e838b94777145b625d2c0bd15ee2b94687f6adbe8958"
@@ -628,7 +628,7 @@
   "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
   "source_url": "https://www.law.go.kr/자치법규/충청북도지방보조금관리조례",
   "fetched": "2026-10-19",
-  "sha256": "cd8da1c4d037b90d75f2a89ac0e8824ec84a9fdf33af2929cb0910e0728ef46a",
+  "sha256": "8c2859742bee7c9139b2cbd60da58caf9d3c529fed93dd0015a071ed577c5e42",
   "pack": "text-cb-subsidy-ord",
   "src_sha256": [
    "06ba6340389d9304e57d25683a2d3242054ed7fc5e3f43695ded1b31099a5158"
@@ -652,7 +652,7 @@
   "notice": "법령·자치법규 원문은 저작권 보호 대상이 아님(저작권법 제7조). 국가법령정보센터 출력본에서 추출.",
   "source_url": "https://www.law.go.kr/자치법규/제천시지방보조금관리조례",
   "fetched": "2026-10-19",
-  "sha256": "803177403f5860691b148c85f8f86a6c4e083298cd25b47f461bd022dc7b9b78",
+  "sha256": "ba1c2237c19c47c2c49fcdbdcec1344a6119b27aa3961a61bb0d12b2713e3213",
   "pack": "text-jc-subsidy-ord",
   "src_sha256": [
    "fdeec82b655f7792431c4f17db97a416db745f1c8d997ffdbc3b5a635f47e9fc"
@@ -684,7 +684,7 @@
   "notice": "원문에 공공누리 표시 없음. 보건복지부 발간 지침(법령 아님).",
   "source_url": "https://www.mohw.go.kr",
   "fetched": "2026-10-19",
-  "sha256": "825a8aff672a5408af5d5bb476b967712257d2ea866412db75e685b380c5f0c3",
+  "sha256": "fecfd42d43966fcd637694b690c786d838305537d2a48500527368eb54b0d6d7",
   "pack": "text-guide-child1",
   "src_sha256": [
    "41667ef0d7c02fa6aea148615863bbd2164918b2f1110be43b0e8b7b1ec14db1",
@@ -717,7 +717,7 @@
   "notice": "원문에 공공누리 표시 없음. 보건복지부 발간 지침(법령 아님).",
   "source_url": "https://www.mohw.go.kr",
   "fetched": "2026-10-19",
-  "sha256": "3e0a56e5a31ec06631dbb2634103fb294faa14e0e9ce15df2772dd6e1a00d312",
+  "sha256": "83d5dd8763c11d1e7b0393296676efc361733ba59ff3b20ac1a338afad4d171b",
   "pack": "text-guide-child2",
   "src_sha256": [
    "4eb4d40f885c23c1bd9d71a78848945c54296e8f7838f2dc5e7f9e5a56fbe4a4",
@@ -742,7 +742,7 @@
   "notice": "원문에 공공누리 표시 없음. 보건복지부 발간 지침(법령 아님).",
   "source_url": "https://www.mohw.go.kr",
   "fetched": "2026-10-19",
-  "sha256": "c1218e4697609727c0bdad605d00f5eca62f0b52d485952993a2f53868d6502d",
+  "sha256": "d7d3a66f38929fcb7302c42b8833e7246ed7ae675b533737f43cf585b376d974",
   "pack": "text-guide-facility",
   "src_sha256": [
    "c6277d2e3c8916fd440c6342c5b28b183971303390aca5f5ae453158f36f7ab3"
@@ -766,7 +766,7 @@
   "notice": "원문에 공공누리 표시 없음. 보건복지부 발간 지침(법령 아님).",
   "source_url": "https://www.mohw.go.kr",
   "fetched": "2026-10-19",
-  "sha256": "0a0959176f636c1fb2ad0cf32d67b8c078a96c3019ab0cd5baa1728b6e07b7a9",
+  "sha256": "83c9fa3e4b463016a6fd16747f047886811082e745c679a5cfdeda1102c4f609",
   "pack": "text-guide-corp",
   "src_sha256": [
    "fb76c2144cc9017fa2f65bae5c9344931ca7ebf89583afcb9281de0225a82cfd"
@@ -790,7 +790,7 @@
   "notice": "원문에 공공누리 표시 없음. 업무 매뉴얼(법령 아님).",
   "source_url": "",
   "fetched": "2026-10-19",
-  "sha256": "09572f6dee6cddcb3751bbce04fb41b9658dd3585d4ffdbcf9ef24ae1b7290cb",
+  "sha256": "aa74b4e19dd68d4a48438503d1ad2f65962b188de624dfde9c2391d81676fc03",
   "pack": "text-selfrel1",
   "src_sha256": [
    "9fa8370db740b036cadd22e0b88955e80159ccfe5230dd80380f4f50d3432ecd"
@@ -814,7 +814,7 @@
   "notice": "원문에 공공누리 표시 없음. 업무 매뉴얼(법령 아님).",
   "source_url": "",
   "fetched": "2026-10-19",
-  "sha256": "52ecc47f1202185a0b6e33ed7d228e52f86178c5aca5a1032778441ee198ef8e",
+  "sha256": "f02fcb33f18d2a3283ad2d8e0b73e55ac603f8f837813d112435d2c905c4ea7b",
   "pack": "text-selfrel2",
   "src_sha256": [
    "ba0069148715af1f949dbc01cd9640cddae83f834077f2ecce2f10a9db595ae6"
@@ -838,7 +838,7 @@
   "notice": "원문에 공공누리 표시 없음. 보건복지부 가이드라인(법령 아님).",
   "source_url": "https://www.mohw.go.kr",
   "fetched": "2026-10-19",
-  "sha256": "83097accc32152288673224226a733785657722c6d7886599a43ad553f3ce05b",
+  "sha256": "b4a380f5dd738e5cd5f4f1ad6ff45b0239ecaad6e2962009f25ae6877fce0013",
   "pack": "text-wage-guide",
   "src_sha256": [
    "9584c39bc9f1f695554981cd446a8fa88ad7875db73e3511d087b47099940744"
@@ -862,7 +862,7 @@
   "notice": "원문에 공공누리 표시 없음. 보건복지부 발간 사례집(법령 아님).",
   "source_url": "https://www.mohw.go.kr",
   "fetched": "2026-10-19",
-  "sha256": "0d1f339a2ff514acaf1a47646a7aa094d005c466d88410ad0adaa7d6be55ab4b",
+  "sha256": "a44a3f878b21a3f0b06a4b32a9cee1bd1493bfa261731988a7e64cc17a15abbd",
   "pack": "text-inspect-cases-2024",
   "src_sha256": [
    "68aa5c6ed7c51a398d44a6d047c974d8d4dbb43ba6201e0db66017e57a514952"
@@ -886,7 +886,7 @@
   "notice": "원문 표기: “본 매뉴얼은 보건복지부(복지급여조사담당관)의 사회복지법인 및 시설에 대한 현지조사 방식을 소개한 것으로 담당 공무원의 체계적인 조사업무 습득을 지원하기 위한 안내서 입니다.” 공무원용 안내서(법령 아님), 개인 사용.",
   "source_url": "https://www.mohw.go.kr",
   "fetched": "2026-10-19",
-  "sha256": "a85b45129707673e04027503b6999078745725d64a5c31f6684966740241a920",
+  "sha256": "80074f89350f850eb869e4fe3337c2c81ca83373560bcc20741cccf40f388283",
   "pack": "text-inspect-manual-2023",
   "src_sha256": [
    "b9e46ef1be45602c7bd41e52f2de87de774f645b95784c26dbdbfc555e209dac"
@@ -910,7 +910,7 @@
   "notice": "원문에 공공누리 표시 없음(발간번호 서사협-25-132). 사례집(법령 아님).",
   "source_url": "",
   "fetched": "2026-10-19",
-  "sha256": "60ded74a7854453f096963466757c9d454bec4452922d150e6fb159e60b47fba",
+  "sha256": "0d0d21c0d1ffc50b97f357ae6999a55a4dcbabdb766eba94a7bbfcb23b67884d",
   "pack": "text-inspect-seoul-2025",
   "src_sha256": [
    "5366fd0f9b44162f8d05778862c4912a707af9ee600245ac2532b2cb61186552"
@@ -934,7 +934,7 @@
   "notice": "원문에 공공누리 표시 없음. 원문 표기: “본 책자의 내용은 행정안전부 인터넷 누리집(www.mois.go.kr)의 ‘정책자료’ → ‘간행물’에 게시되어 있으니 많은 활용 바랍니다.” 행정안전부 편람(법령 아님). 쪽은 같은 판 PDF(최종본 2025. 12. 17.)에서 맞춤.",
   "source_url": "",
   "fetched": "2026-10-19",
-  "sha256": "cc5bff86d2f7f4e0cae18d813a9870e1dacdeb290390b4620bfad3af42531c87",
+  "sha256": "1c221cabaac3534bcdb7d5c5410d3a57afd3719bd64df508e27b2f22dfbb2ec5",
   "pack": "text-admin-manual",
   "src_sha256": [
    "c6dd7e847a99f219681afc5a29c80a9665c04df9cda4d820a3350d739664fdf6"
@@ -958,7 +958,7 @@
   "notice": "원문 표기: 발행일 2018년 12월 21일, 발행인 국립국어원장, 발행처 국립국어원(발간 등록 번호 11-1371028-000712-01). 공공누리 표시 없음. 개인 사용.",
   "source_url": "",
   "fetched": "2026-10-19",
-  "sha256": "ad756d29cd6cf84dd187fc91ab468d84d403eee7a82afa1e031fa9de7cb25510",
+  "sha256": "0807b7c21cd02fa86fe9e1050ae165398ea676b29bad8f1487a853c529e788ba",
   "pack": "text-eomun-spell-std",
   "src_sha256": [
    "dcca9b73804a46c08ecbe19af2c151adcd1bde143e13198548bb693575df0243"
@@ -982,7 +982,7 @@
   "notice": "원문 표기: “이 책의 저작권은 국립국어원에 있습니다. Copyright ⓒ2014 The National Institute of the Korean Language” (발간 등록 번호 11-1371028-000552-01). 개인 사용.",
   "source_url": "",
   "fetched": "2026-10-19",
-  "sha256": "1f891ee6eb24000d3002d93a32abdbad2ea12ff2308a33d4f3225d233ac8bf3a",
+  "sha256": "b46f0228bd02cfe6dcf86bc8c0f36ac535305d0158b9862d49e36153ca2241ba",
   "pack": "text-eomun-punct",
   "src_sha256": [
    "6d5646ac3c46fd9a26923a28a5c9347bd64b7a233fe272363bd78287d3182f99"
@@ -1006,7 +1006,7 @@
   "notice": "문화체육관광부 고시 제2014-42호. 고시는 저작권 보호 대상이 아님(저작권법 제7조).",
   "source_url": "",
   "fetched": "2026-10-19",
-  "sha256": "e726bcf8a74f20d8e1b20aea056229fb66102cb0d88999a6fa0515d0472c3afd",
+  "sha256": "91af2d08c684209faf1cbe4abbe885ef241457132d02b7b46df03b58d2497ca0",
   "pack": "text-eomun-roman",
   "src_sha256": [
    "d922332747d9006d752dcc97929764a2692e2905e7114a95dd5e0d82e2f41f6a"
@@ -1030,7 +1030,7 @@
   "notice": "문화체육관광부 고시 제2017-14호(2017. 3. 28.). 고시는 저작권 보호 대상이 아님(저작권법 제7조).",
   "source_url": "",
   "fetched": "2026-10-19",
-  "sha256": "02dd98c69a59904fc32f707ae1fe27860c98aae14d1e3665c0762ba527222032",
+  "sha256": "1ff8a6f33baa54bc928a06e5f3f864b34cd06f083f6450fe3895c4a3837b8cb4",
   "pack": "text-eomun-loan",
   "src_sha256": [
    "0e7f310b38244bc56bcd3f21ac6661b9accb58c97abb522d98deaffac45061e0"

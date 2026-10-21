@@ -28,7 +28,17 @@
      ],
      "kw": "마침표 온점",
      "page": "5~6",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p11"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p12"
+      }
+     ]
     },
     {
      "art": "제1항 (1) [붙임 1]",
@@ -40,7 +50,21 @@
      ],
      "kw": "인용 마침표",
      "page": "5~7",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p11"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p12"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p13"
+      }
+     ]
     },
     {
      "art": "제1항 (1) [붙임 2]",
@@ -57,7 +81,33 @@
      ],
      "kw": "공문서 자주 틀림 함 음 것 개최 마침표 개조식 공문서 끝",
      "page": "5~10",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p11"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p12"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p13"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p14"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p15"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p16"
+      }
+     ]
     },
     {
      "art": "제1항 (1) 다만",
@@ -70,7 +120,29 @@
      ],
      "kw": "공문서 자주 틀림 제목 표어 마침표",
      "page": "5~9",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p11"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p12"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p13"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p14"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p15"
+      }
+     ]
     },
     {
      "art": "제1항 (2)",
@@ -133,7 +205,17 @@
      ],
      "kw": "공문서 자주 틀림 항목 번호 마침표 가. 1.",
      "page": "11~12",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p17"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p18"
+      }
+     ]
     }
    ]
   },
@@ -156,7 +238,21 @@
      ],
      "kw": "물음표 의문문 제목",
      "page": "13~15",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p19"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p20"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p21"
+      }
+     ]
     },
     {
      "art": "제2항 (2)",
@@ -187,7 +283,17 @@
      ],
      "kw": "물음표 불확실",
      "page": "15~16",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p21"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p22"
+      }
+     ]
     }
    ]
   },
@@ -207,7 +313,17 @@
      ],
      "kw": "느낌표",
      "page": "17~18",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p23"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p24"
+      }
+     ]
     },
     {
      "art": "제3항 (2)",
@@ -238,7 +354,17 @@
      ],
      "kw": "느낌표",
      "page": "18~19",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p24"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p25"
+      }
+     ]
     },
     {
      "art": "제3항 (4)",
@@ -278,7 +404,17 @@
      ],
      "kw": "공문서 자주 틀림 쉼표 반점 열거",
      "page": "20~21",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p26"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p27"
+      }
+     ]
     },
     {
      "art": "제4항 (2)·(3)",
@@ -292,7 +428,17 @@
      ],
      "kw": "쉼표 개략 수",
      "page": "21~22",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p27"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p28"
+      }
+     ]
     },
     {
      "art": "제4항 (4)",
@@ -306,7 +452,17 @@
      ],
      "kw": "공문서 자주 틀림 첫째 그러나 그리고 쉼표 접속 부사",
      "page": "22~23",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p28"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p29"
+      }
+     ]
     },
     {
      "art": "제4항 (5)",
@@ -358,7 +514,17 @@
      ],
      "kw": "즉 곧 쉼표",
      "page": "25~26",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p31"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p32"
+      }
+     ]
     },
     {
      "art": "제4항 (9)~(11)",
@@ -373,7 +539,21 @@
      ],
      "kw": "쉼표 제시어 도치",
      "page": "26~28",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p32"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p33"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p34"
+      }
+     ]
     },
     {
      "art": "제4항 (12)·(13)",
@@ -390,7 +570,17 @@
      ],
      "kw": "쉼표 줄표 삽입",
      "page": "28~29",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p34"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p35"
+      }
+     ]
     },
     {
      "art": "제4항 (14)·(15)",
@@ -402,7 +592,17 @@
      ],
      "kw": "쉼표 반점",
      "page": "30~31",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p36"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p37"
+      }
+     ]
     }
    ]
   },
@@ -440,7 +640,17 @@
      ],
      "kw": "공문서 자주 틀림 가운뎃점 조사 분석 수정 보완",
      "page": "32~33",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p38"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p39"
+      }
+     ]
     },
     {
      "art": "제5항 (3)",
@@ -457,7 +667,17 @@
      ],
      "kw": "공문서 자주 틀림 가운뎃점 초중고 병의원 선후배",
      "page": "33~34",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p39"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p40"
+      }
+     ]
     }
    ]
   },
@@ -528,7 +748,21 @@
      ],
      "kw": "빗금 단위당",
      "page": "37~39",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p43"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p44"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p45"
+      }
+     ]
     },
     {
      "art": "제7항 (3)",
@@ -539,7 +773,17 @@
      ],
      "kw": "빗금 시",
      "page": "38~39",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p44"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p45"
+      }
+     ]
     }
    ]
   },
@@ -559,7 +803,17 @@
      ],
      "kw": "큰따옴표 인용",
      "page": "40~41",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p46"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p47"
+      }
+     ]
     },
     {
      "art": "제9항",
@@ -615,7 +869,17 @@
      ],
      "kw": "소괄호 한자 병기 원어",
      "page": "43~44",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p49"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p50"
+      }
+     ]
     },
     {
      "art": "제10항 (3)~(6)",
@@ -631,7 +895,21 @@
      ],
      "kw": "소괄호 항목 번호 (1) (가)",
      "page": "44~46",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p50"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p51"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p52"
+      }
+     ]
     },
     {
      "art": "제10항 해설",
@@ -643,7 +921,17 @@
      ],
      "kw": "괄호 마침표 위치",
      "page": "46~47",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p52"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p53"
+      }
+     ]
     },
     {
      "art": "제11항",
@@ -676,7 +964,21 @@
      ],
      "kw": "공문서 자주 틀림 대괄호 괄호 안 괄호 기간 요일",
      "page": "49~51",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p55"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p56"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p57"
+      }
+     ]
     }
    ]
   },
@@ -760,7 +1062,17 @@
      ],
      "kw": "붙임표",
      "page": "55~56",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p61"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p62"
+      }
+     ]
     },
     {
      "art": "제17항",
@@ -820,7 +1132,17 @@
      ],
      "kw": "공문서 자주 틀림 숨김표 익명 개인정보 이름 가리기 ○○",
      "page": "59~60",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p65"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p66"
+      }
+     ]
     },
     {
      "art": "제20항",
@@ -854,7 +1176,21 @@
      ],
      "kw": "줄임표 말줄임표",
      "page": "62~64",
-     "src": "mb"
+     "src": "mb",
+     "srcs": [
+      {
+       "doc": "eomun-punct",
+       "path": "p68"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p69"
+      },
+      {
+       "doc": "eomun-punct",
+       "path": "p70"
+      }
+     ]
     }
    ]
   }

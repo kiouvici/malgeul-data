@@ -211,7 +211,13 @@
       "mattress[mætris] 매트리스"
      ],
      "kw": "공문서 자주 틀림 받침 으 외래어",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제1절 제2항",
@@ -226,7 +232,13 @@
       "signal[signəl] 시그널"
      ],
      "kw": "외래어",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제1절 제3항",
@@ -248,7 +260,13 @@
       "vision[viʒən] 비전"
      ],
      "kw": "공문서 자주 틀림 플래시 쇼핑 리더십 시 쉬",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제1절 제4항",
@@ -265,7 +283,13 @@
       "virgin[vəːʤin] 버진"
      ],
      "kw": "스위치 브리지",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제1절 제5항",
@@ -282,7 +306,13 @@
       "longing[lɔŋiŋ] 롱잉"
      ],
      "kw": "외래어 비음",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제1절 제6항",
@@ -299,7 +329,13 @@
       "Henley[henli] 헨리"
      ],
      "kw": "슬라이드 필름",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제1절 제7항·제8항",
@@ -316,7 +352,13 @@
       "tower[tauə] 타워"
      ],
      "kw": "공문서 자주 틀림 보트 장음 오 외래어",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제1절 제9항",
@@ -339,7 +381,13 @@
       "union[juːnjən] 유니언"
      ],
      "kw": "윈도 옐로 외래어",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제1절 제10항",
@@ -355,7 +403,13 @@
       "top class[tɔpklæs] 톱 클래스/톱클래스"
      ],
      "kw": "복합어 외래어 띄어쓰기",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     }
    ]
   },
@@ -377,7 +431,13 @@
       "Europa[ɔyroːpa] 오이로파"
      ],
      "kw": "독일어",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제3절",
@@ -394,7 +454,13 @@
       "quoi[kwa] 쿠아"
      ],
      "kw": "프랑스어",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제6절",
@@ -410,7 +476,13 @@
       "オオサカ(大阪) 오사카"
      ],
      "kw": "공문서 자주 틀림 일본어 도쿄 오사카 규슈",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     },
     {
      "art": "제7절",
@@ -421,7 +493,13 @@
       "ㄐ|ㄝ 졔→제"
      ],
      "kw": "중국어",
-     "src": "lw"
+     "src": "lw",
+     "srcs": [
+      {
+       "doc": "eomun-loan",
+       "path": "제3장"
+      }
+     ]
     }
    ]
   },
