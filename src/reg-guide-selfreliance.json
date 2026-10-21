@@ -678,6 +678,10 @@
      "srcs": [
       {
        "doc": "selfrel2",
+       "path": "p8"
+      },
+      {
+       "doc": "selfrel2",
        "path": "p9"
       }
      ]

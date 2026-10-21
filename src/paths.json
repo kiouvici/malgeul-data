@@ -76,9 +76,9 @@
    {"reg": "child-law", "art": "법 제16조의3, 시행령 제22조", "say": "연장 요건"},
    {"reg": "guide-child", "art": "1권 Ⅵ-2-가-(6)②(아동복지법 제16조의3)", "say": "퇴소와 연장 절차"},
    {"reg": "child-law", "art": "법 제39조", "say": "자립지원계획"},
-   {"reg": "guide-child", "art": "2권", "t": "보호종료 전 신청 확인"},
-   {"reg": "guide-child", "art": "2권", "t": "자립정착금"},
-   {"reg": "guide-child", "art": "2권", "t": "자립수당"}
+   {"reg": "guide-child", "art": "2권 Ⅰ-6-나", "t": "보호종료 전 신청 확인"},
+   {"reg": "guide-child", "art": "2권 Ⅰ-7-나", "t": "자립정착금"},
+   {"reg": "guide-child", "art": "2권 Ⅳ", "t": "자립수당"}
   ]},
   {"id": "suspend", "title": "시설을 휴업·폐업한다", "steps": [
    {"reg": "welfare-law", "art": "법 제38조, 규칙 제26조", "say": "3개월 전까지 신고"},
