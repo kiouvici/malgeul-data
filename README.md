@@ -69,12 +69,19 @@ python3 tools/publish_data.py src . --release-base https://github.com/kiouvici/m
 앱은 바로 앞 판을 하나 남겨 두고, 받은 자료를 읽다 실패하면 앞 판(없으면 앱 기본 자료)으로 돌아갑니다.
 잘못 올렸다면 `src/`를 고쳐 다시 올리면 됩니다(`git revert` 후 다시 만들기도 됨).
 
-## 필순 자료 출처(hanja의 `p`·`ps`)
+## 필순 자료 출처(hanja의 `p`·`ps`·`od`)
+
+필순은 **일본식(KanjiVG) 순서**를 기준으로 하며, kdict(아이앱) 자료 `src/hanja.json`과 `p`·`ps`·`od` 값이 모든 글자에서 같은 공통 자료입니다(2026-10 통일).
+한 글자에 자료가 여럿이면 `jp` > `kr` > `aj` > `cmp` 순서로 하나만 씁니다. 한국 순서(`ak`)·중국 순서(`cn`) 자료는 더 쓰지 않습니다.
 
 | ps | 출처 | 라이선스 |
 |---|---|---|
-| `jp`, `kr`, `cmp` | KanjiVG(https://kanjivg.tagaini.net) — `kr`은 한국 자형으로 고친 것, `cmp`는 부품을 이어 만든 어림 필순 | CC BY-SA 3.0 |
-| `ak`(한국), `aj`(일본), `cn`(번체) | animCJK(https://github.com/parsimonhi/animCJK) 획 중심선(medians)을 109 좌표로 바꾼 것 | Arphic Public License(`licenses/arphic/`) |
-| `cn` | Make Me a Hanzi(https://github.com/skishore/makemeahanzi) 획 중심선을 109 좌표로 바꾼 것 | Arphic Public License(`licenses/arphic/`) |
+| `jp` | KanjiVG(https://kanjivg.tagaini.net, © Ulrich Apel) 획 경로 그대로 | CC BY-SA 3.0 |
+| `kr` | KanjiVG를 한국 자형으로 고친 것(순서는 일본식) | CC BY-SA 3.0 |
+| `aj` | animCJK(https://github.com/parsimonhi/animCJK) graphicsJa.txt(일본 순서) 획 중심선(medians)을 109 좌표로 바꾼 것 | Arphic Public License(`licenses/arphic/`) |
+| `cmp` | KanjiVG에 없는 글자를 KanjiVG 부품으로 이어 그린 것. 부품 분해는 KanjiVG 구성 정보·IDS(cjkvi-ids, CHISE 기반), 순서는 일본식 필순 규칙 | CC BY-SA 3.0 |
 
-`ak`·`aj`·`cn`(kdict와 같은 코드)은 `od: 1`을 붙였고(`cn`은 '중국 자료' 안내), 총획(`s`)과 획 수가 다르면 앱이 '필순 자료와 총획이 다름'을 함께 보입니다.
+- `cmp` 중 22자(亹俁刁奭巿彘彧橐毌爟瓘秭稶笫纍芾褰襫鈺鼉𥸴𦂈)는 예전 보충 때 부품 일부를 Make Me a Hanzi 중심선(Arphic Public License)으로 채운 것이 남아 있습니다.
+- KanjiVG 부품으로 만들 수 없어 필순이 없는 글자(15자): 沔玈疈舃舝褎覶豋𩑠燛橆縃𦁗枾𰜩
+- `aj`·`cmp`에는 `od: 1`(나라마다 순서가 다를 수 있음)을 붙였고, 총획(`s`)과 획 수가 다르면 앱이 '필순 자료와 총획이 다름'을 함께 보입니다.
+- `pv: 1`(감수 확인 표시)은 감수를 마친 `cmp`에 붙일 예정입니다(지금은 없음).
