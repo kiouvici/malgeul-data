@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-10-24T09:10:28+00:00",
+ "generated": "2026-10-24T15:42:43+00:00",
  "min_app": 1,
  "packs": [
   {
@@ -53,14 +53,14 @@
   },
   {
    "id": "hanja",
-   "version": "2026.10.24-3",
+   "version": "2026.10.25-1",
    "url": "packs/hanja.json.gz",
-   "sha256": "05d67f0e61aea02e198fdfd3419e161cf4dad6ded06de69c077fb4f230dd7b5b",
-   "size": 3578568,
-   "raw_size": 10355773,
+   "sha256": "c2b6b4e3f8c65e3c6c344cab30b0d5bb2af0af730db8546d4613c2a1be3201af",
+   "size": 3578539,
+   "raw_size": 10355772,
    "format": "json",
    "gzip": true,
-   "min_app": 11,
+   "min_app": 15,
    "desc": "한자 자료(훈음·급수·부수·획수·필순)"
   },
   {
@@ -89,10 +89,10 @@
   },
   {
    "id": "rad",
-   "version": "2026.10.19-3",
+   "version": "2026.10.25-1",
    "url": "packs/rad.json.gz",
-   "sha256": "f561f07d5e4e1cc7dfaa04daa72abf65856213106dae10e26ad19faa46e0ce6a",
-   "size": 21242,
+   "sha256": "9b410be8a803cb7e9839804bdffede2a85d90f75537a63666a7b32162683f3a9",
+   "size": 21269,
    "raw_size": 95946,
    "format": "json",
    "gzip": true,
