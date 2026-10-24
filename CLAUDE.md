@@ -12,5 +12,5 @@ python tools/publish_data.py src . --sign ~/.kdict-keys/malgeul_data_signing.key
 
 ## 아이앱(kdict)과 공유
 - hanja의 h, u(훈음)와 p, ps, od, pv(필순)만 공유. kdict-data에서 바뀐 글자의 해당 필드만 패치한다. hanja.json 통째 복사 금지.
-- 말글사전 앱은 아직 pv를 보지 않는다 → pv가 없는(검수 안 된) 조합 필순은 이쪽 자료에서 비워 둔다. 앱이 pv를 따르게 고치면 이 처리는 없앤다.
+- 말글사전 앱은 0.1.15(malgeul ff03320)부터 pv를 따른다(jp·kr·aj 또는 pv:1일 때만 필순 보기) → 조합 필순도 kdict-data와 같게 p·ps·od·pv를 그대로 둔다(2026-10-24 비워 둔 2,897자 되살림).
 - 공유 안 함: 급수 lv, 어른용 훈(女 '계집 녀' 등), heot·rad·reg-*·text-* 등 나머지 전부. 아이앱 자료(kid_block·vocab·받아쓰기 등)를 넣지 않는다.

@@ -11,7 +11,7 @@
 --from-app  앱 assets에서 기본 묶음(dadm, heot, hanja, rad)을 원본 폴더로 복사한 뒤 만든다.
 
 판(version)은 내용이 바뀐 묶음만 'YYYY.MM.DD-N'으로 올린다(같은 내용이면 판 유지).
-gzip은 시간 정보 없이 만들어 같은 내용이면 sha256이 같다.
+gzip은 시간 정보 없이 만들어 같은 내용이면 sha256이 같다. 압축 라이브러리 판이 달라 압축 결과가 달라져도, 올려 둔 꾸러미를 풀어 src와 같으면 그 파일·판을 그대로 쓴다.
 50MB(--release-over)가 넘는 묶음은 <내보낼 폴더>/release/ 에 두고, url을 --release-base 주소로 적는다
 (GitHub Release에 첨부로 올린다). --release-base가 없으면 저장소에 그대로 둔다.
 --sign  Ed25519 비밀키(seed 64자리 hex, '#' 줄은 설명)로 manifest.json 바이트 전체에 서명해 manifest.sig(base64)를 쓴다.
@@ -76,9 +76,15 @@ def main():
         try: validate(path, fmt)
         except Exception as e: sys.exit(f'{name}: 검사 실패 — {e}')
         data = gz_bytes(path)
-        sha = hashlib.sha256(data).hexdigest()
         m = meta.get(base, {})
         o = old.get(base)
+        # 압축 라이브러리(zlib) 판이 달라도 내용이 같으면 올려 둔 파일을 그대로 써서 판을 올리지 않는다
+        op = os.path.join(a.out, o['url']) if o and not o.get('url', '').startswith('http') else ''
+        if op and os.path.exists(op):
+            prev = open(op, 'rb').read()
+            if hashlib.sha256(prev).hexdigest() == o.get('sha256') and gzip.decompress(prev) == open(path, 'rb').read():
+                data = prev
+        sha = hashlib.sha256(data).hexdigest()
         if o and o.get('sha256') == sha:
             ver = o['version']
         else:
@@ -106,12 +112,12 @@ def main():
            'min_app': a.min_app, 'packs': packs}
     if old and [ {k: v for k, v in p.items()} for p in packs ] == list(old.values()) and os.path.exists(oldp):
         man['generated'] = json.load(open(oldp, encoding='utf-8')).get('generated', man['generated'])
-    json.dump(man, open(oldp, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    json.dump(man, open(oldp, 'w', encoding='utf-8', newline='\n'), ensure_ascii=False, indent=1)  # Windows에서도 LF
     if a.sign:
         from cryptography.hazmat.primitives.asymmetric.ed25519 import Ed25519PrivateKey
         seed = bytes.fromhex(''.join(l.strip() for l in open(a.sign, encoding='utf-8') if l.strip() and not l.startswith('#')))
         sig = Ed25519PrivateKey.from_private_bytes(seed).sign(open(oldp, 'rb').read())
-        open(os.path.join(a.out, 'manifest.sig'), 'w').write(base64.b64encode(sig).decode() + '\n')
+        open(os.path.join(a.out, 'manifest.sig'), 'w', newline='\n').write(base64.b64encode(sig).decode() + '\n')
         print('manifest.sig: 서명함')
     elif os.path.exists(os.path.join(a.out, 'manifest.sig')):
         os.remove(os.path.join(a.out, 'manifest.sig'))
