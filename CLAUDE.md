@@ -1,5 +1,7 @@
 # malgeul-data — 말글사전(어른앱) 데이터 꾸러미 (공개 저장소)
 
+- **공개 저장소가 원칙**(대표님 결정 2026-10-26 15:53): 앱이 로그인 없이 raw.githubusercontent.com에서 꾸러미를 받기 때문. 비공개로 바꾸지 않고, 공개·비공개를 대표님께 다시 묻지 않는다. 서명 키·비밀번호·개인 자료는 절대 올리지 않는다(서명 파일 manifest.sig만).
+
 말글사전이 받아 쓰는 자료: 한자(hanja), 헷갈리는 말(heot), 부수(rad), 업무 규정·지침(reg-*), 원문(text-*·fulltext), 서식(admin·dadm) 등.
 공통 규칙은 `~/.claude/CLAUDE.md`, 앱 설명은 `../malgeul/CLAUDE.md`.
 
